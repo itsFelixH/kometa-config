@@ -2,6 +2,9 @@
 
 These are my config files for [Plex-Meta-Manager (PMM)](https://github.com/meisnate12/Plex-Meta-Manager).
 
+## Basics
+I run PMM nightly. Make sure to have at least version 1.19.1-develop62.
+
 ### Included
 
 * config.yml -> PMM Config File
@@ -10,7 +13,7 @@ These are my config files for [Plex-Meta-Manager (PMM)](https://github.com/meisn
 * playlists.yml -> Playlists
 * tv.yml -> TV Show Collections
 
-All files are available in German (DE) and English (EN).
+All files are available in German (DE) and English (EN). Feel free to ask me questions via Discord or make suggestions on what I need to add here.
 
 ## Install
 
