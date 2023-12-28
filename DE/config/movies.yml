@@ -27,6 +27,8 @@ templates:
 
 collections:
 
+### HINZUGEFUEGT
+
   🗓️ Neuerscheinungen:
     smart_filter:
       sort_by: added.desc
@@ -55,7 +57,7 @@ collections:
     visible_library: true
     visible_home: true
 
-### RECOMMENDED
+### EMPFELUNGEN
 
   📈 Meistgesehen Diese Woche:
     trakt_watched_weekly: 25
@@ -107,7 +109,7 @@ collections:
     visible_library: true
     schedule: weekly(monday)
 
-### SEASON
+### FEIERTAGE
 
   🎅 Weihnachten:
     imdb_list:
@@ -115,6 +117,13 @@ collections:
       - https://www.imdb.com/list/ls097394442
       - https://www.imdb.com/list/ls068976997
       - https://www.imdb.com/list/ls027567380
+    trakt_list:
+      - https://trakt.tv/users/littlestella3/lists/christmas
+      - https://trakt.tv/users/triadcool/lists/christmas
+      - https://trakt.tv/users/pterisaur/lists/christmas
+      - https://trakt.tv/users/outspoken/lists/christmas
+      - https://trakt.tv/users/mausk/lists/christmas
+      - https://trakt.tv/users/crossoverdeseries/lists/hallmark-christmas-2023
     url_poster: https://theposterdb.com/api/assets/111695
     summary: Weihnachten steht vor der Tür. Aber neben Lebkuchen, Zimt und Glühwein dürfen vor allem auch der ein oder andere passende Film nicht fehlen.
     collection_mode: hide
@@ -124,7 +133,7 @@ collections:
     visible_library: range(11/30-12/31)
     schedule: yearly(11/30)
     
-### DECADES
+### JAHRZENTE
 
   📺 Das Beste der 2020er:
     imdb_list:

@@ -1,16 +1,16 @@
 libraries:
 
-############################
-#         MOVIES           #
-############################
+###########################
+#         FILME           #
+###########################
 
-  Filme:
+  Filme: # Name der Bibliothek
     template_variables:
       language: de
       use_separator: false
-    metadata_path:
+    collection_files:
     - file: config/movies.yml
-    overlay_path:
+    overlay_files:
     - remove_overlays: false
     - pmm: streaming
       template_variables:
@@ -18,6 +18,14 @@ libraries:
         region: de
         horizontal_align: left
         vertical_align: bottom
+    - pmm: languages
+      template_variables:
+        languages:
+        - es
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 30
     operations:
       mass_originally_available_update: tmdb
       mass_genre_update: tmdb
@@ -26,17 +34,19 @@ libraries:
       mass_critic_rating_update: imdb
       mass_audience_rating_update: tmdb
 
-############################
-#         TV SHOWS         #
-############################
+##########################
+#         SERIEN         #
+##########################
 
-  Serien:
+  Serien: # Name der Bibliothek
     template_variables:
       language: de
       use_separator: false
-    metadata_path:
+    collection_files:
     - file: config/tv.yml
-    overlay_path:
+    metadata_files:
+    - file: config/money_heist.yml
+    overlay_files:
     - remove_overlays: false
     - pmm: streaming
       template_variables:
@@ -56,11 +66,16 @@ playlist_files:
 - file: config/playlists.yml
   schedule: weekly(sunday)
 
-############################
-#         SETTINGS         #
-############################
+#################################
+#         EINSTELLUNGEN         #
+#################################
 
 settings:
+  run_order:
+  - operations
+  - metadata
+  - collections
+  - overlays
   cache: true
   cache_expiration: 60
   asset_directory: config/assets
@@ -86,13 +101,13 @@ settings:
   show_filtered: false
   show_options: false
   show_missing: true
-  show_missing_assets: true
+  show_missing_assets: false
   save_report: false
   tvdb_language: de
   ignore_ids:
   ignore_imdb_ids:
   item_refresh_delay: 0
-  playlist_sync_to_user: all
+  playlist_sync_to_users: all
   playlist_exclude_users:
   playlist_report: false
   verify_ssl: true

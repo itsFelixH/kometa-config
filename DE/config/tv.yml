@@ -24,6 +24,8 @@ templates:
 
 collections:
 
+### HINZUGEFUEGT
+
   🗓️ Neue Folgen:
     smart_filter:
       sort_by: episode_added.desc
@@ -31,14 +33,15 @@ collections:
         episode_added: 92
         episode_air_date: 365
       limit: 50
+    builder_level: show
     url_poster: https://theposterdb.com/api/assets/407033
-    summary: Neuerscheinungen der letzten 3 Monate.
+    summary: Serien mit neuen Folgen innerhalb der letzten 3 Monate.
     collection_mode: hide
     sort_title: "+2_1_neuerscheinungen"
     visible_library: true
     visible_home: true
 
-  🎞️ Alte Serien:
+  🎞️ Ältere Serien:
     smart_filter:
       sort_by: episode_added.desc
       all:
@@ -52,7 +55,7 @@ collections:
     visible_library: true
     visible_home: true
 
-### RECOMMENDED
+### EMPFEHLUNGEN
 
   📈 Meistgesehen Diese Woche:
     trakt_watched_weekly: 25
@@ -67,7 +70,7 @@ collections:
     visible_library: true
     schedule: weekly(monday)
 
-### SEASON
+### FEIERTAGE
 
   🎅 Weihnachten:
     trakt_list:
@@ -75,6 +78,9 @@ collections:
       - https://trakt.tv/users/philrivers/lists/christmas-episodes
     imdb_list:
       - https://www.imdb.com/search/keyword/?keywords=christmas-episode
+      - https://www.imdb.com/list/ls027673882/
+      - https://www.imdb.com/list/ls508664212/
+      - https://www.imdb.com/list/ls003631244/
     plex_search:
       all:
         genre.not:
@@ -95,7 +101,7 @@ collections:
     visible_library: range(11/30-12/31)
     schedule: yearly(11/30)
 
-### DECADES
+### JAHRZENTE
 
   📺 Das Beste der 2020er:
     imdb_list:
@@ -123,54 +129,6 @@ collections:
     limit: 50
     schedule: weekly(monday)
 
-### MINISERIEN
-
-  ⭐️ Miniserien:
-    plex_all: true
-    filters:
-      tmdb_type: miniseries
-    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mini-Series.jpg
-    summary: Eine Miniserie ist eine Fernsehserie, die eine Geschichte in einer bestimmten, begrenzten Anzahl von Episoden erzählt. Eine Miniserie kann auch als Fernsehfilm mit einer begrenzten Anzahl von Episoden bezeichnet und gezeigt werden. Ab 2021 hat die Popularität des Miniserienformats sowohl bei Streaming-Diensten als auch im Fernsehen zugenommen.
-    collection_mode: hide
-    collection_order: release
-    sort_title: "+9_1_miniserien"
-    visible_library: true
-    item_label: miniserie
-    schedule: weekly(monday)
-
-### NEW SHOWS
-
-  ☕ Neue Serien:
-    builder_level: show
-    plex_all: true
-    filters:
-      tmdb_status:
-        - returning
-        - planned
-        - production
-        - ended
-        - canceled
-      first_episode_aired: 45
-    summary: Neue Serien
-    collection_mode: hide
-    collection_order: release.desc
-    sort_title: "+6_2_baldzurueck"
-    visible_library: true
-    visible_home: true
-    schedule: weekly(monday)
-  
-  👨‍✈️ Piloten:
-    builder_level: episode
-    plex_pilots: true
-    filters:
-      plays.lt: 1
-    summary: Sammlung aller (ungesehenen) Pilotepisoden.
-    collection_mode: hide
-    collection_order: custom
-    sort_title: "+6_3_piloten"
-    visible_library: true
-    schedule: weekly(monday)
-
 ### FRANCHISES
 
   Arrowverse:
@@ -193,3 +151,30 @@ collections:
 
   Walking Dead Universe:
     template: {name: franchise, list: https://thetvdb.com/lists/the-walking-dead, shows: 427464, poster: 128886}
+
+### ANDERE
+
+  ⭐️ Miniserien:
+    plex_all: true
+    filters:
+      tmdb_type: miniseries
+    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mini-Series.jpg
+    summary: Eine Miniserie ist eine Fernsehserie, die eine Geschichte in einer bestimmten, begrenzten Anzahl von Episoden erzählt. Eine Miniserie kann auch als Fernsehfilm mit einer begrenzten Anzahl von Episoden bezeichnet und gezeigt werden. Ab 2021 hat die Popularität des Miniserienformats sowohl bei Streaming-Diensten als auch im Fernsehen zugenommen.
+    collection_mode: hide
+    collection_order: release
+    sort_title: "+9_1_miniserien"
+    visible_library: true
+    item_label: miniserie
+    schedule: weekly(monday)
+  
+  👨‍✈️ Piloten:
+    builder_level: episode
+    plex_pilots: true
+    filters:
+      plays.lt: 1
+    summary: Sammlung aller (ungesehenen) Pilotepisoden.
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+6_3_piloten"
+    visible_library: true
+    schedule: weekly(monday)
