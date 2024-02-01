@@ -145,7 +145,7 @@ collections:
     limit: 50
     schedule: weekly(monday)
 
-### SHOW STATUS
+### SERIEN STATUS
 
   ⏳ Bald zurück:
     trakt_list: https://trakt.tv/users/<your-trakt-name>/lists/returning-soon-Serien
@@ -155,6 +155,49 @@ collections:
     sort_title: "+6_1_baldzurueck"
     visible_library: true
     visible_home: true
+
+  📰 Neue Serien:
+    plex_all: true
+    filters:
+      tmdb_status:
+        - returning
+        - planned
+        - production
+        - ended
+        - canceled
+      first_episode_aired: 45
+    builder_level: show
+    summary: Serien die innnerhalb der letzten 45 Tage veröffentlicht wurden
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+6_2_neueserien"
+    visible_library: true
+    visible_home: true
+
+  ⭐️ Miniserien:
+    plex_all: true
+    filters:
+      tmdb_type: miniseries
+    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mini-Series.jpg
+    summary: Eine Miniserie ist eine Fernsehserie, die eine Geschichte in einer bestimmten, begrenzten Anzahl von Episoden erzählt. Eine Miniserie kann auch als Fernsehfilm mit einer begrenzten Anzahl von Episoden bezeichnet und gezeigt werden. Ab 2021 hat die Popularität des Miniserienformats sowohl bei Streaming-Diensten als auch im Fernsehen zugenommen.
+    collection_mode: hide
+    collection_order: release
+    sort_title: "+9_1_miniserien"
+    visible_library: true
+    item_label: miniserie
+    schedule: weekly(monday)
+  
+  👨‍✈️ Piloten:
+    builder_level: episode
+    plex_pilots: true
+    filters:
+      plays.lt: 1
+    summary: Sammlung aller (ungesehenen) Pilotepisoden.
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+6_3_piloten"
+    visible_library: true
+    schedule: weekly(monday)
 
 ### FRANCHISES
 
@@ -184,30 +227,3 @@ collections:
 
   Walking Dead Universe:
     template: {name: franchise, list: https://thetvdb.com/lists/the-walking-dead, shows: 427464, poster: https://theposterdb.com/api/assets/128886}
-
-### ANDERE
-
-  ⭐️ Miniserien:
-    plex_all: true
-    filters:
-      tmdb_type: miniseries
-    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mini-Series.jpg
-    summary: Eine Miniserie ist eine Fernsehserie, die eine Geschichte in einer bestimmten, begrenzten Anzahl von Episoden erzählt. Eine Miniserie kann auch als Fernsehfilm mit einer begrenzten Anzahl von Episoden bezeichnet und gezeigt werden. Ab 2021 hat die Popularität des Miniserienformats sowohl bei Streaming-Diensten als auch im Fernsehen zugenommen.
-    collection_mode: hide
-    collection_order: release
-    sort_title: "+9_1_miniserien"
-    visible_library: true
-    item_label: miniserie
-    schedule: weekly(monday)
-  
-  👨‍✈️ Piloten:
-    builder_level: episode
-    plex_pilots: true
-    filters:
-      plays.lt: 1
-    summary: Sammlung aller (ungesehenen) Pilotepisoden.
-    collection_mode: hide
-    collection_order: custom
-    sort_title: "+6_3_piloten"
-    visible_library: true
-    schedule: weekly(monday)
