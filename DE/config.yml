@@ -46,6 +46,7 @@ libraries:
     metadata_files:
     - file: config/money_heist.yml
     overlay_files:
+    - file: config/pattrmm/Serien-returning-soon-overlay.yml
     - pmm: streaming
       template_variables:
         originals_only: true
