@@ -159,25 +159,31 @@ collections:
 ### FRANCHISES
 
   Arrowverse:
-    template: {name: franchise, list: https://thetvdb.com/lists/arrowverse, poster: 25569}
+    template: {name: franchise, list: https://thetvdb.com/lists/arrowverse, poster: https://theposterdb.com/api/assets/25569}
   
   Breaking Bad Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/Breaking-Bad, poster: 244137}
+    template: {name: franchise, list: https://thetvdb.com/lists/Breaking-Bad, poster: https://theposterdb.com/api/assets/244137}
   
   Boys Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/the-boys, poster: 408209}
+    template: {name: franchise, list: https://thetvdb.com/lists/the-boys, poster: https://theposterdb.com/api/assets/408209}
   
   Élite Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/elite, poster: 155311}
+    template: {name: franchise, list: https://thetvdb.com/lists/elite, poster: https://theposterdb.com/api/assets/155311}
 
   Game of Thrones Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/game-of-thrones, poster: 98682}
+    template: {name: franchise, list: https://thetvdb.com/lists/game-of-thrones, poster: https://theposterdb.com/api/assets/98682}
+
+  Haus des Geldes Universe:
+    template: {name: franchise, list: https://thetvdb.com/lists/13281}
+
+  Marvel Television:
+    template: {name: franchise, list: https://thetvdb.com/lists/14027}
 
   Narcos Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/narcos, poster: 58210}
+    template: {name: franchise, list: https://thetvdb.com/lists/narcos, poster: https://theposterdb.com/api/assets/58210}
 
   Walking Dead Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/the-walking-dead, shows: 427464, poster: 128886}
+    template: {name: franchise, list: https://thetvdb.com/lists/the-walking-dead, shows: 427464, poster: https://theposterdb.com/api/assets/128886}
 
 ### ANDERE
 
