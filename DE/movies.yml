@@ -177,6 +177,19 @@ collections:
     limit: 50
     schedule: weekly(monday)
 
+### GESCHICHTE
+
+  📰 Filme aus diesem Monat in der Geschichte:
+    trakt_list: https://trakt.tv/users/<your-trakt-name>/lists/in-history-Filme
+    collection_order: critic_rating.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/69212
+    summary: Filme die diesen Monat in der Geschichte erschienen sind
+    collection_mode: hide
+    sort_title: "+7_1_history"
+    visible_home: true
+    visible_library: true
+
 ### FRANCHISES
 
   Batman Franchise:
