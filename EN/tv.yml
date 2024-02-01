@@ -138,6 +138,16 @@ collections:
     limit: 50
     schedule: weekly(monday)
 
+### SHOW STATUS
+
+  ⏳ Returning Soon:
+    trakt_list: https://trakt.tv/users/<your-trakt-name>/lists/returning-soon-TV-Shows
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+6_1_returning"
+    visible_library: true
+    visible_home: true
+
 ### FRANCHISES
 
   Arrowverse:
