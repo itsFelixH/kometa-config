@@ -3,6 +3,7 @@
 These are my config files for [Plex-Meta-Manager (PMM)](https://github.com/meisnate12/Plex-Meta-Manager).
 
 ## Basics
+
 I run PMM nightly. Make sure to have at least version 1.19.1-develop62.
 
 ### Included
@@ -18,16 +19,18 @@ All files are available in German (DE) and English (EN). Feel free to ask me que
 ## Install
 
 Clone the repo:
-```
+
+```bash
 git clone https://github.com/itsFelixH/pmm-config
 ```
 
-## Usage:
+## Usage
 
 Setup PMM & create your config file . For help refer to the [PMM Wiki](https://metamanager.wiki/en/latest/index.html).
 
 If setup, run:
-```
+
+```bash
 python plex_meta_manager.py -r
 ```
 
@@ -37,7 +40,7 @@ For PMM related questions or issues, join the [PMM Discord Server](https://disco
 
 You can find all posters I used on [The Poster Database](https://theposterdb.com/).
 
-I also use [PATTRMM (Plex Assistant To The Regional Meta Manager)](https://github.com/InsertDisc/pattrmm) for better tv show status banners. 
+I also use [PATTRMM (Plex Assistant To The Regional Meta Manager)](https://github.com/InsertDisc/pattrmm) for better tv show status banners.
 
 ## Thanks
 
