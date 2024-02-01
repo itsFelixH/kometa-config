@@ -7,15 +7,16 @@ templates:
     optional:
       - list
       - shows
-    url_poster: https://theposterdb.com/api/assets/<<poster>>    
+      - poster
+    url_poster: <<poster>>    
     tvdb_list_details: <<list>>
     tvdb_show: <<shows>>
     sort_title: <<collection_name>>
     collection_mode: hide
     collection_order: release
     schedule: 
-     - monthly(1)
-     - monthly(15)
+      - monthly(1)
+      - monthly(15)
 
 
 ############################
@@ -33,7 +34,6 @@ collections:
         episode_added: 92
         episode_air_date: 365
       limit: 50
-    builder_level: show
     url_poster: https://theposterdb.com/api/assets/407033
     collection_mode: hide
     sort_title: "+2_1_new"
@@ -56,8 +56,12 @@ collections:
 ### RECOMMENDED
 
   📈 Popular This Week:
-    trakt_watched_weekly: 25
-    trakt_trending: 25
+    trakt_chart:
+      - chart: trending
+        limit: 25
+      - chart: watched
+        time_period: weekly
+        limit: 25
     tmdb_trending_weekly: 25
     url_poster: https://theposterdb.com/api/assets/396719
     collection_mode: hide
@@ -86,7 +90,6 @@ collections:
         any:
           episode_title:
             - Christmas
-            - Weihnachten
     url_poster: https://theposterdb.com/api/assets/111695
     collection_mode: hide
     collection_order: episode_release.asc
@@ -100,9 +103,15 @@ collections:
 ### DECADES
 
   📺 Best Of 2020s:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2020-01-01,2029-12-31&user_rating=5.0,10.0&num_votes=1000,&languages=en&user_rating,desc&count=150
-      limit: 200
+    imdb_search:
+      type: tv_series, tv_mini_series, tv_special
+      release.after: 2020-01-01
+      release.before: 2029-12-31
+      rating.gte: 5
+      votes.gte: 100000
+      sort_by: rating.desc
+      language: en
+      limit: 150
     url_poster: https://theposterdb.com/api/assets/350800
     collection_mode: hide
     collection_order: custom
@@ -110,11 +119,17 @@ collections:
     visible_library: true
     limit: 50
     schedule: weekly(monday)
-  
+
   📺 Best OF 2010s:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2010-01-01,2019-12-31&user_rating=5.0,10.0&num_votes=1000,&languages=en&user_rating,desc&count=150
-      limit: 200
+    imdb_search:
+      type: tv_series, tv_mini_series, tv_special
+      release.after: 2010-01-01
+      release.before: 2019-12-31
+      rating.gte: 5
+      votes.gte: 100000
+      sort_by: rating.desc
+      language: en
+      limit: 150
     url_poster: https://theposterdb.com/api/assets/350799
     collection_mode: hide
     collection_order: custom
@@ -127,18 +142,24 @@ collections:
 
   Arrowverse:
     template: {name: franchise, list: https://thetvdb.com/lists/arrowverse, poster: 25569}
-  
+
   Breaking Bad Universe:
     template: {name: franchise, list: https://thetvdb.com/lists/Breaking-Bad, poster: 244137}
-  
+
   Boys Universe:
     template: {name: franchise, list: https://thetvdb.com/lists/the-boys, poster: 408209}
-  
+
   Élite Universe:
     template: {name: franchise, list: https://thetvdb.com/lists/elite, poster: 155311}
 
   Game of Thrones Universe:
     template: {name: franchise, list: https://thetvdb.com/lists/game-of-thrones, poster: 98682}
+
+  Money Heist Universe:
+    template: {name: franchise, list: https://thetvdb.com/lists/13281}
+
+  Marvel Television:
+    template: {name: franchise, list: https://thetvdb.com/lists/14027}
 
   Narcos Universe:
     template: {name: franchise, list: https://thetvdb.com/lists/narcos, poster: 58210}
@@ -157,7 +178,7 @@ collections:
     collection_order: release
     sort_title: "+9_1_miniseris"
     visible_library: true
-    item_label: miniserie
+    item_label: miniseries
     schedule: weekly(monday)
   
   👨‍✈️ Pilots:
