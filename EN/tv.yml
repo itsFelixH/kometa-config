@@ -148,6 +148,46 @@ collections:
     visible_library: true
     visible_home: true
 
+  📰 New Shows:
+    plex_all: true
+    filters:
+      tmdb_status:
+        - returning
+        - planned
+        - production
+        - ended
+        - canceled
+      first_episode_aired: 45
+    builder_level: show
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+6_2_newshows"
+    visible_library: true
+    visible_home: true
+
+  ⭐️ Miniseries:
+    plex_all: true
+    filters:
+      tmdb_type: miniseries
+    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mini-Series.jpg
+    collection_mode: hide
+    collection_order: release
+    sort_title: "+9_1_miniseris"
+    visible_library: true
+    item_label: miniseries
+    schedule: weekly(monday)
+
+  👨‍✈️ Pilots:
+    builder_level: episode
+    plex_pilots: true
+    filters:
+      plays.lt: 1
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+6_3_pilots"
+    visible_library: true
+    schedule: weekly(monday)
+
 ### FRANCHISES
 
   Arrowverse:
@@ -176,28 +216,3 @@ collections:
 
   Walking Dead Universe:
     template: {name: franchise, list: https://thetvdb.com/lists/the-walking-dead, shows: 427464, poster: https://theposterdb.com/api/assets/128886}
-
-### ANDERE
-
-  ⭐️ Miniseries:
-    plex_all: true
-    filters:
-      tmdb_type: miniseries
-    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mini-Series.jpg
-    collection_mode: hide
-    collection_order: release
-    sort_title: "+9_1_miniseris"
-    visible_library: true
-    item_label: miniseries
-    schedule: weekly(monday)
-  
-  👨‍✈️ Pilots:
-    builder_level: episode
-    plex_pilots: true
-    filters:
-      plays.lt: 1
-    collection_mode: hide
-    collection_order: custom
-    sort_title: "+6_3_pilots"
-    visible_library: true
-    schedule: weekly(monday)
