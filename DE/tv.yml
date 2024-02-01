@@ -7,15 +7,16 @@ templates:
     optional:
       - list
       - shows
-    url_poster: https://theposterdb.com/api/assets/<<poster>>    
+      - poster
+    url_poster: <<poster>>    
     tvdb_list_details: <<list>>
     tvdb_show: <<shows>>
     sort_title: <<collection_name>>
     collection_mode: hide
     collection_order: release
     schedule: 
-     - monthly(1)
-     - monthly(15)
+      - monthly(1)
+      - monthly(15)
 
 
 ############################
@@ -33,11 +34,10 @@ collections:
         episode_added: 92
         episode_air_date: 365
       limit: 50
-    builder_level: show
     url_poster: https://theposterdb.com/api/assets/407033
     summary: Serien mit neuen Folgen innerhalb der letzten 3 Monate.
     collection_mode: hide
-    sort_title: "+2_1_neuerscheinungen"
+    sort_title: "+2_1_new"
     visible_library: true
     visible_home: true
 
@@ -58,8 +58,12 @@ collections:
 ### EMPFEHLUNGEN
 
   📈 Meistgesehen Diese Woche:
-    trakt_watched_weekly: 25
-    trakt_trending: 25
+    trakt_chart:
+      - chart: trending
+        limit: 25
+      - chart: watched
+        time_period: weekly
+        limit: 25
     tmdb_trending_weekly: 25
     url_poster: https://theposterdb.com/api/assets/396719
     summary: Meistgesehene Serien diese Woche.
@@ -104,9 +108,15 @@ collections:
 ### JAHRZENTE
 
   📺 Das Beste der 2020er:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2020-01-01,2029-12-31&user_rating=5.0,10.0&num_votes=1000,&languages=en&user_rating,desc&count=150
-      limit: 200
+    imdb_search:
+      type: tv_series, tv_mini_series, tv_special
+      release.after: 2020-01-01
+      release.before: 2029-12-31
+      rating.gte: 5
+      votes.gte: 100000
+      sort_by: rating.desc
+      language: de, en
+      limit: 150
     url_poster: https://theposterdb.com/api/assets/350800
     summary: "Die bestbewerteten Serien der 2020er Jahre"
     collection_mode: hide
@@ -117,9 +127,15 @@ collections:
     schedule: weekly(monday)
   
   📺 Das Beste der 2010er:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2010-01-01,2019-12-31&user_rating=5.0,10.0&num_votes=1000,&languages=en&user_rating,desc&count=150
-      limit: 200
+    imdb_search:
+      type: tv_series, tv_mini_series, tv_special
+      release.after: 2010-01-01
+      release.before: 2019-12-31
+      rating.gte: 5
+      votes.gte: 100000
+      sort_by: rating.desc
+      language: de, en
+      limit: 150
     url_poster: https://theposterdb.com/api/assets/350799
     summary: "Die bestbewerteten Serien der 2010er Jahre"
     collection_mode: hide
@@ -128,6 +144,17 @@ collections:
     visible_library: true
     limit: 50
     schedule: weekly(monday)
+
+### SHOW STATUS
+
+  ⏳ Bald zurück:
+    trakt_list: https://trakt.tv/users/<your-trakt-name>/lists/returning-soon-Serien
+    summary: Serien, die bald eine neue Staffel bekommen.
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+6_1_baldzurueck"
+    visible_library: true
+    visible_home: true
 
 ### FRANCHISES
 
