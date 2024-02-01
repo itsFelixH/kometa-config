@@ -4,7 +4,7 @@ These are my config files for [Plex-Meta-Manager (PMM)](https://github.com/meisn
 
 ## Basics
 
-I run PMM nightly. Make sure to have at least version 1.19.1-develop62.
+I run PMM nightly. Make sure to have at least PMM version 1.20.
 
 ### Included
 
