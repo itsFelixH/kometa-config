@@ -114,3 +114,29 @@ settings:
   verify_ssl: true
   custom_repo:
   check_nightly: true
+plex:
+  token:
+  timeout: 360
+  clean_bundles: true
+  empty_trash: true
+  optimize: true
+  db_cache: 128
+tmdb:
+  apikey:
+  language: en
+  cache_expiration: 60
+  region:
+mdblist:
+  apikey:
+  cache_expiration: 60
+trakt:
+  client_id:
+  client_secret:
+  pin:
+  authorization:
+    access_token:
+    token_type:
+    expires_in:
+    refresh_token:
+    scope:
+    created_at:
