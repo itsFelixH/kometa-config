@@ -10,17 +10,15 @@ libraries:
     collection_files:
     - file: config/movies.yml
     overlay_files:
-    - remove_overlays: false
     - pmm: streaming
       template_variables:
         originals_only: true
-        region: de
         horizontal_align: left
         vertical_align: bottom
     - pmm: languages
       template_variables:
         languages:
-        - es
+          - es
         horizontal_align: right
         horizontal_offset: 15
         vertical_align: bottom
@@ -45,7 +43,6 @@ libraries:
     metadata_files:
     - file: config/money_heist.yml
     overlay_files:
-    - remove_overlays: false
     - pmm: streaming
       template_variables:
         originals_only: true
@@ -59,9 +56,12 @@ libraries:
       mass_critic_rating_update: imdb
       mass_audience_rating_update: tmdb
 
+############################
+#        PLAYLISTS         #
+############################
+
 playlist_files:
 - file: config/playlists.yml
-  schedule: weekly(sunday)
 
 ############################
 #         SETTINGS         #
@@ -85,7 +85,7 @@ settings:
   show_missing_season_assets: false
   show_missing_episode_assets: false
   show_asset_not_needed: true
-  sync_mode: append
+  sync_mode: sync
   minimum_items: 1
   default_collection_order:
   delete_below_minimum: true
