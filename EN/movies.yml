@@ -60,8 +60,12 @@ collections:
 ### EMPFELUNGEN
 
   📈 Popular This Week:
-    trakt_watched_weekly: 25
-    trakt_trending: 25
+    trakt_chart:
+      - chart: trending
+        limit: 25
+      - chart: watched
+        time_period: weekly
+        limit: 25
     tmdb_trending_weekly: 25
     url_poster: https://theposterdb.com/api/assets/396719
     collection_mode: hide
@@ -131,9 +135,15 @@ collections:
 ### JAHRZENTE
 
   📺 Best Of 2020s:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie&release_date=2020-01-01,2029-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&user_rating,desc&count=200
-      limit: 200
+    imdb_search:
+      type: movie
+      release.after: 2020-01-01
+      release.before: 2029-12-31
+      rating.gte: 5
+      votes.gte: 100000
+      sort_by: rating.desc
+      language: en
+      limit: 150
     url_poster: https://theposterdb.com/api/assets/350800
     collection_mode: hide
     collection_order: custom
@@ -143,9 +153,15 @@ collections:
     schedule: weekly(monday)
   
   📺 Best Of 2010s:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie&release_date=2010-01-01,2019-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&user_rating,desc&count=200
-      limit: 200
+    imdb_search:
+      type: movie
+      release.after: 2010-01-01
+      release.before: 2019-12-31
+      rating.gte: 5
+      votes.gte: 100000
+      sort_by: rating.desc
+      language: en
+      limit: 150
     url_poster: https://theposterdb.com/api/assets/350799
     collection_mode: hide
     collection_order: custom
@@ -153,6 +169,19 @@ collections:
     visible_library: true
     limit: 50
     schedule: weekly(monday)
+
+### HISTORY
+
+  📖 This Month In History:
+    trakt_list: https://trakt.tv/users/CptNeptun/lists/in-history-filme
+    collection_order: critic_rating.desc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/69212
+    summary: Filme die diesen Monat in der Geschichte erschienen sind
+    collection_mode: hide
+    sort_title: "+7_1_history"
+    visible_home: true
+    visible_library: true
 
 ### FRANCHISES
 
