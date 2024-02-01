@@ -48,6 +48,23 @@ libraries:
         originals_only: true
         horizontal_align: left
         vertical_align: bottom
+    - pmm: languages
+      template_variables:
+        languages:
+          - es
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 30
+    - pmm: languages
+      template_variables:
+        builder_level: season
+        languages:
+          - es
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 30
     operations:
       mass_originally_available_update: tvdb
       mass_genre_update: tvdb
