@@ -1,14 +1,14 @@
-# Plex-Meta-Manager (PMM) Config Files
+# Kometa Config Files
 
-These are my config files for [Plex-Meta-Manager (PMM)](https://github.com/meisnate12/Plex-Meta-Manager).
+These are my config files for [Kometa](https://github.com/Kometa-Team/Kometa) (formerly PMM, Plex-Meta-Manager).
 
 ## Basics
 
-I run PMM nightly. Make sure to have at least PMM version 1.20.
+I run the nightly branch of Kometa. Make sure to have at least version 2.0.2-build25.
 
 ### Included
 
-* config.yml -> PMM Config File
+* config.yml -> Kometa Config File
 * money_heist.yml -> Metadata for the show "Money Heist (2017)" in Netflix Order
 * movies.yml -> Movie Collections
 * playlists.yml -> Playlists
@@ -21,22 +21,22 @@ All files are available in German (DE) and English (EN). Feel free to ask me que
 Clone the repo:
 
 ```bash
-git clone https://github.com/itsFelixH/pmm-config
+git clone https://github.com/itsFelixH/kometa-config
 ```
 
 ## Usage
 
-Setup PMM & create your config file . For help refer to the [PMM Wiki](https://metamanager.wiki/en/latest/index.html).
+Setup Kometa & create your config file . For help refer to the [Kometa Wiki](https://kometa.wiki/).
 
 If setup, run:
 
 ```bash
-python plex_meta_manager.py -r
+python kometa.py -r
 ```
 
 ## Additional Information
 
-For PMM related questions or issues, join the [PMM Discord Server](https://discord.gg/uvXgYS73Qf).
+For Kometa related questions or issues, join the [Kometa Discord Server](https://discord.gg/uvXgYS73Qf).
 
 You can find all posters I used on [The Poster Database](https://theposterdb.com/).
 
