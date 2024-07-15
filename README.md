@@ -1,6 +1,10 @@
-# Kometa Config Files
+<!-- markdownlint-disable MD041 -->
+![logo](https://kometa.wiki/en/latest/assets/logo-full.png)
+<!-- markdownlint-disable MD041 -->
 
-These are my config files for [Kometa](https://github.com/Kometa-Team/Kometa) (formerly PMM, Plex-Meta-Manager).
+# ~~Plex-Meta-Manager~~ Kometa Config
+
+These are my config files for ~~PMM~~ [Kometa](https://github.com/Kometa-Team/Kometa).
 
 ## Basics
 
@@ -40,7 +44,7 @@ For Kometa related questions or issues, join the [Kometa Discord Server](https:/
 
 You can find all posters I used on [The Poster Database](https://theposterdb.com/).
 
-I also use [PATTRMM (Plex Assistant To The Regional Meta Manager)](https://github.com/InsertDisc/pattrmm) for better tv show status banners.
+I also use [PATTRMM (Plex Assistant To The Regional Meta Manager)](https://github.com/InsertDisc/pattrmm) for beautiful tv show status banners.
 
 ## Thanks
 
