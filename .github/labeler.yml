@@ -1,0 +1,32 @@
+---
+documentation:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.md"
+
+main config:
+  - changed-files:
+    - any-glob-to-any-file: "**/config.yml"
+
+movies:
+  - changed-files:
+    - any-glob-to-any-file: "**/movies.yml"
+
+tv:
+  - changed-files:
+    - any-glob-to-any-file: "**/tv.yml"
+
+playlists:
+  - changed-files:
+    - any-glob-to-any-file: "**/playlists.yml"
+
+assets:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.jpg"
+
+DE:
+  - changed-files:
+    - any-glob-to-any-file: "DE/**/*"
+
+EN:
+  - changed-files:
+    - any-glob-to-any-file: "EN/**/*"
