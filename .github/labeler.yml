@@ -25,8 +25,13 @@ assets:
 
 DE:
   - changed-files:
-    - any-glob-to-any-file: "DE/**/*"
+    - any-glob-to-any-file: "config-files/DE/**/*"
 
 EN:
   - changed-files:
-    - any-glob-to-any-file: "EN/**/*"
+    - any-glob-to-any-file: "config-files/EN/**/*"
+
+scripts:
+  - changed-files:
+    - any-glob-to-any-file: "**/*.ps1"
+    - any-glob-to-any-file: "**/*.sh"
