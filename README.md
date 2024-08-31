@@ -42,7 +42,7 @@ python kometa.py -r
 
 For Kometa related questions or issues, join the [Kometa Discord Server](https://discord.gg/uvXgYS73Qf).
 
-You can find all posters I used on [The Poster Database](https://theposterdb.com/).
+You can find all posters I used on [The Poster Database](https://theposterdb.com/) or on [MediUX](https://mediux.pro/).
 
 I also use [PATTRMM (Plex Assistant To The Regional Meta Manager)](https://github.com/InsertDisc/pattrmm) for beautiful tv show status banners.
 
