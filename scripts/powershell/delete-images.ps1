@@ -1,7 +1,6 @@
-# Parameters
+[cmdletbinding()]
 param (
-    #[string]$directory = "\\BUNDEPI\Filme"
-    [string]$directory = "\\BUNDEPI\Serien"
+    [string]$directory = "\\path\to\filesystem"
 )
 
 $ImageFiles = (Get-ChildItem -Path $directory -Recurse -Force | Where-Object {$_.extension -in ".jpg"})
