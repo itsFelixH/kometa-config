@@ -12,7 +12,7 @@ templates:
     url_poster: <<poster>>
     tmdb_collection_details: <<collection>>
     tmdb_list: <<list>>
-    tmdb_movie: <<movies>>     
+    tmdb_movie: <<movies>>
     sort_title: <<collection_name>>
     collection_mode: hide
     collection_order: release
@@ -26,10 +26,9 @@ templates:
 ############################
 
 collections:
+  ### HINZUGEFUEGT
 
-### HINZUGEFUEGT
-
-  🗓️ Neuerscheinungen:
+  🗓️ Neue Filme:
     smart_filter:
       sort_by: added.desc
       all:
@@ -39,7 +38,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/407033
     summary: Neuerscheinungen der letzten 3 Monate.
     collection_mode: hide
-    sort_title: "+2_1_neuerscheinungen"
+    sort_title: "+1_1_neuerscheinungen"
     visible_library: true
     visible_home: true
 
@@ -53,7 +52,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/407034
     summary: Ältere Filme, die in den letzten 3 Monaten hinzugefügt wurden.
     collection_mode: hide
-    sort_title: "+2_2_added"
+    sort_title: "+1_2_added"
     visible_library: true
     visible_home: true
 
@@ -62,46 +61,27 @@ collections:
   📈 Meistgesehen Diese Woche:
     trakt_chart:
       - chart: trending
-        limit: 25
-      - chart: watched
-        time_period: weekly
-        limit: 25
-    tmdb_trending_weekly: 25
+        limit: 50
+    tmdb_trending_weekly: 20
     url_poster: https://theposterdb.com/api/assets/396719
     summary: Meistgesehene Filme diese Woche.
     collection_mode: hide
     collection_order: random
-    sort_title: "+1_2_meistgesehen"
+    sort_title: "+2_2_meistgesehen"
     visible_home: true
     visible_library: true
-    schedule: weekly(monday)
-  
-  🍿 Der nächste Filmabend:
-    smart_filter:
-      sort_by: random
-      all:
-        unplayed: true
-        release: 3650
-      limit: 5
-    url_poster: https://i.imgur.com/OMrEyGg.jpeg
-    summary: Vorschläge für den nächsten Filmabend.
-    collection_mode: hide
-    sort_title: "+1_1_next"
-    visible_library: true
-    visible_home: true
-    schedule: weekly(monday)
 
-### TOP
+  ### TOP
 
-  📽️ IMDb Top 250:
-    imdb_list: https://www.imdb.com/search/title/?groups=top_250&sort=user_rating,desc
+  ⭐ IMDb Top 250:
+    imdb_chart: top_movies
     url_poster: https://theposterdb.com/api/assets/396723
     summary: IMDB Top 250 Filme aller Zeiten.
     collection_mode: hide
     collection_order: custom
     sort_title: "+3_1_imdb_top"
     visible_library: true
-    schedule: weekly(monday)
+    schedule: weekly(sunday)
 
   🏆 Oscar Gewinner:
     imdb_list: https://www.imdb.com/list/ls062667125/
@@ -111,35 +91,11 @@ collections:
     collection_order: custom
     sort_title: "+3_2_oscars"
     visible_library: true
-    schedule: weekly(monday)
+    schedule: weekly(sunday)
 
-### FEIERTAGE
+  ### JAHRZENTE
 
-  🎅 Weihnachten:
-    imdb_list:
-      - https://www.imdb.com/list/ls000096828
-      - https://www.imdb.com/list/ls097394442
-      - https://www.imdb.com/list/ls068976997
-      - https://www.imdb.com/list/ls027567380
-    trakt_list:
-      - https://trakt.tv/users/littlestella3/lists/christmas
-      - https://trakt.tv/users/triadcool/lists/christmas
-      - https://trakt.tv/users/pterisaur/lists/christmas
-      - https://trakt.tv/users/outspoken/lists/christmas
-      - https://trakt.tv/users/mausk/lists/christmas
-      - https://trakt.tv/users/crossoverdeseries/lists/hallmark-christmas-2023
-    url_poster: https://theposterdb.com/api/assets/111695
-    summary: Weihnachten steht vor der Tür. Aber neben Lebkuchen, Zimt und Glühwein dürfen vor allem auch der ein oder andere passende Film nicht fehlen.
-    collection_mode: hide
-    collection_order: random
-    sort_title: "+8_1_weihnachten"
-    visible_home: range(11/30-12/31)
-    visible_library: range(11/30-12/31)
-    schedule: yearly(11/30)
-    
-### JAHRZENTE
-
-  📺 Das Beste der 2020er:
+  📺 Das Beste Der 2020er:
     imdb_search:
       type: movie
       release.after: 2020-01-01
@@ -153,12 +109,12 @@ collections:
     summary: "Die bestbewerteten Filme der 2020er Jahre"
     collection_mode: hide
     collection_order: custom
-    sort_title: "+4_1_best2020"
+    sort_title: "+7_1_best2020"
     visible_library: true
     limit: 50
-    schedule: weekly(monday)
-  
-  📺 Das Beste der 2010er:
+    schedule: weekly(sunday)
+
+  📺 Das Beste Der 2010er:
     imdb_search:
       type: movie
       release.after: 2010-01-01
@@ -172,128 +128,413 @@ collections:
     summary: "Die bestbewerteten Filme der 2010er Jahre"
     collection_mode: hide
     collection_order: custom
-    sort_title: "+4_2_best2010"
+    sort_title: "+7_2_best2010"
     visible_library: true
     limit: 50
-    schedule: weekly(monday)
+    schedule: weekly(sunday)
 
-### GESCHICHTE
+  ### GENRE
 
-  📰 Filme aus diesem Monat in der Geschichte:
-    trakt_list: https://trakt.tv/users/<your-trakt-name>/lists/in-history-Filme
-    collection_order: critic_rating.desc
-    sync_mode: sync
-    url_poster: https://theposterdb.com/api/assets/69212
-    summary: Filme die diesen Monat in der Geschichte erschienen sind
+  Dokumentationen:
+    plex_search:
+      all:
+        genre: Documentary
+    url_poster: https://theposterdb.com/api/assets/69204
+    summary: "Alle Dokumentationen"
     collection_mode: hide
-    sort_title: "+7_1_history"
-    visible_home: true
+    collection_order: random
+    sort_title: "+8_1_documentary"
     visible_library: true
+    visible_home: true
+    schedule: weekly(sunday)
 
-### FRANCHISES
+  ### STUDIOS
 
-  Batman Franchise:
-    template: {name: franchise, collection: 948485, poster: https://theposterdb.com/api/assets/295096}
+  A24 Filme:
+    letterboxd_list: https://letterboxd.com/fidelcb/list/a24/
+    url_poster: https://theposterdb.com/api/assets/260910
+    summary: Filme, die A24 produziert/verteilt hat.
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+9_1_a24studio"
+    visible_library: true
+    schedule: weekly(sunday)
 
-  Blade Runner Franchise:
-    template: {name: franchise, collection: 422837, poster: https://theposterdb.com/api/assets/6081}
+  ### LETTERBOXD
 
-  Dark Knight Franchise:
-    template: {name: franchise, collection: 263, poster: https://theposterdb.com/api/assets/82482}
+  Filme, die jeder sehen sollte:
+    letterboxd_list: https://letterboxd.com/fcbarcelona/list/movies-everyone-should-watch-at-least-once/
+    summary: Film, die jeder mindestens einmal im Leben sehen sollte (von Reddit).
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_1_everyoneshouldwatch"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  Du bist nach dem Film nicht mehr dieselbe Person:
+    letterboxd_list: https://letterboxd.com/andredenervaux/list/youre-not-the-same-person-once-the-film-has/
+    summary: Es tut mir leid, dass ich nicht wusste, dass ich ein Termin schicken musste für einen verdammten Doppelselbstmord.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_2_notthesame"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  Filme, bei denen Du mindestens 3 Mal "What the Fuck" sagen wirst:
+    letterboxd_list: https://letterboxd.com/zanderific/list/movies-that-will-make-you-say-what-the-fuck/
+    summary: Filme, die so unheimlich sind, so unheimlich, dass man mehrere Male hörbar reagiert. Es spielt keine Rolle, ob er gut oder schlecht ist, er ist einfach nur verdammt seltsam, und das aus einem ganz bestimmten Grund.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_3_wtf"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  Wenn Du etwas fühlen möchtest:
+    letterboxd_list: https://letterboxd.com/ellefnning/list/for-when-you-want-to-feel-something/
+    summary: Filme, die einen zum Nachdenken bringen und Sichtweisen verändern. Diese Filme können von emotionalen Achterbahnen bis hin zu psychologischen Thrillern reichen, die eine tiefe Bedeutung haben und über die Gesellschaft reflektieren.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_4_feelsomething"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  Comfort Movies:
+    letterboxd_list: https://letterboxd.com/ventunopiloti/list/comfort-movies/
+    summary: Bei dem Gefühl, wenn alles ein bisschen zu viel ist.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_5_comfort"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  Visually Insane:
+    letterboxd_list: https://letterboxd.com/etolkin/list/filmlist:28697007/
+    summary: Was ist der visuell verrückteste Film, den du je gesehen hast?
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_6_visual"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  What is Reality?:
+    letterboxd_list: https://letterboxd.com/tediously_brief/list/what-is-reality/
+    summary: Meditationen, Untersuchungen über die Natur der Realität und der Existenz. Experimentieren mit Form und Manipulation der wahrgenommenen Realität.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_7_reality"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  In the Mood for Sadness:
+    letterboxd_list: https://letterboxd.com/michiruze/list/in-the-mood-for-sadness/
+    summary: '"You think your pain and your heartbreak are unprecedented in the history of the world, but then you read." - James Baldwin'
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_8_sadness"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  Good Films, 90 Minutes or Less:
+    letterboxd_list: https://letterboxd.com/stautis/list/good-films-90-minutes-or-less/
+    summary: Sehr gute Filme, die nicht länger als 90 Minuten dauern.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_9_90minutes"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  Stuff by Women, About Women:
+    letterboxd_list: https://letterboxd.com/meagan/list/stuff-by-women-about-women/
+    summary: Filme mit weiblichen Hauptpersonen, Regisseurinnen & Autorinnen! Diese Liste soll zum Nachdenken über die Wahrnehmung von Frauen und die Darstellung ihrer selbst und/oder anderer Frauen durch das Medium Kino anregen. Filme, die von und über Frauen gemacht werden, sind weltweit in der Minderheit.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_10_women"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  ### FRANCHISES
+
+  Batman Collection:
+    template:
+      {
+        name: franchise,
+        collection: 948485,
+        poster: https://theposterdb.com/api/assets/511486,
+      }
+
+  Blade Runner Collection:
+    template:
+      {
+        name: franchise,
+        collection: 422837,
+        poster: https://theposterdb.com/api/assets/6081,
+      }
+
+  Dark Knight Collection:
+    template:
+      {
+        name: franchise,
+        collection: 263,
+        poster: https://api.mediux.pro/assets/3060365a-13b1-4e7e-b4bd-d2b9947149de,
+      }
 
   DC Extended Universe:
-    template: {name: franchise, poster: 40928 }
+    template:
+      { name: franchise, poster: https://theposterdb.com/api/assets/517107 }
     imdb_list: https://www.imdb.com/list/ls046609392/
     summary: Das DC Extended Universe ist ein Shared Universe aus dem Hause Warner Bros und DC. Es wurde 2013 durch den Film Man of Steel ins Leben gerufen. Die Filme sind alle miteinander verbunden so das eine Figur ohne weiteres in dem Film eines anderen auftauchen kann und umgekehrt. Das Universum basiert zwar auf den Helden, Schurken und Orten des Comicuniversums ist aber nicht damit verknüpft.
 
-  Dune Franchise:
-    template: {name: franchise, collection: 726871, poster: https://theposterdb.com/api/assets/197348}
+  Dune Collection:
+    template:
+      {
+        name: franchise,
+        collection: 726871,
+        poster: https://api.mediux.pro/assets/6dbeea9d-08ea-4836-92e0-b2496d22bfd5,
+      }
 
-  Expendables Franchise:
-    template: {name: franchise, collection: 126125, poster: https://theposterdb.com/api/assets/75441}
+  Fast & Furious Collection:
+    template:
+      {
+        name: franchise,
+        collection: 9485,
+        poster: https://api.mediux.pro/assets/26a25f6f-b296-4380-8d72-ebaaa1b42982,
+      }
 
-  Fast & Furious Franchise:
-    template: {name: franchise, collection: 9485, poster: https://theposterdb.com/api/assets/1070}
+  Hercule Poirot Collection:
+    template:
+      {
+        name: franchise,
+        collection: 735384,
+        poster: https://theposterdb.com/api/assets/212865,
+      }
 
-  Fluch der Karibik Franchise:
-    template: {name: franchise, collection: 295, poster: https://theposterdb.com/api/assets/15036}
+  Ich einfach unverbesserlich Collection:
+    template:
+      {
+        name: franchise,
+        collection: 86066,
+        poster: https://api.mediux.pro/assets/d94cceaa-b1f4-4268-8e56-fd1f34bceaaa,
+      }
 
-  Godzilla Franchise:
-    template: {name: franchise, collection: 535313, poster: https://theposterdb.com/api/assets/16674}
+  Indiana Jones Collection:
+    template:
+      {
+        name: franchise,
+        collection: 84,
+        poster: https://api.mediux.pro/assets/f06e771e-66d7-4a80-9171-055a0c1a8259,
+      }
 
-  Harry Potter Franchise:
-    template: {name: franchise, collection: 1241, poster: https://theposterdb.com/api/assets/27577}
+  James Bond Collection:
+    template:
+      {
+        name: franchise,
+        collection: 645,
+        poster: https://api.mediux.pro/assets/10aa2060-d1f5-46c4-ad29-f98cd68fe3da,
+      }
 
-  Ich einfach unverbesserlich Franchise:
-    template: {name: franchise, collection: 86066, poster: https://theposterdb.com/api/assets/22035}
+  Jurassic Park Collection:
+    template:
+      {
+        name: franchise,
+        collection: 328,
+        poster: https://api.mediux.pro/assets/e5d81e4a-8e38-4dec-8946-ae85004fcfb4,
+      }
 
-  Indiana Jones Franchise:
-    template: {name: franchise, collection: 84, poster: https://theposterdb.com/api/assets/53303}
+  John Wick Collection:
+    template:
+      {
+        name: franchise,
+        collection: 404609,
+        poster: https://api.mediux.pro/assets/eb090fce-9135-4831-918c-062647ee45fc,
+      }
+  
+  Joker Collection:
+    template:
+      {
+        name: franchise,
+        collection: 987044,
+        poster: https://api.mediux.pro/assets/ef5fe6c5-db91-442b-acb0-b64bc88719f6,
+      }
 
-  James Bond Franchise:
-    template: {name: franchise, collection: 645, poster: https://theposterdb.com/api/assets/176906}
+  Kingsman Collection:
+    template:
+      {
+        name: franchise,
+        collection: 391860,
+        poster: https://theposterdb.com/api/assets/31912,
+      }
 
-  Jurassic Park Franchise:
-    template: {name: franchise, collection: 328, poster: https://theposterdb.com/api/assets/158968}
+  Knives Out Collection:
+    template:
+      {
+        name: franchise,
+        collection: 722971,
+        poster: https://api.mediux.pro/assets/08a724a7-3f42-46b7-b730-0e0c82bbcec8,
+      }
 
-  John Wick Franchise:
-    template: {name: franchise, collection: 404609, poster: https://theposterdb.com/api/assets/17550}
+  Kung Fu Panda Collection:
+    template:
+      {
+        name: franchise,
+        collection: 77816,
+        poster: https://api.mediux.pro/assets/e7a65f63-8ae6-48e1-8e97-242166d8e539,
+      }
 
-  Kingsman Franchise:
-    template: {name: franchise, collection: 391860, poster: https://theposterdb.com/api/assets/31912}
+  Lego Collection:
+    template:
+      {
+        name: franchise,
+        collection: 325470,
+        movie: 324849,
+        poster: https://theposterdb.com/api/assets/75599,
+      }
 
-  Knives Out Franchise:
-    template: {name: franchise, collection: 722971, poster: https://theposterdb.com/api/assets/292236}
+  Mad Max Collection:
+    template:
+      {
+        name: franchise,
+        collection: 8945,
+        poster: https://theposterdb.com/api/assets/87129,
+      }
 
-  Kung Fu Panda Franchise:
-    template: {name: franchise, collection: 77816, poster: https://theposterdb.com/api/assets/16488}
+  Marvel Cinematic Universe:
+    template:
+      {
+        name: franchise, 
+        poster: https://theposterdb.com/api/assets/517809
+      }
+    imdb_list: https://www.imdb.com/list/ls505369170/
+    summary: Marvel Cinematic Universe ist ein amerikanisches Medien-Franchise und gemeinsames Universum, das sich auf eine Reihe von Superheldenfilmen konzentriert, die von Marvel Studios unabhängig produziert werden und auf Charakteren basieren, die in amerikanischen Comics erscheinen, die von Marvel Comics veröffentlicht werden.
 
-  Lego Franchise:
-    template: {name: franchise, collection: 325470, movie: 324849, poster: https://theposterdb.com/api/assets/75599}
+  Matrix Collection:
+    template:
+      {
+        name: franchise,
+        collection: 2344,
+        poster: https://theposterdb.com/api/assets/128,
+      }
 
-  Matrix Franchise:
-    template: {name: franchise, collection: 2344, poster: https://theposterdb.com/api/assets/128}
+  Minions Collection:
+    template:
+      {
+        name: franchise,
+        collection: 544669,
+        poster: https://api.mediux.pro/assets/ad3217a1-a19d-4918-aaa7-60735204c613,
+      }
 
-  Meg Franchise:
-    template: {name: franchise, collection: 742536, poster: https://theposterdb.com/api/assets/384067}
+  Mission Impossible Collection:
+    template:
+      {
+        name: franchise,
+        collection: 87359,
+        poster: https://api.mediux.pro/assets/9a2c82e8-2ebe-490e-af00-b1fef2b6940c,
+      }
 
-  Minions Franchise:
-    template: {name: franchise, collection: 544669, poster: https://theposterdb.com/api/assets/27388}
-
-  Mission Impossible Franchise:
-    template: {name: franchise, collections: 87359, poster: https://theposterdb.com/api/assets/65202}
-
-  Mittelerde:
-    template: {name: franchise, collections: "119, 121938", poster: https://theposterdb.com/api/assets/12363}
+  Mittelerde Collection:
+    template:
+      {
+        name: franchise,
+        collection: "119, 121938",
+        poster: https://api.mediux.pro/assets/0e957d39-59c6-4419-871b-fb250dc5ed77,
+      }
     summary: Eine Sammlung aller J.R.R. Tolkien Filme.
 
-  Phantastische Tierwesen Franchise:
-    template: {name: franchise, collection: 435259, poster: https://theposterdb.com/api/assets/169}
+  Monsterverse Collection:
+    template:
+      {
+        name: franchise,
+        collection: 535313,
+        poster: https://api.mediux.pro/assets/f69be3a3-7d61-4f86-8946-a30f2f10ea7e,
+      }
 
-  Shrek Franchise:
-    template: {name: franchise, collection: 2150, movies: "417859, 315162", poster: https://theposterdb.com/api/assets/27739}
+  Planet der Affen Collection:
+    template:
+      {
+        name: franchise,
+        collection: 173710,
+        poster: https://api.mediux.pro/assets/7ac94497-6f46-4a49-bd06-16dff90d99ce,
+      }
 
-  Sonic Franchise:
-    template: {name: franchise, collection: 720879, poster: https://theposterdb.com/api/assets/232581}
+  Shrek Collection:
+    template:
+      {
+        name: franchise,
+        collection: 2150,
+        movies: "417859, 315162", #Puss in Boots 1 + 2
+        poster: https://api.mediux.pro/assets/15a7f994-cbfc-421a-b7be-45233369f683,
+      }
 
-  "Spider-Man: Spider-Verse Franchise":
-    template: {name: franchise, collection: 573436, poster: https://theposterdb.com/api/assets/369435}
+  Sicario Collection:
+    template:
+      {
+        name: franchise,
+        collection: 496796,
+        poster: https://api.mediux.pro/assets/e4c86019-5dd4-43ae-a0e9-b3ee0be6275d,
+      }
 
-  Star Trek Franchise:
-    template: {name: franchise, collection: 115575, poster: https://theposterdb.com/api/assets/66}
+  Sonic Collection:
+    template:
+      {
+        name: franchise,
+        collection: 720879,
+        poster: https://theposterdb.com/api/assets/537712,
+      }
 
-  Strib Langsam Franchise:
-    template: {name: franchise, collection: 1570, poster: https://theposterdb.com/api/assets/35440}
-  
-  Transformers Franchise:
-    template: {name: franchise, collection: 8650, movies: "667538, 424783", poster: https://theposterdb.com/api/assets/84244}
+  "Spider-Man: Spider-Verse Collection":
+    template:
+      {
+        name: franchise,
+        collection: 573436,
+        poster: https://api.mediux.pro/assets/f66d7082-fe88-4f2d-8175-b745843a44c7,
+      }
 
-  Tribute von Panem Franchise:
-    template: {name: franchise, collection: 131635, poster: https://theposterdb.com/api/assets/31004}
+  Star Trek Collection:
+    template:
+      {
+        name: franchise,
+        collection: 115575,
+        poster: https://theposterdb.com/api/assets/66,
+      }
+
+  Star Wars Collection:
+    template:
+      {
+        name: franchise,
+        collection: 10,
+        movies: "348350, 330459", #Solo, Rogue One
+        poster: https://api.mediux.pro/assets/1dfb8c09-86f1-4119-b85e-5dddb1fa2aa4,
+      }
+
+  Starship Troopers Collection:
+    template:
+      {
+        name: franchise,
+        collection: 10522,
+        poster: https://theposterdb.com/api/assets/293517,
+      }
+
+  Strib Langsam Collection:
+    template:
+      {
+        name: franchise,
+        collection: 1570,
+        poster: https://api.mediux.pro/assets/eafab74a-a04e-41a9-9b2c-22510a51fe5e,
+      }
+
+  Transformers Collection:
+    template: {
+        name: franchise,
+        collection: 8650,
+        movies: "667538, 424783",
+        poster: https://api.mediux.pro/assets/fe1d9ad8-da44-4045-9d3e-a46b38826ee6,
+      }
 
   Wizarding World:
-    template: {name: franchise, movies: 899082, poster: https://theposterdb.com/api/assets/1634}
-    imdb_list:
-      - https://www.imdb.com/list/ls060991914/
-      - https://www.imdb.com/list/ls563595240/
+    template:
+      {
+        name: franchise,
+        movies: 899082,
+        poster: https://theposterdb.com/api/assets/528783,
+      }
+    imdb_list: https://www.imdb.com/list/ls060991914/
     summary: Wizarding World ist ein amerikanisch-britisches Medien-Franchise, das sich um das gemeinsame fiktive Universum der Filme dreht, die von Warner Bros. in Verbindung mit den Romanen von J. K. Rowling erschaffen wurden. Wizarding World umfasst sowohl die Harry Potter-Filmreihe als auch die neue Phantastische Tierwesen-Filmreihe.

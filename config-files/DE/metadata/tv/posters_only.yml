@@ -1,0 +1,61 @@
+
+metadata:
+  443383: # TVDB id for Apple Cider Vinegar. Set by fwlolx on MediUX. https://mediux.pro/sets/30430
+    url_poster: https://api.mediux.pro/assets/7308ba99-20c1-46c6-af70-c6db5b1c5627
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/6328cbc1-74ab-4954-8ac1-511ed6b9f751
+
+  126422: # 9/11: One Day in America (2021)
+    url_poster: https://theposterdb.com/api/assets/365946
+
+  195258: # Our Great National Parks (2022)
+    url_poster: https://theposterdb.com/api/assets/226485
+
+  346328: # TVDB id for Elite. Set by fwlolx on MediUX. https://mediux.pro/sets/14703
+    url_poster: https://theposterdb.com/api/assets/158848
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/e82d19a9-718d-4a0e-948e-5d525032cf56
+      2:
+        url_poster: https://api.mediux.pro/assets/17eae5c5-1508-4012-a9fb-b0f44412d8fe
+      3:
+        url_poster: https://api.mediux.pro/assets/db9335d5-184f-4cb1-b6bc-87106f11d6f1
+      4:
+        url_poster: https://api.mediux.pro/assets/b57f2320-009a-42bd-b645-fa5cc6637373
+      5:
+        url_poster: https://api.mediux.pro/assets/aa4fb601-004b-478b-8c2f-5a2f2375b60b
+      6:
+        url_poster: https://api.mediux.pro/assets/f539af82-1cfd-47cb-935b-f40eaed42bdf
+      7:
+        url_poster: https://api.mediux.pro/assets/ea710a0d-b6ce-4a7c-81c2-5b8ea7a98c1c
+      8:
+        url_poster: https://api.mediux.pro/assets/0119e2cc-c321-4664-a61f-73b8352b64c9
+
+  432782: # TVDB id for The Perfect Couple. Set by SwaffelSmurf on MediUX. https://mediux.pro/sets/25029
+    url_poster: https://api.mediux.pro/assets/936dcb63-947c-4668-aff5-edb17f0059b8
+    url_background: https://api.mediux.pro/assets/fcb41738-a9a1-40c5-a652-29f3b767164f
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/d9418cfd-a2ba-4730-aa90-124ec63a3058
+
+  430061: # TVDB id for A Good Girl's Guide to Murder. Set by cundallini on MediUX. https://mediux.pro/sets/23664
+    url_poster: https://api.mediux.pro/assets/d7ebeeca-757d-4eeb-a1f0-6ab1cb97b5cd
+    url_background: https://api.mediux.pro/assets/3190cc32-2007-4a20-9756-cd4fd892c3ee
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/0d2fde3f-9f1a-4f35-8e15-1c528dfcbe4f
+
+  384248: # TVDB id for Firefly Lane. Set by fwlolx on MediUX. https://mediux.pro/sets/15172
+    url_poster: https://theposterdb.com/api/assets/325339
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/a53f1bdb-feae-4b14-b604-8900e3370f00
+      2:
+        url_poster: https://api.mediux.pro/assets/f66cde85-dc0a-47f5-b000-7ce21b0531d0
+
+  435662: # TVDB id for Deli Boys. Set by Pejamas on MediUX. https://mediux.pro/sets/31097
+    url_poster: https://api.mediux.pro/assets/ed8a0c05-0a33-4714-9bda-db82870b9672
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/7f635b71-ffe8-4a98-8cf1-70a6d238f708

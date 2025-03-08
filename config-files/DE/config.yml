@@ -8,24 +8,25 @@ libraries:
     template_variables:
       language: de
       use_separator: false
+    remove_overlays: false
     collection_files:
     - file: config/movies.yml
     overlay_files:
-    - pmm: streaming
-      template_variables:
-        originals_only: true
-        region: de
-        horizontal_align: left
-        vertical_align: bottom
-    - pmm: languages
+    - default: languages
       template_variables:
         languages:
-          - es
+        - de
+        - es
         horizontal_align: right
         horizontal_offset: 15
         vertical_align: bottom
         vertical_offset: 30
+    metadata_files:
+    - file: config/metadata/movies.yml
     operations:
+    - schedule: weekly(monday)
+      delete_collections:
+        managed: false
       mass_originally_available_update: tmdb
       mass_genre_update: tmdb
       mass_content_rating_update: mdb_commonsense
@@ -41,19 +42,47 @@ libraries:
     template_variables:
       language: de
       use_separator: false
+    remove_overlays: false
     collection_files:
     - file: config/tv.yml
-    metadata_files:
-    - file: config/money_heist.yml
     overlay_files:
     - file: config/pattrmm/Serien-returning-soon-overlay.yml
-    - pmm: streaming
+    - default: languages
       template_variables:
-        originals_only: true
-        region: de
-        horizontal_align: left
+        languages:
+        - de
+        - es
+        horizontal_align: right
+        horizontal_offset: 15
         vertical_align: bottom
+        vertical_offset: 30
+    - default: languages
+      template_variables:
+        builder_level: season
+        languages:
+        - de
+        - es
+        horizontal_align: right
+        horizontal_offset: 15
+        vertical_align: bottom
+        vertical_offset: 30
+    metadata_files:
+    - file: config/metadata/tv/arrowverse.yml
+    - file: config/metadata/tv/breaking_bad.yml
+    - file: config/metadata/tv/got.yml
+    - file: config/metadata/tv/marvel.yml
+    - file: config/metadata/tv/mcu.yml
+    - file: config/metadata/tv/money_heist.yml
+    - file: config/metadata/tv/star_wars.yml
+    - file: config/metadata/tv/the_boys.yml
+    - file: config/metadata/tv/walking_dead.yml
+    - file: config/metadata/tv/yellowstone.yml
+    - file: config/metadata/tv/posters_only.yml
+    - file: config/metadata/shows.yml
     operations:
+    - schedule: weekly(monday)
+      delete_collections:
+        managed: false
       mass_originally_available_update: tvdb
       mass_genre_update: tvdb
       mass_content_rating_update: mdb_commonsense
@@ -89,7 +118,7 @@ settings:
   download_url_assets: false
   show_missing_season_assets: false
   show_missing_episode_assets: false
-  show_asset_not_needed: true
+  show_asset_not_needed: false
   sync_mode: sync
   minimum_items: 1
   default_collection_order:
@@ -101,7 +130,8 @@ settings:
   show_unmanaged: true
   show_unconfigured: true
   show_filtered: false
-  show_options: false
+  show_unfiltered: false
+  show_options: true
   show_missing: true
   show_missing_assets: false
   save_report: false
@@ -114,14 +144,17 @@ settings:
   playlist_report: false
   verify_ssl: true
   custom_repo:
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality:
   check_nightly: true
+
 plex:
   token:
   timeout: 360
+  db_cache: 1024
   clean_bundles: true
   empty_trash: true
   optimize: true
-  db_cache: 128
 tmdb:
   apikey:
   language: en

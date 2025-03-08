@@ -8,7 +8,8 @@ templates:
       - list
       - shows
       - poster
-    url_poster: <<poster>>    
+    builder_level: show
+    url_poster: <<poster>>
     tvdb_list_details: <<list>>
     tvdb_show: <<shows>>
     sort_title: <<collection_name>>
@@ -25,7 +26,7 @@ templates:
 
 collections:
 
-### HINZUGEFUEGT
+  ### HINZUGEFUEGT
 
   🗓️ Neue Folgen:
     smart_filter:
@@ -33,11 +34,12 @@ collections:
       all:
         episode_added: 92
         episode_air_date: 365
-      limit: 50
-    url_poster: https://theposterdb.com/api/assets/407033
+      limit: 20
+    builder_level: show
+    url_poster: https://theposterdb.com/api/assets/213602
     summary: Serien mit neuen Folgen innerhalb der letzten 3 Monate.
     collection_mode: hide
-    sort_title: "+2_1_new"
+    sort_title: "+1_1_newepisodes"
     visible_library: true
     visible_home: true
 
@@ -47,65 +49,32 @@ collections:
       all:
         episode_added: 92
         episode_air_date.not: 365
-      limit: 50
-    url_poster: https://theposterdb.com/api/assets/407034
+      limit: 20
+    builder_level: show
+    url_poster: https://theposterdb.com/api/assets/252061
     summary: Ältere Serien, die in den letzten 3 Monaten hinzugefügt wurden.
     collection_mode: hide
-    sort_title: "+2_2_added"
+    sort_title: "+1_2_added"
     visible_library: true
     visible_home: true
 
-### EMPFEHLUNGEN
+  ### EMPFEHLUNGEN
 
   📈 Meistgesehen Diese Woche:
     trakt_chart:
       - chart: trending
-        limit: 25
-      - chart: watched
-        time_period: weekly
-        limit: 25
-    tmdb_trending_weekly: 25
-    url_poster: https://theposterdb.com/api/assets/396719
+        limit: 50
+    limit: 20
+    builder_level: show
+    url_poster: https://theposterdb.com/api/assets/213570
     summary: Meistgesehene Serien diese Woche.
     collection_mode: hide
-    collection_order: random
-    sort_title: "+1_1_meistgesehen"
+    collection_order: custom
+    sort_title: "+2_1_mostviewed"
     visible_home: true
     visible_library: true
-    schedule: weekly(monday)
 
-### FEIERTAGE
-
-  🎅 Weihnachten:
-    trakt_list:
-      - https://trakt.tv/users/uyn5hnpr2wdjwksh/lists/christmas-episodes
-      - https://trakt.tv/users/philrivers/lists/christmas-episodes
-    imdb_list:
-      - https://www.imdb.com/search/keyword/?keywords=christmas-episode
-      - https://www.imdb.com/list/ls027673882/
-      - https://www.imdb.com/list/ls508664212/
-      - https://www.imdb.com/list/ls003631244/
-    plex_search:
-      all:
-        genre.not:
-          - Food
-          - Documentary
-        any:
-          episode_title:
-            - Christmas
-            - Weihnachten
-    url_poster: https://theposterdb.com/api/assets/111695
-    summary: Bald ist Weihnachten! Schaue dir die Weihnachtsfolgen aller Serien an, um in Stimmung zu kommen.
-    collection_mode: hide
-    collection_order: episode_release.asc
-    collection_level: episode
-    builder_level: episode
-    sort_title: "+8_1_weihnachten"
-    visible_home: range(11/30-12/31)
-    visible_library: range(11/30-12/31)
-    schedule: yearly(11/30)
-
-### JAHRZENTE
+  ### JAHRZENTE
 
   📺 Das Beste der 2020er:
     imdb_search:
@@ -117,15 +86,16 @@ collections:
       sort_by: rating.desc
       language: de, en
       limit: 150
+    limit: 50
+    builder_level: show
     url_poster: https://theposterdb.com/api/assets/350800
-    summary: "Die bestbewerteten Serien der 2020er Jahre"
+    summary: Die bestbewerteten Serien der 2020er Jahre.
     collection_mode: hide
     collection_order: custom
-    sort_title: "+4_1_best2020"
+    sort_title: "+7_1_best2020"
     visible_library: true
-    limit: 50
-    schedule: weekly(monday)
-  
+    schedule: weekly(sunday)
+
   📺 Das Beste der 2010er:
     imdb_search:
       type: tv_series, tv_mini_series, tv_special
@@ -136,94 +106,235 @@ collections:
       sort_by: rating.desc
       language: de, en
       limit: 150
+    limit: 50
+    builder_level: show
     url_poster: https://theposterdb.com/api/assets/350799
-    summary: "Die bestbewerteten Serien der 2010er Jahre"
+    summary: Die bestbewerteten Serien der 2010er Jahre.
     collection_mode: hide
     collection_order: custom
-    sort_title: "+4_2_best2010"
+    sort_title: "+7_2_best2010"
     visible_library: true
-    limit: 50
-    schedule: weekly(monday)
+    schedule: weekly(sunday)
 
-### SERIEN STATUS
+  ### SERIEN STATUS
 
   ⏳ Bald zurück:
-    trakt_list: https://trakt.tv/users/<your-trakt-name>/lists/returning-soon-Serien
+    trakt_list: https://trakt.tv/users/CptNeptun/lists/returning-soon-Serien
+    builder_level: show
+    url_poster: https://github.com/Kometa-Team/Default-Images/blob/master/chart/Returning%20Soon.jpg?raw=true
     summary: Serien, die bald eine neue Staffel bekommen.
     collection_mode: hide
     collection_order: custom
-    sort_title: "+6_1_baldzurueck"
+    sort_title: "+3_2_baldzurueck"
     visible_library: true
     visible_home: true
 
-  📰 Neue Serien:
-    plex_all: true
-    filters:
-      tmdb_status:
-        - returning
-        - planned
-        - production
-        - ended
-        - canceled
-      first_episode_aired: 45
+  🏃‍♀️ Läuft aktuell:
+    plex_search:
+      all:
+        episode_air_date: 15
     builder_level: show
-    summary: Serien die innnerhalb der letzten 45 Tage veröffentlicht wurden
+    url_poster: https://github.com/Kometa-Team/Default-Images/blob/master/chart/TMDb%20On%20The%20Air.jpg?raw=true
+    summary: Serien, die aktuell ausgestrahlt werden.
     collection_mode: hide
-    collection_order: custom
-    sort_title: "+6_2_neueserien"
+    sort_title: "+3_1_airing"
     visible_library: true
     visible_home: true
+
+  ### SERIENTYPEN
 
   ⭐️ Miniserien:
     plex_all: true
     filters:
       tmdb_type: miniseries
-    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mini-Series.jpg
+    builder_level: show
+    url_poster: https://i.imgur.com/1FiirDz.jpeg
     summary: Eine Miniserie ist eine Fernsehserie, die eine Geschichte in einer bestimmten, begrenzten Anzahl von Episoden erzählt. Eine Miniserie kann auch als Fernsehfilm mit einer begrenzten Anzahl von Episoden bezeichnet und gezeigt werden. Ab 2021 hat die Popularität des Miniserienformats sowohl bei Streaming-Diensten als auch im Fernsehen zugenommen.
     collection_mode: hide
     collection_order: release
     sort_title: "+9_1_miniserien"
     visible_library: true
     item_label: miniserie
-    schedule: weekly(monday)
-  
+    schedule: weekly(sunday)
+
   👨‍✈️ Piloten:
-    builder_level: episode
     plex_pilots: true
     filters:
       plays.lt: 1
+    builder_level: episode
+    url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/refs/heads/master/chart/Pilots.jpg
     summary: Sammlung aller (ungesehenen) Pilotepisoden.
     collection_mode: hide
     collection_order: custom
-    sort_title: "+6_3_piloten"
+    sort_title: "+9_2_piloten"
     visible_library: true
-    schedule: weekly(monday)
+    schedule: weekly(sunday)
 
-### FRANCHISES
+### GENRE
+
+  Dokumentationen:
+    plex_search:
+      genre: Documentary
+    builder_level: show
+    url_poster: https://theposterdb.com/api/assets/51430
+    summary: "Alle Dokumentationen"
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_2_documentary"
+    visible_library: true
+    visible_home: true
+    schedule: weekly(sunday)
+
+  ### STUDIOS
+
+  Apple TV+:
+    smart_filter:
+      sort_by: release.asc
+      any:
+        network: Apple TV+
+    url_poster: https://theposterdb.com/api/assets/204359
+    summary: Serie, die Apple produziert hat.
+    collection_mode: hide
+    sort_title: "+8_1_apple"
+    visible_home: true
+    visible_library: true
+    schedule: weekly(sunday)
+
+  ### LANGUAGES
+
+  Spanisch:
+    plex_all: true
+    filters:
+      audio_language: Spanish
+    builder_level: show
+    url_poster: https://theposterdb.com/api/assets/385430
+    summary: "Alle Serien mit spanischen Audio"
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_1_spanisch"
+    visible_library: true
+    schedule: weekly(sunday)
+
+  ### FRANCHISES
 
   Arrowverse:
-    template: {name: franchise, list: https://thetvdb.com/lists/arrowverse, poster: https://theposterdb.com/api/assets/25569}
-  
-  Breaking Bad Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/Breaking-Bad, poster: https://theposterdb.com/api/assets/244137}
-  
-  Boys Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/the-boys, poster: https://theposterdb.com/api/assets/408209}
-  
-  Élite Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/elite, poster: https://theposterdb.com/api/assets/155311}
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/arrowverse,
+        poster: https://theposterdb.com/api/assets/513431,
+      }
 
-  Game of Thrones Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/game-of-thrones, poster: https://theposterdb.com/api/assets/98682}
+  Breaking Bad Collection:
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/Breaking-Bad,
+        poster: https://theposterdb.com/api/assets/244137,
+      }
 
-  Haus des Geldes Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/13281}
+  Bridgerton Collection:
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/Bridgerton,
+        poster: https://theposterdb.com/api/assets/213196,
+      }
+
+  Boys Collection:
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/the-boys,
+        poster: https://theposterdb.com/api/assets/511628,
+      }
+
+  Citadel Collection:
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/citadel,
+        poster: https://theposterdb.com/api/assets/358880,
+      }
+  
+  # DC Universe:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       list: https://thetvdb.com/lists/16052,
+  #       poster: ,
+  #     }
+
+  Élite Collection:
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/elite,
+        poster: https://theposterdb.com/api/assets/155311,
+      }
+
+  Game of Thrones Collection:
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/game-of-thrones,
+        poster: https://theposterdb.com/api/assets/98682,
+      }
+
+  Haus des Geldes Collection:
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/13281,
+        poster: https://theposterdb.com/api/assets/336387,
+      }
+
+  Ku'damm Collection:
+    template:
+      {
+        name: franchise,
+        shows: "309039, 396486, 372762",
+        poster: https://theposterdb.com/api/assets/175570,
+      }
 
   Marvel Television:
-    template: {name: franchise, list: https://thetvdb.com/lists/14027}
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/14027,
+        poster: https://theposterdb.com/api/assets/64265,
+      }
 
-  Narcos Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/narcos, poster: https://theposterdb.com/api/assets/58210}
+  Marvel Cinematic Universe:
+    template:
+      {
+        name: franchise,
+        poster: https://theposterdb.com/api/assets/517809
+      }
+    imdb_list: https://www.imdb.com/list/ls505369170/
+    summary: Marvel Cinematic Universe ist ein amerikanisches Medien-Franchise und gemeinsames Universum, das sich auf eine Reihe von Superheldenfilmen konzentriert, die von Marvel Studios unabhängig produziert werden und auf Charakteren basieren, die in amerikanischen Comics erscheinen, die von Marvel Comics veröffentlicht werden.
+
+  Narcos Collection:
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/narcos,
+        poster: https://theposterdb.com/api/assets/58210,
+      }
 
   Walking Dead Universe:
-    template: {name: franchise, list: https://thetvdb.com/lists/the-walking-dead, shows: 427464, poster: https://theposterdb.com/api/assets/128886}
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/the-walking-dead,
+        shows: "427464, 427202",
+        poster: https://theposterdb.com/api/assets/530186,
+      }
+
+  Yellowstone Collection:
+    template:
+      {
+        name: franchise,
+        list: https://thetvdb.com/lists/yellowstone,
+        poster: https://theposterdb.com/api/assets/534461,
+      }
