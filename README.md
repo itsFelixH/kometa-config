@@ -1,6 +1,5 @@
-<!-- markdownlint-disable MD041 -->
-![logo](https://kometa.wiki/en/latest/assets/logo-full.png)
-<!-- markdownlint-disable MD041 -->
+
+<img src="https://kometa.wiki/en/nightly/assets/images/icons/logo-full.png" alt="Kometa">
 
 # Kometa Config
 
