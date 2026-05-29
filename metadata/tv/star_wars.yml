@@ -24,30 +24,6 @@ metadata:
           8:
             url_poster: https://api.mediux.pro/assets/aebc50c9-593a-4cad-a5da-56f518009277
 
-  393197: # TVDB id for The Acolyte. Set by willtong93 on MediUX. https://mediux.pro/sets/22545
-    url_poster: https://api.mediux.pro/assets/138dc2c2-f59a-4bcf-bc58-0dd8947923dd
-    url_background: https://api.mediux.pro/assets/d837e33d-995f-42b4-971d-3d18e900a175
-    seasons:
-      1:
-        url_poster: https://api.mediux.pro/assets/ea6416e3-36db-47b7-bf37-2a220d1c58dd
-        episodes:
-          1:
-            url_poster: https://api.mediux.pro/assets/eb5431f5-f55a-4f16-bd36-e2b4d85aa460
-          2:
-            url_poster: https://api.mediux.pro/assets/271458be-83af-415d-910b-b0ea73f572c7
-          3:
-            url_poster: https://api.mediux.pro/assets/511590fa-caa5-45d9-90c7-bf37ee6be840
-          4:
-            url_poster: https://api.mediux.pro/assets/a7876c6c-4802-4f3c-8687-a41c46b108bc
-          5:
-            url_poster: https://api.mediux.pro/assets/b3788952-9213-42ff-b878-d55227116dd4
-          6:
-            url_poster: https://api.mediux.pro/assets/37bee814-91c2-417f-b33c-9e967911ff37
-          7:
-            url_poster: https://api.mediux.pro/assets/6a172d08-2865-4d6a-b68d-dec963407e86
-          8:
-            url_poster: https://api.mediux.pro/assets/f79e84e4-63c6-4aca-afba-0ae951e749e0
-
   393187: # TVDB id for Ahsoka. Set by willtong93 on MediUX. https://mediux.pro/sets/7857
     url_poster: https://api.mediux.pro/assets/e11ecd6f-1de9-448c-bc4a-501339e99692
     url_background: https://api.mediux.pro/assets/16c0dc7e-4480-44f8-a61f-7e52c42a3d13
@@ -72,7 +48,7 @@ metadata:
           8:
             url_poster: https://api.mediux.pro/assets/7afba101-0351-4a16-9c79-8456090552a7
 
-  393189: # TVDB id for Star Wars: Andor. Set by willtong93 on MediUX. https://mediux.pro/sets/7720
+  393189: # TVDB id for Andor. Set by willtong93 on MediUX. https://mediux.pro/sets/7720
     url_poster: https://api.mediux.pro/assets/ef16562a-3ce4-463a-adbd-c3b390f45e8f
     url_background: https://api.mediux.pro/assets/0d1e0931-52cd-43a7-8c06-d60502e703bb
     seasons:
@@ -103,6 +79,33 @@ metadata:
             url_poster: https://api.mediux.pro/assets/169c023a-6305-42b3-b645-bd2d4efdd6be
           12:
             url_poster: https://api.mediux.pro/assets/7ca5852b-b1ad-4120-a001-a1e9c134f73d
+      2:
+        url_poster: https://api.mediux.pro/assets/b2475f02-9217-4626-b0bb-b00bf720dd23
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/81b982df-1674-4014-babe-3479ae77c9db
+          2:
+            url_poster: https://api.mediux.pro/assets/bd96d865-d9e0-49dc-94bc-8fb8dbe0a744
+          3:
+            url_poster: https://api.mediux.pro/assets/f42844f9-40de-4fed-b3e4-e0cab8c56c5f
+          4:
+            url_poster: https://api.mediux.pro/assets/2de41f30-9fe3-4c0d-bcae-6170f68dc920
+          5:
+            url_poster: https://api.mediux.pro/assets/026f690c-4e60-475f-bf88-265be5e6e140
+          6:
+            url_poster: https://api.mediux.pro/assets/2c533535-a82f-4063-af82-da35f25d298e
+          7:
+            url_poster: https://api.mediux.pro/assets/0e9d3b2d-d5d3-4e2c-825d-4adb6854f304
+          8:
+            url_poster: https://api.mediux.pro/assets/ef06992a-4539-4d17-b143-a9afa046e355
+          9:
+            url_poster: https://api.mediux.pro/assets/68119aec-cd41-4c1c-81fe-0960d7eca89d
+          10:
+            url_poster: https://api.mediux.pro/assets/be26db59-d853-40d5-ace9-d4ff0f2f7e5d
+          11:
+            url_poster: https://api.mediux.pro/assets/51284ce4-154f-46ea-a1b7-b81912ff687e
+          12:
+            url_poster: https://api.mediux.pro/assets/69d18065-be84-4fe7-8a00-f3a9c4f62c8a
 
   393199: # TVDB id for Obi-Wan Kenobi. Set by willtong93 on MediUX. https://mediux.pro/sets/18583
     url_poster: https://api.mediux.pro/assets/47619247-e856-4f2d-9460-b8f18d33d664

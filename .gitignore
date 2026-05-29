@@ -1,0 +1,10 @@
+# Secrets - real config contains API keys and tokens
+config.yml
+config.cache
+UUID
+
+# Runtime logs
+logs/
+
+# Overlays - sourced from remote URLs at runtime, not needed in repo
+overlays/

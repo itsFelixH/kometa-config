@@ -1,25 +1,12 @@
 metadata:
-
   295760: # TVDB id for DC's Legends of Tomorrow. Set by willtong93 on MediUX. https://mediux.pro/sets/24669
     url_poster: https://api.mediux.pro/assets/6406ab3f-5fd1-4d99-a9d7-bce5f0e2d4fd
     url_background: https://api.mediux.pro/assets/22beb827-f326-466b-b09c-6ac3f6b4343e
     seasons:
-      0:
-        url_poster: https://api.mediux.pro/assets/e532f4d9-6809-4fe8-b835-c34d083df637
-      1:
-        url_poster: https://api.mediux.pro/assets/c4c71768-daba-422d-9d8a-d4fba3910887
-      2:
-        url_poster: https://api.mediux.pro/assets/c67aa994-af91-41eb-9cf7-65d3bc132515
       3:
         url_poster: https://api.mediux.pro/assets/683b27e1-1640-420e-90cd-a2b15ae8e703
-      4:
-        url_poster: https://api.mediux.pro/assets/faee9762-6219-4691-96de-b928de07cabf
       5:
         url_poster: https://api.mediux.pro/assets/a03923ae-ac13-4379-8679-870179be45a8
-      6:
-        url_poster: https://api.mediux.pro/assets/601be66d-58f5-4177-bffa-63f8b49996e0
-      7:
-        url_poster: https://api.mediux.pro/assets/fb516fb2-e89f-4ab1-9147-278c84556140
 
   295759: # TVDB id for Supergirl. Set by willtong93 on MediUX. https://mediux.pro/sets/23996
     url_poster: https://api.mediux.pro/assets/a2fe18a2-242e-48bb-940f-475817c042ca

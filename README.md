@@ -2,49 +2,72 @@
 ![logo](https://kometa.wiki/en/latest/assets/logo-full.png)
 <!-- markdownlint-disable MD041 -->
 
-# ~~Plex-Meta-Manager~~ Kometa Config
+# Kometa Config
 
-These are my config files for ~~PMM~~ [Kometa](https://github.com/Kometa-Team/Kometa).
+My [Kometa](https://github.com/Kometa-Team/Kometa) configuration for managing collections, overlays, and metadata across Plex libraries.
 
-## Basics
+## What's Included
 
-I run the nightly branch of Kometa. Make sure to have at least version 2.0.2-build25.
-
-### Included
-
-* config.yml -> Kometa Config File
-* money_heist.yml -> Metadata for the show "Money Heist (2017)" in Netflix Order
-* movies.yml -> Movie Collections
-* playlists.yml -> Playlists
-* tv.yml -> TV Show Collections
-
-All files are available in German (DE) and English (EN). Feel free to ask me questions via Discord or make suggestions on what I need to add here.
-
-## Install
-
-Clone the repo:
-
-```bash
-git clone https://github.com/itsFelixH/kometa-config
-```
+- **Collections** — movie and TV collections using smart filters, Trakt, IMDb, and Letterboxd
+- **Overlays** — status banners via [UMTK/TSSK](https://github.com/netplexflix/Upcoming-Movies-TV-Shows-for-Kometa) (Coming Soon, New, Returning, etc.)
+- **Metadata** — custom posters and sort titles for franchise grouping
+- **Playlists** — cross-library playlists
 
 ## Usage
 
-Setup Kometa & create your config file . For help refer to the [Kometa Wiki](https://kometa.wiki/).
-
-If setup, run:
-
 ```bash
-python kometa.py -r
+git clone https://github.com/itsFelixH/kometa-config.git
 ```
+
+1. Copy `config.yml.template` to `config.yml`
+2. Fill in your API keys (Plex, TMDb, Trakt, MDBList)
+3. Adjust library names to match your Plex server
+
+For help setting up Kometa itself, refer to the [Kometa Wiki](https://kometa.wiki/).
+
+<details>
+<summary><b>File Structure</b></summary>
+
+```
+├── config.yml.template   Config template (fill in your API keys)
+├── movies.yml            Movie collection definitions
+├── tv.yml                TV show collection definitions
+├── playlists.yml         Cross-library playlists
+├── metadata/
+│   ├── movies.yml        Custom movie metadata
+│   └── tv/               Per-franchise TV metadata (MCU, Star Wars, etc.)
+└── fonts/                Custom fonts used by overlays
+```
+
+</details>
+
+<details>
+<summary><b>Dependencies</b></summary>
+
+- [Kometa](https://github.com/Kometa-Team/Kometa) (nightly image)
+- [UMTK/TSSK](https://github.com/netplexflix/Upcoming-Movies-TV-Shows-for-Kometa) for status overlays (optional)
+- Plex Media Server
+- API keys: TMDb, Trakt, MDBList
+
+</details>
+
+<details>
+<summary><b>Run Order</b></summary>
+
+Kometa processes each library in this order:
+
+1. **Operations** — mass rating/genre updates, stale collection cleanup
+2. **Metadata** — custom posters and sort titles
+3. **Collections** — smart filters and external lists
+4. **Overlays** — UMTK/TSSK status banners
+
+</details>
 
 ## Additional Information
 
 For Kometa related questions or issues, join the [Kometa Discord Server](https://discord.gg/uvXgYS73Qf).
 
 You can find all posters I used on [The Poster Database](https://theposterdb.com/) or on [MediUX](https://mediux.pro/).
-
-I also use [PATTRMM (Plex Assistant To The Regional Meta Manager)](https://github.com/InsertDisc/pattrmm) for beautiful tv show status banners.
 
 ## Thanks
 

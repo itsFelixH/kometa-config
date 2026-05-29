@@ -1,0 +1,45 @@
+
+metadata:
+  442227: # TVDB id for Such Brave Girls. Set by fwlolx on MediUX. https://mediux.pro/sets/35175
+    url_poster: https://api.mediux.pro/assets/4c681031-4c77-4b81-b283-1a071d725e96
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/9fe1360c-2ccf-4a16-998e-2f596cb10ac3
+      2:
+        url_poster: https://api.mediux.pro/assets/92f29072-da24-4acd-9a8e-c91ff96cadad
+
+  281593: # TVDB id for Unbreakable Kimmy Schmidt
+    url_poster: https://theposterdb.com/api/assets/303868
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/303869
+      2:
+        url_poster: https://theposterdb.com/api/assets/303870
+      3:
+        url_poster: https://theposterdb.com/api/assets/303871
+      4:
+        url_poster: https://theposterdb.com/api/assets/303872
+
+  443586: # TVDB id for Maxton Hall - The World Between Us. Set by fwlolx on MediUX. https://mediux.pro/sets/19603
+    url_poster: https://api.mediux.pro/assets/48544bac-c1fc-4b44-a764-ffbd405b5f3d
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/2aa84a8d-b4be-40aa-ba01-d43d86cbdc16
+      2:
+        url_poster: https://api.mediux.pro/assets/52dfd0da-d6a5-4453-8da0-41d2b1019b5b
+
+  443383: # TVDB id for Apple Cider Vinegar. Set by fwlolx on MediUX. https://mediux.pro/sets/30430
+    url_poster: https://api.mediux.pro/assets/7308ba99-20c1-46c6-af70-c6db5b1c5627
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/6328cbc1-74ab-4954-8ac1-511ed6b9f751
+
+  195258: # Our Great National Parks (2022)
+    url_poster: https://theposterdb.com/api/assets/226485
+
+  432782: # TVDB id for The Perfect Couple. Set by SwaffelSmurf on MediUX. https://mediux.pro/sets/25029
+    url_poster: https://api.mediux.pro/assets/936dcb63-947c-4668-aff5-edb17f0059b8
+    url_background: https://api.mediux.pro/assets/fcb41738-a9a1-40c5-a652-29f3b767164f
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/d9418cfd-a2ba-4730-aa90-124ec63a3058

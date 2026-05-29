@@ -1,0 +1,459 @@
+############################
+#        TEMPLATES         #
+############################
+
+templates:
+  franchise:
+    optional:
+      - collection
+      - movies
+      - list
+      - poster
+    url_poster: <<poster>>
+    tmdb_collection_details: <<collection>>
+    tmdb_list: <<list>>
+    tmdb_movie: <<movies>>
+    sort_title: <<collection_name>>
+    collection_mode: hide
+    collection_order: release
+    # schedule: weekly(sunday)
+
+############################
+#       COLLECTIONS        #
+############################
+
+collections:
+
+  ### ADDED
+
+  🗓️ New Movies:
+    smart_filter:
+      sort_by: added.desc
+      all:
+        added: 92
+        release: 365
+        label.not: Coming Soon
+      limit: 50
+    url_poster: https://theposterdb.com/api/assets/407033
+    summary: New releases added in the last 3 months.
+    collection_mode: hide
+    sort_title: "+1_1_recentlyadded"
+    visible_library: true
+    visible_home: true
+
+  🎞️ Older Movies Added:
+    smart_filter:
+      sort_by: added.desc
+      all:
+        added: 92
+        release.not: 365
+        label.not: Coming Soon
+      limit: 50
+    url_poster: https://theposterdb.com/api/assets/407034
+    summary: Older movies recently added to the library.
+    collection_mode: hide
+    sort_title: "+1_2_olderadditions"
+    visible_library: true
+    visible_home: true
+
+  ### RECOMMENDED
+
+  📈 Most Watched This Week:
+    trakt_chart:
+      - chart: trending
+        limit: 50
+    tmdb_trending_weekly: 20
+    summary: The most popular movies across Trakt and TMDb this week.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+2_1_mostwatched"
+    visible_library: true
+    visible_home: true
+
+  🍿 What Should I Watch?:
+    smart_filter:
+      sort_by: random
+      all:
+        unplayed: true
+        audience_rating.gte: 7
+        label.not: Coming Soon
+      limit: 20
+    summary: Can't decide? Here are 20 random well-rated picks you haven't seen yet. Refreshes daily.
+    collection_mode: hide
+    sort_title: "+2_2_whatshouldwatch"
+    visible_library: true
+    visible_home: true
+    schedule: daily
+
+  🌙 Late Night:
+    smart_filter:
+      sort_by: random
+      all:
+        unplayed: true
+        duration.lte: 95
+        audience_rating.gte: 6
+        label.not: Coming Soon
+      limit: 30
+    summary: Short films under 95 minutes. Perfect for a quick watch before bed.
+    collection_mode: hide
+    sort_title: "+2_3_latenight"
+    visible_library: true
+    visible_home: true
+    schedule: daily
+
+  🍿 Weekend Blockbusters:
+    smart_filter:
+      sort_by: random
+      all:
+        unplayed: true
+        genre: Action, Adventure, Science Fiction
+        audience_rating.gte: 6
+        label.not: Coming Soon
+      limit: 30
+    summary: Big budget action and adventure. Grab some popcorn.
+    collection_mode: hide
+    sort_title: "+2_4_blockbusters"
+    visible_library: true
+    visible_home: true
+    schedule: weekly(friday)
+
+  🍷 Date Night:
+    smart_filter:
+      sort_by: random
+      all:
+        unplayed: true
+        genre: Romance, Drama, Comedy
+        audience_rating.gte: 6
+        duration.lte: 150
+        label.not: Coming Soon
+      limit: 20
+    summary: Well-rated romance and drama under 2.5 hours. Set the mood.
+    collection_mode: hide
+    sort_title: "+2_5_datenight"
+    visible_library: true
+    visible_home: true
+    schedule: weekly(friday)
+
+  ### TOP
+
+  🏆 Oscar Winners:
+    imdb_list: https://www.imdb.com/list/ls062667125/
+    url_poster: https://theposterdb.com/api/assets/396725
+    summary: Every Academy Award winner for Best Picture.
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+3_1_oscars"
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  ### DECADES
+
+  🏅 Best of the 2020s:
+    imdb_search:
+      type: movie
+      release.after: 2020-01-01
+      release.before: 2029-12-31
+      rating.gte: 5
+      votes.gte: 100000
+      sort_by: rating.desc
+      language: de, en
+      limit: 150
+    url_poster: https://theposterdb.com/api/assets/350800
+    summary: The top-rated movies of the 2020s according to IMDb.
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+4_1_best2020"
+    visible_library: true
+    visible_home: true
+    limit: 50
+    # schedule: weekly(sunday)
+
+  🏅 Best of the 2010s:
+    imdb_search:
+      type: movie
+      release.after: 2010-01-01
+      release.before: 2019-12-31
+      rating.gte: 5
+      votes.gte: 100000
+      sort_by: rating.desc
+      language: de, en
+      limit: 150
+    url_poster: https://theposterdb.com/api/assets/350799
+    summary: The top-rated movies of the 2010s according to IMDb.
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+4_2_best2010"
+    visible_library: true
+    visible_home: true
+    limit: 50
+    # schedule: weekly(sunday)
+
+  ### MOOD
+
+  🧠 Mind-Bending:
+    smart_filter:
+      sort_by: random
+      all:
+        unplayed: true
+        genre: Science Fiction, Thriller, Mystery
+        audience_rating.gte: 7.5
+        label.not: Coming Soon
+      limit: 20
+    summary: Films that twist your brain. Expect plot twists, time loops, and unreliable narrators.
+    collection_mode: hide
+    sort_title: "+5_1_mindbending"
+    visible_library: true
+    visible_home: true
+    schedule: weekly(wednesday)
+
+  😌 Easy Watching:
+    smart_filter:
+      sort_by: random
+      all:
+        unplayed: true
+        genre: Comedy, Romance
+        audience_rating.gte: 6
+        label.not: Coming Soon
+      limit: 25
+    summary: Light and easy. No heavy thinking required.
+    collection_mode: hide
+    sort_title: "+5_2_easywatching"
+    visible_library: true
+    visible_home: true
+    schedule: daily
+
+  🥺 In the Feels:
+    smart_filter:
+      sort_by: random
+      all:
+        unplayed: true
+        genre: Drama
+        audience_rating.gte: 7.5
+        label.not: Coming Soon
+      limit: 20
+    summary: Emotional dramas that hit hard. Bring tissues.
+    collection_mode: hide
+    sort_title: "+5_3_inthefeels"
+    visible_library: true
+    visible_home: true
+    schedule: weekly(sunday)
+
+  ### GENRE
+
+  📄 Documentary:
+    plex_search:
+      all:
+        genre: Documentary
+        title.not:
+          - "Friends: The Reunion"
+          - "Harry Potter 20th Anniversary: Return to Hogwarts"
+    summary: Non-fiction films. True stories, nature, history, and more.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+6_1_documentary"
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  🎨 Animation:
+    plex_search:
+      all:
+        genre: Animation
+    summary: Animated feature films for all ages.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+6_2_animation"
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  ### LANGUAGES
+
+  🪇 Español:
+    plex_all: true
+    filters:
+      audio_language: Spanish
+    summary: Movies with Spanish audio available.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+7_1_spanish"
+    visible_library: true
+    # schedule: weekly(sunday)
+  
+  🥨 Deutsch:
+    plex_all: true
+    filters:
+      audio_language: German
+    summary: Movies with German audio available.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+7_2_german"
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  ### STUDIOS
+
+  🎭 A24:
+    tmdb_company: 41077
+    summary: Films from A24. Indie, arthouse, and everything in between.
+    collection_mode: hide
+    collection_order: release
+    sort_title: "+8_1_a24"
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  🍎 Apple TV+:
+    smart_filter:
+      sort_by: release.desc
+      all:
+        studio: Apple TV+
+        label.not: Coming Soon
+    summary: Apple TV+ originals and exclusives.
+    collection_mode: hide
+    sort_title: "+8_2_apple"
+    visible_library: true
+    visible_home: true
+    # schedule: weekly(sunday)
+
+  🟥 Netflix:
+    smart_filter:
+      sort_by: release.desc
+      all:
+        studio: Netflix
+        label.not: Coming Soon
+    summary: Netflix original films in your library.
+    collection_mode: hide
+    sort_title: "+8_3_netflix"
+    visible_library: true
+    visible_home: true
+    # schedule: weekly(sunday)
+
+  🏰 Disney+:
+    smart_filter:
+      sort_by: release.desc
+      all:
+        studio: Disney+
+        label.not: Coming Soon
+    summary: Disney+ original films in your library.
+    collection_mode: hide
+    sort_title: "+8_4_disney"
+    visible_library: true
+    visible_home: true
+    # schedule: weekly(sunday)
+
+
+  ### PERSONAL
+
+  # 🎬 Caro's List:
+  #   tmdb_movie:
+  #     - 1165642  # Lost in Starlight (2025)
+  #     - 639988   # No Other Choice (2025)
+  #     - 1140498  # Is This Thing On? (2025)
+  #     - 1293069  # Marty Supreme (2025)
+  #     - 396535   # Under the Silver Lake (2018)
+  #     - 978796   # Thelma (2024)
+  #     - 416477   # The Big Sick (2017)
+  #     - 612437   # Tú Me Manques (2019)
+  #     - 615643   # Minari (2020)
+  #     - 876969   # Rye Lane (2023)
+  #     - 398338   # Entonces Nosotros / About Us (2016)
+  #     - 436882   # Columbus (2017)
+  #     - 387827   # Tiempo Compartido / Time Share (2018)
+  #     - 290825   # The Nice Guys (2016)
+  #     - 334533   # Captain Fantastic (2016)
+  #     - 996154   # All of Us Strangers (2023)
+  #     - 654299   # C'mon C'mon (2021)
+  #   summary: Caro's curated picks. Indie gems and hidden favorites.
+  #   collection_mode: hide
+  #   sort_title: "+9_1_caroslist"
+  #   visible_library: true
+  #   schedule: weekly(sunday)
+
+
+  ### FRANCHISES
+
+  Marvel Cinematic Universe:
+    template:
+      {
+        name: franchise,
+        poster: https://theposterdb.com/api/assets/517809
+      }
+    imdb_list: https://www.imdb.com/list/ls505369170/
+
+  # Batman Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       collection: 948485,
+  #       poster: https://theposterdb.com/api/assets/511486,
+  #     }
+
+  # Blade Runner Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       collection: 422837,
+  #       poster: https://theposterdb.com/api/assets/6081,
+  #     }
+
+  # Dark Knight Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       collection: 263,
+  #       poster: https://api.mediux.pro/assets/3060365a-13b1-4e7e-b4bd-d2b9947149de,
+  #     }
+
+  # DC Extended Universe:
+  #   template:
+  #     { name: franchise, poster: https://theposterdb.com/api/assets/517107 }
+  #   imdb_list: https://www.imdb.com/list/ls046609392/
+  #   summary: The DC Extended Universe is a shared universe from Warner Bros and DC.
+
+  # Dune Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       collection: 726871,
+  #       poster: https://api.mediux.pro/assets/6dbeea9d-08ea-4836-92e0-b2496d22bfd5,
+  #     }
+
+  # Fast & Furious Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       collection: 9485,
+  #       poster: https://api.mediux.pro/assets/26a25f6f-b296-4380-8d72-ebaaa1b42982,
+  #     }
+
+  # John Wick Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       collection: 404609,
+  #       poster: https://api.mediux.pro/assets/eb090fce-9135-4831-918c-062647ee45fc,
+  #     }
+
+  # Middle-earth Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       collection: "119, 121938",
+  #       poster: https://api.mediux.pro/assets/0e957d39-59c6-4419-871b-fb250dc5ed77,
+  #     }
+
+  # Star Wars Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       collection: 10,
+  #       movies: "348350, 330459",
+  #       poster: https://api.mediux.pro/assets/1dfb8c09-86f1-4119-b85e-5dddb1fa2aa4,
+  #     }
+
+  # Wizarding World:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       movies: 899082,
+  #       poster: https://theposterdb.com/api/assets/528783,
+  #     }
+  #   imdb_list: https://www.imdb.com/list/ls060991914/

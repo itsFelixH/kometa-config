@@ -2,6 +2,7 @@
 metadata:
   417909: # TVDB id for Gen V. Set by willtong93 on MediUX. https://mediux.pro/sets/5496
     url_poster: https://api.mediux.pro/assets/4d334f7a-e9d7-4921-bd6d-868a4e792465
+    url_background: https://api.mediux.pro/assets/a3c2c5d8-49dd-4570-916f-8ef64197252d
     seasons:
       1:
         url_poster: https://api.mediux.pro/assets/90eb907a-ddfd-482b-b6ce-fe46824ab24e
@@ -22,13 +23,30 @@ metadata:
             url_poster: https://api.mediux.pro/assets/02513265-b4cc-450d-8785-eea541e40da7
           8:
             url_poster: https://api.mediux.pro/assets/46c4002b-b977-4c99-bbd7-a7b28a26bf64
+      2:
+        url_poster: https://api.mediux.pro/assets/fe1befcb-750b-4bcb-a7a9-1a97a5a42374
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/49997418-e8b7-4eb7-a210-ae5804d692a9
+          2:
+            url_poster: https://api.mediux.pro/assets/4fbc8606-3d1f-49ac-832b-99b885d9d9ab
+          3:
+            url_poster: https://api.mediux.pro/assets/3b7fb3a2-6737-4eb3-b878-b33987bbae4b
+          4:
+            url_poster: https://api.mediux.pro/assets/83589a00-98df-4d17-9c19-5595f1491a29
+          5:
+            url_poster: https://api.mediux.pro/assets/116f826d-1752-42d4-adde-9005f9a0d19d
+          6:
+            url_poster: https://api.mediux.pro/assets/e6fbc71b-4644-491b-9957-48f9432a78b3
+          7:
+            url_poster: https://api.mediux.pro/assets/4fa00840-11d7-45d6-8a37-f7d5284510a1
+          8:
+            url_poster: https://api.mediux.pro/assets/bcc1288c-bbd7-40d7-a828-a77309d4cf5e
 
   355567: # TVDB id for The Boys. Set by willtong93 on MediUX. https://mediux.pro/sets/5023
     url_poster: https://api.mediux.pro/assets/feee76cc-af5d-4c44-ab5b-a2a1c491049c
     url_background: https://api.mediux.pro/assets/a1f5ef06-65e8-44ed-85b9-de0e35d1a9d9
     seasons:
-      # 0:
-      #   url_poster: https://api.mediux.pro/assets/9ba90c0b-c130-4adc-89f6-ef67775b71fd
       1:
         url_poster: https://api.mediux.pro/assets/d15abb9f-6ae3-4089-b3ab-f94ccd125b34
         episodes:
@@ -105,3 +123,22 @@ metadata:
             url_poster: https://api.mediux.pro/assets/e46eebd2-0f48-4332-b4d5-bff590f0745e
           8:
             url_poster: https://api.mediux.pro/assets/091ab58d-f503-4cf8-a95f-e0426f58a8f6
+      5:
+        url_poster: https://api.mediux.pro/assets/6b118733-e249-4b0c-8c81-1e71482a0bd0
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/7722bb8e-2ab8-4f0b-94a9-5375b2624d3d
+          2:
+            url_poster: https://api.mediux.pro/assets/a7aad1f7-32dd-4eca-a336-14d471705fd6
+          3:
+            url_poster: https://api.mediux.pro/assets/a7a34c88-a0b4-4a9d-980c-b096d47986f7
+          4:
+            url_poster: https://api.mediux.pro/assets/4c50fae6-9ad6-4e48-a826-873c88f2ac57
+          5:
+            url_poster: https://api.mediux.pro/assets/92f26efa-ad88-4c26-a8ac-da425f8f801b
+          6:
+            url_poster: https://api.mediux.pro/assets/500d24bf-684c-45aa-b0b2-a76224b67c65
+          7:
+            url_poster: https://api.mediux.pro/assets/f105fb58-ef94-415e-b054-e6853e1cf6f5
+          8:
+            url_poster: https://api.mediux.pro/assets/5d5fc7cf-c510-43f4-9325-d137a3cb73d1

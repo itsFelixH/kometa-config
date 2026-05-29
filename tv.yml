@@ -1,0 +1,361 @@
+############################
+#        TEMPLATES         #
+############################
+
+templates:
+  franchise:
+    optional:
+      - list
+      - shows
+      - poster
+    builder_level: show
+    url_poster: <<poster>>
+    tvdb_list_details: <<list>>
+    tvdb_show: <<shows>>
+    sort_title: <<collection_name>>
+    collection_mode: hide
+    collection_order: release
+    # schedule: weekly(sunday)
+
+############################
+#       COLLECTIONS        #
+############################
+
+collections:
+
+  ### ADDED
+
+  🗓️ New Episodes:
+    smart_filter:
+      sort_by: episode_added.desc
+      all:
+        episode_added: 92
+        episode_air_date: 365
+        label.not: Coming Soon
+      limit: 20
+    builder_level: show
+    url_poster: https://theposterdb.com/api/assets/213602
+    summary: Shows with fresh episodes added in the last 3 months.
+    collection_mode: hide
+    sort_title: "+1_1_newepisodes"
+    visible_library: true
+    visible_home: true
+
+  🎞️ Older Shows Added:
+    smart_filter:
+      sort_by: episode_added.desc
+      all:
+        episode_added: 92
+        episode_air_date.not: 365
+        label.not: Coming Soon
+      limit: 20
+    builder_level: show
+    url_poster: https://theposterdb.com/api/assets/252061
+    summary: Older shows recently added to the library.
+    collection_mode: hide
+    sort_title: "+1_2_olderadditions"
+    visible_library: true
+    visible_home: true
+
+  ### RECOMMENDED
+
+  📈 Most Watched This Week:
+    trakt_chart:
+      - chart: trending
+        limit: 50
+    limit: 20
+    builder_level: show
+    summary: The most popular shows across Trakt this week.
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+2_1_mostwatched"
+    visible_home: true
+    visible_library: true
+
+  🍿 What Should I Watch?:
+    smart_filter:
+      sort_by: random
+      all:
+        unplayed: true
+        audience_rating.gte: 7
+        label.not: Coming Soon
+      limit: 20
+    builder_level: show
+    summary: Can't decide? Here are 20 random well-rated picks you haven't seen yet. Refreshes daily.
+    collection_mode: hide
+    sort_title: "+2_2_whatshouldwatch"
+    visible_library: true
+    visible_home: true
+    schedule: daily
+
+  🔁 Binge-Worthy:
+    smart_filter:
+      sort_by: random
+      all:
+        audience_rating.gte: 8
+        label.not: Coming Soon
+      limit: 20
+    builder_level: show
+    summary: Highly rated shows worth watching from start to finish. Your next obsession awaits.
+    collection_mode: hide
+    sort_title: "+2_3_bingeworthy"
+    visible_library: true
+    visible_home: true
+    schedule: weekly(sunday)
+
+  ⏩ Short Episodes:
+    smart_filter:
+      sort_by: random
+      all:
+        unplayed: true
+        episode_duration.lte: 35
+        label.not: Coming Soon
+      limit: 20
+    builder_level: show
+    summary: Shows with episodes under 35 minutes. Perfect for lunch breaks or before bed.
+    collection_mode: hide
+    sort_title: "+2_4_shortepisodes"
+    visible_library: true
+    visible_home: true
+    schedule: daily
+
+  🏃 Catch Up:
+    smart_filter:
+      sort_by: episode_added.desc
+      all:
+        episode_played: true
+        unplayed_episodes.gte: 1
+        label.not: Coming Soon
+      limit: 20
+    builder_level: show
+    summary: Shows you've started but haven't finished. Time to catch up.
+    collection_mode: hide
+    sort_title: "+2_5_catchup"
+    visible_library: true
+    visible_home: true
+
+  ### DECADES
+
+  🏅 Best of the 2020s:
+    imdb_search:
+      type: tv_series, tv_mini_series, tv_special
+      release.after: 2020-01-01
+      release.before: 2029-12-31
+      rating.gte: 5
+      votes.gte: 100000
+      sort_by: rating.desc
+      language: de, en
+      limit: 150
+    limit: 50
+    builder_level: show
+    url_poster: https://theposterdb.com/api/assets/350800
+    summary: The top-rated shows of the 2020s according to IMDb.
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+3_1_best2020"
+    visible_library: true
+    visible_home: true
+    # schedule: weekly(sunday)
+
+  🏅 Best of the 2010s:
+    imdb_search:
+      type: tv_series, tv_mini_series, tv_special
+      release.after: 2010-01-01
+      release.before: 2019-12-31
+      rating.gte: 5
+      votes.gte: 100000
+      sort_by: rating.desc
+      language: de, en
+      limit: 150
+    limit: 50
+    builder_level: show
+    url_poster: https://theposterdb.com/api/assets/350799
+    summary: The top-rated shows of the 2010s according to IMDb.
+    collection_mode: hide
+    collection_order: custom
+    sort_title: "+3_2_best2010"
+    visible_library: true
+    visible_home: true
+    # schedule: weekly(sunday)
+
+  ### GENRE
+
+  📄 Documentary:
+    plex_search:
+      genre: Documentary
+    builder_level: show
+    summary: Non-fiction series. True stories, nature, history, and more.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_1_documentary"
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  🎨 Animation:
+    plex_search:
+      genre: Animation
+    builder_level: show
+    summary: Animated series for all ages.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+5_2_animation"
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  ### LANGUAGES
+
+  🪇 Español:
+    plex_all: true
+    filters:
+      audio_language: Spanish
+    builder_level: show
+    summary: Shows with Spanish audio available.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+6_1_spanish"
+    visible_library: true
+    # schedule: weekly(sunday)
+  
+  🥨 Deutsch:
+    plex_all: true
+    filters:
+      audio_language: German
+    builder_level: show
+    summary: Shows with German audio available.
+    collection_mode: hide
+    collection_order: random
+    sort_title: "+6_2_german"
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  ### STUDIOS
+
+  🍎 Apple TV+:
+    smart_filter:
+      sort_by: release.desc
+      all:
+        network: Apple TV
+        label.not: Coming Soon
+    summary: Apple TV+ originals and exclusives.
+    collection_mode: hide
+    sort_title: "+7_1_apple"
+    visible_home: true
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  🐉 HBO:
+    smart_filter:
+      sort_by: release.desc
+      all:
+        network: HBO, HBO Max
+        label.not: Coming Soon
+    summary: HBO originals and Max exclusives.
+    collection_mode: hide
+    sort_title: "+7_2_hbo"
+    visible_home: true
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  🟥 Netflix:
+    smart_filter:
+      sort_by: release.desc
+      all:
+        network: Netflix
+        label.not: Coming Soon
+    summary: Netflix original series in your library.
+    collection_mode: hide
+    sort_title: "+7_3_netflix"
+    visible_home: true
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  🏰 Disney+:
+    smart_filter:
+      sort_by: release.desc
+      all:
+        network: Disney+
+        label.not: Coming Soon
+    summary: Disney+ original series in your library.
+    collection_mode: hide
+    sort_title: "+7_4_disney"
+    visible_home: true
+    visible_library: true
+    # schedule: weekly(sunday)
+
+  ### SHOW TYPES
+
+  📺 Miniseries:
+    plex_all: true
+    filters:
+      tmdb_type: miniseries
+      label.not: Coming Soon
+    builder_level: show
+    summary: Complete stories told in a limited number of episodes. No second season needed.
+    collection_mode: hide
+    collection_order: release
+    sort_title: "+8_1_miniseries"
+    visible_library: true
+    item_label: miniserie
+    # schedule: weekly(sunday)
+
+
+  ### PERSONAL
+
+  # 🎬 Caro's List:
+  #   tvdb_show:
+  #     - 371282   # Normal People (2020)
+  #     - 259068   # Girls (2012)
+  #     - 424498   # Too Much (2025)
+  #     - 437093   # Overcompensating (2025)
+  #     - 424073   # Brave Girls (2024)
+  #     - 395953   # Amsterdam (2022)
+  #   builder_level: show
+  #   summary: Caro's curated picks. Indie gems and hidden favorites.
+  #   collection_mode: hide
+  #   sort_title: "+9_1_caroslist"
+  #   visible_library: true
+  #   schedule: weekly(sunday)
+
+
+  ### FRANCHISES
+
+  Marvel Cinematic Universe:
+    template:
+      {
+        name: franchise,
+        poster: https://theposterdb.com/api/assets/517809
+      }
+    imdb_list: https://www.imdb.com/list/ls505369170/
+
+  # Breaking Bad Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       list: https://thetvdb.com/lists/Breaking-Bad,
+  #       poster: https://theposterdb.com/api/assets/244137,
+  #     }
+
+  # Boys Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       list: https://thetvdb.com/lists/the-boys,
+  #       poster: https://theposterdb.com/api/assets/511628,
+  #     }
+
+  # Game of Thrones Collection:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       list: https://thetvdb.com/lists/game-of-thrones,
+  #       poster: https://theposterdb.com/api/assets/98682,
+  #     }
+
+  # Walking Dead Universe:
+  #   template:
+  #     {
+  #       name: franchise,
+  #       list: https://thetvdb.com/lists/the-walking-dead,
+  #       shows: "427464, 427202",
+  #       poster: https://theposterdb.com/api/assets/530186,
+  #     }

@@ -1,5 +1,25 @@
 
 metadata:
+  433631: # TVDB id for A Knight of the Seven Kingdoms. Set by willtong93 on MediUX. https://mediux.pro/sets/41277
+    url_poster: https://api.mediux.pro/assets/62b0a2d0-dc4a-436e-bb3b-34086a420a8c
+    url_background: https://api.mediux.pro/assets/a58c6adf-ab0f-4576-8cc2-b1601efad8a3
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/9c8da1e1-ab16-4948-811d-c432678842a1
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/e80aca04-1b76-463f-a0f6-50d0f1e8b684
+          2:
+            url_poster: https://api.mediux.pro/assets/6abc0e7c-6396-41dd-b693-1159ff9de263
+          3:
+            url_poster: https://api.mediux.pro/assets/dcab75ea-ad34-4392-b2c2-6c0e3ae2a99a
+          4:
+            url_poster: https://api.mediux.pro/assets/45b4a89d-1847-4bb4-a6e8-bb8446b1e748
+          5:
+            url_poster: https://api.mediux.pro/assets/a018c4af-9f50-4768-bb72-27a33fd0dd20
+          6:
+            url_poster: https://api.mediux.pro/assets/da6eddf9-139b-45ca-a661-14e8fb60eb5e
+
   371572: # TVDB id for House of the Dragon. Set by willtong93 on MediUX. https://mediux.pro/sets/8785
     url_poster: https://api.mediux.pro/assets/ec4e0015-f195-4708-8c53-126b04e2e9f5
     url_background: https://api.mediux.pro/assets/481cb43a-daca-4374-ab71-551341e5d977

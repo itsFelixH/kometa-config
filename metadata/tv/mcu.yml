@@ -1,69 +1,124 @@
 
 metadata:
-  422712: # TVDB id for Daredevil: Born Again. Set by tallinex on MediUX. https://mediux.pro/sets/30839
-    url_poster: https://api.mediux.pro/assets/1d40f4d8-ba4c-4ff5-94dd-88dee64d2124
-    url_background: https://api.mediux.pro/assets/17d8d8ae-37c7-488b-b325-e1641600e609
+  428629: # TVDB id for Wonder Man. Set by willtong93 on MediUX. https://mediux.pro/sets/42249
+    url_poster: https://api.mediux.pro/assets/7131599d-7866-434d-be1b-c0abf973b9fa
     seasons:
       1:
-        url_poster: https://api.mediux.pro/assets/68f0673c-09f4-4c1e-887b-8247e9322a6c
+        url_poster: https://api.mediux.pro/assets/23edc553-73e2-4e82-8c44-ed78b329ef0a
         episodes:
           1:
-            url_poster: https://api.mediux.pro/assets/3cb9f92c-b1cd-4c24-9220-6dce5613eb1d
+            url_poster: https://api.mediux.pro/assets/d11135d4-a4a5-46af-b8cb-db4396526c48
           2:
-            url_poster: https://api.mediux.pro/assets/cd368dcb-d43c-4ffa-9517-0d0ab93e3fb1
-
-  396948: # TVDB id for Marvel Studios Assembled. Set by willtong93 on MediUX. https://mediux.pro/sets/26812
-    url_poster: https://api.mediux.pro/assets/0fee5f60-822c-479b-9b25-0debb9977ba5
-    url_background: https://api.mediux.pro/assets/a5f7e9a6-59dd-46bf-855c-24e95dda37e3
-    seasons:
-      1:
-        url_poster: https://api.mediux.pro/assets/fe6ebbde-bfd4-4033-b091-23b9bcf3c1bf
-        episodes:
-          1:
-            url_poster: https://api.mediux.pro/assets/af23fdaa-1031-4521-aedc-9cf063fa2b31
-          2:
-            url_poster: https://api.mediux.pro/assets/3baa0a0f-1349-4cf5-84cd-57e9823079d8
+            url_poster: https://api.mediux.pro/assets/ceb9a6bb-0328-460a-ba0f-bb3d6cf4dad7
           3:
-            url_poster: https://api.mediux.pro/assets/890353ae-407d-4850-8348-6b8253b413b0
+            url_poster: https://api.mediux.pro/assets/f3ff0d1b-b0a6-4c6f-b974-e90bc7475cd0
           4:
-            url_poster: https://api.mediux.pro/assets/cf3c81ea-7f43-471f-b730-cc2163bcf315
+            url_poster: https://api.mediux.pro/assets/9eee50a7-ae42-431e-9652-6e894cd1b22f
           5:
-            url_poster: https://api.mediux.pro/assets/df3cc1bd-0354-4f7d-9fba-8c58db72c218
+            url_poster: https://api.mediux.pro/assets/95070e0c-5fbe-41f1-999b-c7ee5a0f6907
           6:
-            url_poster: https://api.mediux.pro/assets/3f86a177-d359-416b-9225-fd251ce1483f
+            url_poster: https://api.mediux.pro/assets/d90da266-2299-42ff-bb84-6b6bb95678b7
           7:
-            url_poster: https://api.mediux.pro/assets/9d4383ca-8f59-4a52-a606-44c1ffd2c80c
+            url_poster: https://api.mediux.pro/assets/c5910e23-414d-4054-adcd-d766b8a9df84
           8:
-            url_poster: https://api.mediux.pro/assets/8b224948-89e1-4ac0-96b3-2fd715a8c583
-          9:
-            url_poster: https://api.mediux.pro/assets/3fb507fd-3b15-4370-8f68-64de1159bc97
-          10:
-            url_poster: https://api.mediux.pro/assets/1683df59-c9f0-4ea7-9b5b-0a5188f04b3e
-          11:
-            url_poster: https://api.mediux.pro/assets/bad70307-ebd8-4a21-b661-fa4af96e0af8
-          12:
-            url_poster: https://api.mediux.pro/assets/56e4ebe4-ee47-467c-88f8-1757d4e09e5c
-          13:
-            url_poster: https://api.mediux.pro/assets/927c11ec-936d-4142-bdfb-a09557be89be
-          14:
-            url_poster: https://api.mediux.pro/assets/40d1f61b-e2ee-48c0-9c5d-3c98deebf5a6
-      2:
-        url_poster: https://api.mediux.pro/assets/4fe2cf85-fe22-4e6b-8bf0-c78f00973bd8
+            url_poster: https://api.mediux.pro/assets/1bbeaca3-ddbc-4aba-86d9-2ff2ecaaf68c
+
+  412428: # TVDB id for Marvel Zombies. Set by willtong93 on MediUX. https://mediux.pro/sets/37200
+    url_poster: https://api.mediux.pro/assets/92ec6728-79a9-406d-a989-aa68fb2a88a9
+    url_background: https://api.mediux.pro/assets/185f9fd6-05f8-406d-a83d-8525ac740f1d
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/6b7d6e28-cc7d-486d-a99a-708b778af8c2
         episodes:
           1:
-            url_poster: https://api.mediux.pro/assets/04fa3012-afb2-485a-9719-30595f1759fa
+            url_poster: https://api.mediux.pro/assets/328e59d0-bf04-40fb-96f5-527109bc534d
           2:
-            url_poster: https://api.mediux.pro/assets/cb7b5f15-6a1c-497e-83b4-5b588452b665
+            url_poster: https://api.mediux.pro/assets/2b1f9cc2-95aa-4204-bd6b-a2a043a738cd
           3:
-            url_poster: https://api.mediux.pro/assets/f2fff566-dc8a-4330-a69d-f8a30da3898b
+            url_poster: https://api.mediux.pro/assets/7e687375-2909-4be6-bc99-13604f8055ff
           4:
-            url_poster: https://api.mediux.pro/assets/8ab59172-64a8-43a4-a78b-9309f824473c
+            url_poster: https://api.mediux.pro/assets/7cff39d7-6b81-4cfb-8bf8-6121ee64a2b5
+
+  443358: # TVDB id for Eyes of Wakanda. Set by willtong93 on MediUX. https://mediux.pro/sets/35905
+    url_poster: https://api.mediux.pro/assets/97c3aeef-2ae7-415f-bda5-52054f3e06c6
+    url_background: https://api.mediux.pro/assets/aa119124-f885-4157-8657-5734f6d88454
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/df4a5207-0754-4d21-8de2-cc1a7387c96e
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/1ced160e-dbb0-4746-b201-b6ec16517999
+          2:
+            url_poster: https://api.mediux.pro/assets/ed870cbb-5285-4aa3-810f-51e2a89395e9
+          3:
+            url_poster: https://api.mediux.pro/assets/93cee6a9-5e22-4c70-97d8-9129469461f3
+          4:
+            url_poster: https://api.mediux.pro/assets/e019fb64-bfaa-4df6-9dda-46a8d1171440
+
+  393204: # TVDB id for Ironheart. Set by willtong93 on MediUX. https://mediux.pro/sets/33177
+    url_poster: https://api.mediux.pro/assets/4ea967ba-c464-45d1-901b-28541519cc03
+    url_background: https://api.mediux.pro/assets/3e4d9d90-2995-4e0b-ab22-34cbeef36d55
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/1d920b99-ff53-493d-a846-411f98a685a8
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/04004927-5854-403e-a297-060317cf64b8
+          2:
+            url_poster: https://api.mediux.pro/assets/b8a323d0-458f-4806-9d45-277be2da45b7
+          3:
+            url_poster: https://api.mediux.pro/assets/6975b802-ec50-43e6-bdb4-2a737d9885e8
+          4:
+            url_poster: https://api.mediux.pro/assets/bf1c6f57-5eee-4375-b8ef-35a47fca5fd9
           5:
-            url_poster: https://api.mediux.pro/assets/e8f1bb7f-b018-4348-ab5c-6e97f6b9f9ed
+            url_poster: https://api.mediux.pro/assets/60dc996a-5bda-4e45-96d5-9a1df5c51a7b
           6:
-            url_poster: https://api.mediux.pro/assets/4e2ff617-baf5-41ba-9077-7907954107ae
+            url_poster: https://api.mediux.pro/assets/b6dca3bf-4083-43f7-b607-b1513a9f21fc
+
+  422712: # TVDB id for Daredevil: Born Again. Set by willtong93 on MediUX. https://mediux.pro/sets/31179
+    url_poster: https://api.mediux.pro/assets/0a605fac-e1ff-446c-93bb-4a80194f3525
+    url_background: https://api.mediux.pro/assets/e0abe2bd-a36b-4214-8ba3-0bfbd6791aec
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/70c8ca62-ebcd-4716-9985-044850e17dbc
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/908c3e08-1da9-4ad5-93f9-801af37b5a7a
+          2:
+            url_poster: https://api.mediux.pro/assets/0983784d-adee-4c21-b2f6-61d861dcc5e7
+          3:
+            url_poster: https://api.mediux.pro/assets/79da2358-3289-4580-a508-9abb82126303
+          4:
+            url_poster: https://api.mediux.pro/assets/d422a547-8796-40ad-b739-3279898909c2
+          5:
+            url_poster: https://api.mediux.pro/assets/c25e0793-f47b-43be-a66f-71bb3df1894d
+          6:
+            url_poster: https://api.mediux.pro/assets/2aada5be-77b3-4a4c-91e9-f8815efdc92b
           7:
-            url_poster: https://api.mediux.pro/assets/53c65749-b356-451e-af13-d986d9311499
+            url_poster: https://api.mediux.pro/assets/34604a52-29e3-482a-9dbb-b0ad9d50609b
+          8:
+            url_poster: https://api.mediux.pro/assets/82ff2b7c-ee27-4533-a7ee-61da2c1b1fdf
+          9:
+            url_poster: https://api.mediux.pro/assets/0084b19d-2d10-4313-b041-22e1e44cd9a1
+      2:
+        url_poster: https://api.mediux.pro/assets/a46e39e0-a333-475a-b04c-794de3ce24be
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/8bdcf6da-41bc-4e9e-8414-4f18213125fc
+          2:
+            url_poster: https://api.mediux.pro/assets/21b7fe99-6947-4b57-8d1b-26ce47f5a092
+          3:
+            url_poster: https://api.mediux.pro/assets/7e34bd69-0b38-4d7e-b261-6a63a5594394
+          4:
+            url_poster: https://api.mediux.pro/assets/d4dee5c2-5600-4414-91a7-6df8183b7d44
+          5:
+            url_poster: https://api.mediux.pro/assets/3479c2be-0918-47c4-9906-d0ed58501541
+          6:
+            url_poster: https://api.mediux.pro/assets/6fffcf3e-267d-45ef-a414-b1690d804757
+          7:
+            url_poster: https://api.mediux.pro/assets/78f38d78-afff-4a48-9805-508d45198a94
+          8:
+            url_poster: https://api.mediux.pro/assets/bccabd0a-1280-4781-984c-012383bdf338
 
   412429: # TVDB id for Agatha All Along. Set by willtong93 on MediUX. https://mediux.pro/sets/25137
     url_poster: https://api.mediux.pro/assets/06b81957-0df9-4909-bf9f-f3ffd5cea280

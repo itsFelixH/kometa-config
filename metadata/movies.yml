@@ -142,8 +142,19 @@ metadata:
   822119: # Captain America: Brave New World (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/24298
     url_poster: https://api.mediux.pro/assets/f86cd17e-7024-4121-b73b-df58f833e69f
     url_background: https://api.mediux.pro/assets/4df6ccbc-2726-47fb-b6a9-8249624ab15f
-  986056: # Thunderbolts* (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/25666
-    url_poster: https://api.mediux.pro/assets/4ee3da9d-c0b0-48dc-866a-150adfa2ca19
+  986056: # Thunderbolts* (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/32343
+    url_poster: https://api.mediux.pro/assets/22c0c4c2-ba40-4fb3-867a-1e6d5e4a2aab
+    url_background: https://api.mediux.pro/assets/42ba8466-9ca4-4d61-8138-f14df59dfdb3
+  617126: # The Fantastic Four: First Steps (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/33977
+    url_poster: https://api.mediux.pro/assets/19737d5b-a4b1-49c3-be5c-42f79812057d
+    url_background: https://api.mediux.pro/assets/1b81d7f7-0b92-4398-9846-f5811e9e051d
+  1439930: # The Punisher: One Last Kill (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/46600
+    url_poster: https://api.mediux.pro/assets/38012c23-1e79-407d-b3de-77a44c02aa75
+    url_background: https://api.mediux.pro/assets/50d54d27-b46f-4a9b-8aa3-36ff411fbc07
+  969681: # Spider-Man: Brand New Day (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/50303
+    url_poster: https://api.mediux.pro/assets/fca1351c-f425-400a-afcc-d4f8c9003788
+    url_background: https://api.mediux.pro/assets/f347fbd1-9cf0-4870-b51a-8d7d251e543c
+
 
 
   211387: # Marvel One-Shot: Agent Carter (2013) Poster by willtong93 on MediUX. https://mediux.pro/sets/24455
@@ -236,6 +247,15 @@ metadata:
     url_background: https://api.mediux.pro/assets/d9bf27f7-6ad4-45eb-a2a2-7a875f5c1e38
 
 
+  1061474: # Superman (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/29251
+    url_poster: https://api.mediux.pro/assets/c6250236-3e9b-49cc-a894-efd6e190b40f
+    url_background: https://api.mediux.pro/assets/d5939b45-ea7e-40b7-ac68-435580f918b2
+  1081003: # Supergirl (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/46095
+    url_poster: https://api.mediux.pro/assets/998d5a73-2a49-4768-b208-39a5ba5007ba
+    url_background: https://api.mediux.pro/assets/11d58c3f-1a18-4d47-8b19-f2076aba54dc
+
+
+
   11: # Star Wars (1977) Poster by willtong93 on MediUX. https://mediux.pro/sets/26417
     url_poster: https://api.mediux.pro/assets/b97ce7f0-b1e6-4cae-969e-ec1d6bc07e4a
   1891: # The Empire Strikes Back (1980) Poster by willtong93 on MediUX. https://mediux.pro/sets/26417
@@ -258,6 +278,9 @@ metadata:
     url_poster: https://api.mediux.pro/assets/526c7043-9116-483a-a208-f2f1bb8c80dd
   330459: # Rogue One: A Star Wars Story (2016) Poster by willtong93 on MediUX. https://mediux.pro/sets/26420
     url_poster: https://api.mediux.pro/assets/2fbb59a1-7a3d-4060-8bcc-a55e551452ec
+  1228710: # Star Wars: The Mandalorian and Grogu (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/47497
+    url_poster: https://api.mediux.pro/assets/cee8fc9a-0734-4cc5-a6c5-b8679221e46d
+
 
 
   1858: # Transformers (2007) Poster by willtong93 on MediUX. https://mediux.pro/sets/25230
@@ -306,10 +329,13 @@ metadata:
     url_poster: https://api.mediux.pro/assets/62215bc2-be7c-4d4d-a720-b98d26d3d439
   603692: # John Wick: Chapter 4 (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/24959
     url_poster: https://api.mediux.pro/assets/fd44e22f-a11a-4d86-9e2d-b1f991b33c7a
+  541671: # From the World of John Wick: Ballerina (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/32432
+    url_poster: https://api.mediux.pro/assets/aa8cfae2-7e45-40c0-9b0e-fabe83e29951
+    url_background: https://api.mediux.pro/assets/6cdf490b-2d02-4912-93b3-77f27758b6ad
 
 
-  872585: # Oppenheimer (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/24829
-    url_poster: https://api.mediux.pro/assets/9914345b-8e0e-4e19-b3d3-a65a9bd4414e
+  872585: # Oppenheimer (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/31757
+    url_poster: https://api.mediux.pro/assets/f7e5caa0-2ead-4c89-bab7-2baa16c7458c
   157336: # Interstellar (2014) Poster by willtong93 on MediUX. https://mediux.pro/sets/24833
     url_poster: https://api.mediux.pro/assets/2e99885a-03f5-45ca-a7b6-d10e6a941d58
   1124: # The Prestige (2006) Poster by willtong93 on MediUX. https://mediux.pro/sets/24831
@@ -349,8 +375,29 @@ metadata:
     url_poster: https://api.mediux.pro/assets/be7fd718-89d7-48ab-9a7f-36e347299c5f
     url_background: https://api.mediux.pro/assets/ba9dedee-822a-4cd9-8a32-eb21e22c84cc
 
+
+  1022787: # Elio (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/33196
+    url_poster: https://api.mediux.pro/assets/d38ac5c0-0ce5-4d0b-a2f8-e7eaf116c3e4
+    url_background: https://api.mediux.pro/assets/22ea3b7c-9829-45af-ab32-e454a4d30947
+
+
+  321612: # Beauty and the Beast (2017) Poster by willtong93 on MediUX. https://mediux.pro/sets/27466
+    url_poster: https://api.mediux.pro/assets/2eca485c-cfeb-4d16-af13-a56b2ac24302
+  420817: # Aladdin (2019) Poster by willtong93 on MediUX. https://mediux.pro/sets/27465
+    url_poster: https://api.mediux.pro/assets/e71838d5-8003-4ef9-8dfb-d96551fd3441
+  420818: # The Lion King (2019) Poster by willtong93 on MediUX. https://mediux.pro/sets/27480
+    url_poster: https://api.mediux.pro/assets/15ada75f-f6ce-45a9-9c90-3ef99aeb7b99
+  447277: # The Little Mermaid (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/27481
+    url_poster: https://api.mediux.pro/assets/b3a83847-8b7b-48c2-b1e0-dc3c19af2a9e
   762509: # Mufasa: The Lion King (2024) Poster by willtong93 on MediUX. https://mediux.pro/sets/28807
     url_poster: https://api.mediux.pro/assets/d257dd0d-77a8-4c82-b043-5e72003bfb03
+  447273: # Snow White (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/27470
+    url_poster: https://api.mediux.pro/assets/e87c0c30-f918-4cff-aed1-a649b317931c
+    url_background: https://api.mediux.pro/assets/19574543-f681-4286-9989-0a50407ec41e
+  552524: # Lilo & Stitch (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/29335
+    url_poster: https://api.mediux.pro/assets/42aeb87b-0987-4e59-a285-c081d9b148ee
+    url_background: https://api.mediux.pro/assets/0abee1e9-bf87-4f92-b5d0-cf43dd20e3d3
+
 
   329: # Jurassic Park (1993) Poster by willtong93 on MediUX. https://mediux.pro/sets/26505
     url_poster: https://api.mediux.pro/assets/b9f67861-6ad6-45b1-9061-08a3201d4891
@@ -364,6 +411,8 @@ metadata:
     url_poster: https://api.mediux.pro/assets/5e6ed98f-1dbc-4465-bf7f-01bccb8177bc
   507086: # Jurassic World Dominion (2022) Poster by willtong93 on MediUX. https://mediux.pro/sets/26505
     url_poster: https://api.mediux.pro/assets/8250cec7-ea2c-4ba7-b83b-c01f8b7d018e
+  1234821: # Jurassic World Rebirth (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/33702
+    url_poster: https://api.mediux.pro/assets/1893b5f3-30be-4deb-8bc5-36a01180574e
 
 
   9799: # The Fast and the Furious (2001) Poster by willtong93 on MediUX. https://mediux.pro/sets/26375
@@ -414,6 +463,16 @@ metadata:
     url_poster: https://api.mediux.pro/assets/49f14522-4542-4f6a-b710-b17e1012a108
 
 
+
+  75656: # Now You See Me (2013) Poster by willtong93 on MediUX. https://mediux.pro/sets/36743
+    url_poster: https://api.mediux.pro/assets/f3036b21-0728-454f-8562-dc145f774dfc
+  291805: # Now You See Me 2 (2016) Poster by willtong93 on MediUX. https://mediux.pro/sets/36743
+    url_poster: https://api.mediux.pro/assets/7123e4a8-e6eb-4bf6-aa53-158ca302b350
+  425274: # Now You See Me: Now You Don't (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/36743
+    url_poster: https://api.mediux.pro/assets/5cbec9a5-3d57-4c6e-88d3-b1e71ecd0038
+
+
+
   137106: # The Lego Movie (2014) Poster by RuviLev on MediUX. https://mediux.pro/sets/12331
     url_poster: https://api.mediux.pro/assets/6e414082-4425-4b93-ae89-846c37e45657
   280217: # The Lego Movie 2: The Second Part (2019) Poster by RuviLev on MediUX. https://mediux.pro/sets/12331
@@ -422,20 +481,24 @@ metadata:
     url_poster: https://api.mediux.pro/assets/c28a71be-9a34-46c8-8c9e-5958be90c7d8
 
 
-  954: # Mission: Impossible (1996) Poster by willtong93 on MediUX. https://mediux.pro/sets/24905
-    url_poster: https://api.mediux.pro/assets/e39787b8-56dd-4818-ad41-465fdb572fa4
-  955: # Mission: Impossible II (2000) Poster by willtong93 on MediUX. https://mediux.pro/sets/24905
-    url_poster: https://api.mediux.pro/assets/a5e2e064-d826-4323-b78e-31d5e987354e
-  956: # Mission: Impossible III (2006) Poster by willtong93 on MediUX. https://mediux.pro/sets/24905
-    url_poster: https://api.mediux.pro/assets/abb317bf-6b69-4ef2-97eb-8e4f73c93803
-  56292: # Mission: Impossible - Ghost Protocol (2011) Poster by willtong93 on MediUX. https://mediux.pro/sets/24905
-    url_poster: https://api.mediux.pro/assets/de061517-2122-410f-bbd2-2c803a202900
-  177677: # Mission: Impossible - Rogue Nation (2015) Poster by willtong93 on MediUX. https://mediux.pro/sets/24905
-    url_poster: https://api.mediux.pro/assets/0c4b47f4-18ee-4283-b6b5-847bbfc423f9
-  353081: # Mission: Impossible - Fallout (2018) Poster by willtong93 on MediUX. https://mediux.pro/sets/24905
-    url_poster: https://api.mediux.pro/assets/1d7299be-1c62-4ed1-afa3-9401ce8b2e05
-  575264: # Mission: Impossible - Dead Reckoning Part One (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/24905
-    url_poster: https://api.mediux.pro/assets/66abeb91-3d6d-4ecb-8b6b-a6b820db65f9
+
+  954: # Mission: Impossible (1996) Poster by willtong93 on MediUX. https://mediux.pro/sets/24904
+    url_poster: https://api.mediux.pro/assets/8deeac4a-df03-4aec-8405-8380343f75ce
+  955: # Mission: Impossible II (2000) Poster by willtong93 on MediUX. https://mediux.pro/sets/24904
+    url_poster: https://api.mediux.pro/assets/79dfa845-33af-4250-8cab-331c2a0d233d
+  956: # Mission: Impossible III (2006) Poster by willtong93 on MediUX. https://mediux.pro/sets/24904
+    url_poster: https://api.mediux.pro/assets/378664e7-5d6f-4c6f-9390-53b91849fd42
+  56292: # Mission: Impossible - Ghost Protocol (2011) Poster by willtong93 on MediUX. https://mediux.pro/sets/24904
+    url_poster: https://api.mediux.pro/assets/bac48d0a-3587-4e0a-ad96-39a7e12ee1f9
+  177677: # Mission: Impossible - Rogue Nation (2015) Poster by willtong93 on MediUX. https://mediux.pro/sets/24904
+    url_poster: https://api.mediux.pro/assets/cbe952d1-46dc-470b-9f21-a7e9c732c735
+  353081: # Mission: Impossible - Fallout (2018) Poster by willtong93 on MediUX. https://mediux.pro/sets/24904
+    url_poster: https://api.mediux.pro/assets/aafb4076-9e5d-4053-9929-7c3aa8473bb1
+  575264: # Mission: Impossible - Dead Reckoning Part One (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/24904
+    url_poster: https://api.mediux.pro/assets/06524cab-ccef-4a0f-8526-161fe41e582a
+  575265: # Mission: Impossible - The Final Reckoning (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/24904
+    url_poster: https://api.mediux.pro/assets/2437e0a9-772e-4ab1-9bcb-67bc4ef3cf2f
+
 
 
   603: # The Matrix (1999) Poster by RuviLev on MediUX. https://mediux.pro/sets/9903
@@ -494,10 +557,12 @@ metadata:
     url_poster: https://api.mediux.pro/assets/195284b8-c451-4460-97c5-5862f9bf47dc
 
 
-  546554: # Knives Out (2019) Poster by willtong93 on MediUX. https://mediux.pro/sets/26484
-    url_poster: https://api.mediux.pro/assets/fcaf8156-80e6-4b28-bf89-0ef8e2dd38c0
-  661374: # Glass Onion: A Knives Out Mystery (2022) Poster by willtong93 on MediUX. https://mediux.pro/sets/26484
-    url_poster: https://api.mediux.pro/assets/8fd862bf-08d0-4fae-9b19-7a2899e36769
+  546554: # Knives Out (2019) Poster by willtong93 on MediUX. https://mediux.pro/sets/26483
+    url_poster: https://api.mediux.pro/assets/0b572fb4-1286-4694-a002-c4b5c48f6a46
+  661374: # Glass Onion: A Knives Out Mystery (2022) Poster by willtong93 on MediUX. https://mediux.pro/sets/26483
+    url_poster: https://api.mediux.pro/assets/f193f374-5293-4afa-a2c9-3db2a82651a7
+  812583: # Wake Up Dead Man: A Knives Out Mystery (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/26483
+    url_poster: https://api.mediux.pro/assets/80a57571-e178-4486-a0ba-f31ca1ec7a58
 
 
   273481: # Sicario (2015) Poster by willtong93 on MediUX. https://mediux.pro/sets/24915
@@ -554,6 +619,10 @@ metadata:
     url_poster: https://api.mediux.pro/assets/c0287aa3-2eae-4859-9cc0-6c25f023f0e3
 
 
+  1087192: # How to Train Your Dragon (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/33545
+    url_poster: https://api.mediux.pro/assets/8c0d7726-72d0-4049-a996-4134b63e1d9c
+
+
   20352: # Despicable Me (2010) Poster by willtong93 on MediUX. https://mediux.pro/sets/26574
     url_poster: https://api.mediux.pro/assets/d94cceaa-b1f4-4268-8e56-fd1f34bceaaa
   93456: # Despicable Me 2 (2013) Poster by willtong93 on MediUX. https://mediux.pro/sets/26574
@@ -592,6 +661,14 @@ metadata:
     url_poster: https://api.mediux.pro/assets/60e20c2f-95f8-4274-b85e-57f7f31ac12a
 
 
+  302946: # The Accountant (2016) Poster by willtong93 on MediUX. https://mediux.pro/sets/31247
+    url_poster: https://api.mediux.pro/assets/72b5a49b-e429-4fa9-a609-b1d00aba2fcf
+    url_background: https://api.mediux.pro/assets/66d987f3-4106-481f-a795-aee3364048a9
+  870028: # The Accountant² (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/31247
+    url_poster: https://api.mediux.pro/assets/73a47e2a-a6a4-47a2-9508-1ae03ac5ff5d
+    url_background: https://api.mediux.pro/assets/4dc6aa40-93e3-4fc3-8622-7eb07c057032
+
+
   563: # Starship Troopers (1997)
     url_poster: https://theposterdb.com/api/assets/5526
   10304: # Starship Troopers 2: Hero of the Federation (2004)
@@ -604,8 +681,71 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/5530
 
 
-  614930: # Teenage Mutant Ninja Turtles: Mutant Mayhem (2023) Poster by MiniZaki on MediUX. https://mediux.pro/sets/17539
-    url_poster: https://api.mediux.pro/assets/2421929e-74ab-4e18-bd04-81d56b6515f1
+
+  170: # 28 Days Later (2002) Poster by Hikari on MediUX. https://mediux.pro/sets/28080
+    url_poster: https://api.mediux.pro/assets/8b2989d0-7a6c-4feb-be24-0f0b8037db1e
+    url_background: https://api.mediux.pro/assets/ed099197-37db-4a36-9d0b-4f9a74e80893
+  1562: # 28 Weeks Later (2007) Poster by Hikari on MediUX. https://mediux.pro/sets/28080
+    url_poster: https://api.mediux.pro/assets/76543449-b45b-4d0c-a3d5-179136e4a427
+    url_background: https://api.mediux.pro/assets/f3bfe653-f89f-410f-ba1f-d16618ffdc78
+  1100988: # 28 Years Later (2025) Poster by Hikari on MediUX. https://mediux.pro/sets/28080
+    url_poster: https://api.mediux.pro/assets/76675c02-0db8-4294-b4d0-d6b485aa718d
+    url_background: https://api.mediux.pro/assets/1d495c17-cfbc-4362-b811-899f417fb146
+  1272837: # 28 Years Later: The Bone Temple (2026) Poster by Hikari on MediUX. https://mediux.pro/sets/28080
+    url_poster: https://api.mediux.pro/assets/9c1feffe-cf57-4365-a781-2dd821b4f78e
+
+
+
+  615457: # Nobody (2021) Poster by willtong93 on MediUX. https://mediux.pro/sets/32007
+    url_poster: https://api.mediux.pro/assets/789934b7-3330-4506-a2db-f0e98f6b1f76
+  1007734: # Nobody 2 (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/32007
+    url_poster: https://api.mediux.pro/assets/c5b3cd65-8a21-4829-b447-7f72bba8ab5b
+
+
+
+  402431: # Wicked (2024) Poster by willtong93 on MediUX. https://mediux.pro/sets/29543
+    url_poster: https://api.mediux.pro/assets/de99c851-0943-4168-ac02-f6d1c94a83a7
+    url_background: https://api.mediux.pro/assets/63a05a87-e1fa-45c6-ac39-e93a2741c684
+  967941: # Wicked: For Good (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/29543
+    url_poster: https://api.mediux.pro/assets/ac13d4ba-e0fe-488e-b18f-189e1018f492
+    url_background: https://api.mediux.pro/assets/9f180c32-821b-4350-ae56-53619bd26bc4
+
+
+
+  269149: # Zootopia (2016) Poster by willtong93 on MediUX. https://mediux.pro/sets/26855
+    url_poster: https://api.mediux.pro/assets/a3fec880-af15-49bc-b131-b3c72ade70e2
+  1084242: # Zootopia 2 (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/38566
+    url_poster: https://api.mediux.pro/assets/da52d9da-7e5a-4090-999a-12cb381dde5a
+
+
+
+  524047: # Greenland (2020) Poster by willtong93 on MediUX. https://mediux.pro/sets/40569
+    url_poster: https://api.mediux.pro/assets/8b05bf2a-f348-49cf-9c6c-6098f6a9b6e0
+  840464: # Greenland 2: Migration (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/40569
+    url_poster: https://api.mediux.pro/assets/64c4f1b5-37c3-4263-a578-6e9d2cf5792e
+
+
+
+  502356: # The Super Mario Bros. Movie (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/24201
+    url_poster: https://api.mediux.pro/assets/7e850cbf-aada-4a7b-a1b5-638d52bdd06c
+    url_background: https://api.mediux.pro/assets/ef641a84-68b1-4d4e-8455-41dea5483880
+  1226863: # The Super Mario Galaxy Movie (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/45379
+    url_poster: https://api.mediux.pro/assets/6b399289-961d-493a-9071-46ea01b8b5a0
+    url_background: https://api.mediux.pro/assets/b082a7d6-7a09-4668-9021-0b3b96f18a79
+
+
+
+  350: # The Devil Wears Prada (2006) Poster by willtong93 on MediUX. https://mediux.pro/sets/46710
+    url_poster: https://api.mediux.pro/assets/771c3cbd-b1c2-4d8c-9e82-2245e1cea042
+    url_background: https://api.mediux.pro/assets/1662318b-1278-4c2c-9fc8-6fd7dd553f95
+  1314481: # The Devil Wears Prada 2 (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/46712
+    url_poster: https://api.mediux.pro/assets/ea43ff71-1972-471e-855e-a446b5ef4313
+    url_background: https://api.mediux.pro/assets/bc668704-8b43-4d9a-8322-5217596f6685
+
+
+
+  1149504: # Honey Don't! (2025) Poster by OldManKestis on MediUX. https://mediux.pro/sets/37099
+    url_poster: https://api.mediux.pro/assets/a4681692-aaaf-47d6-aa9d-a178337b595d
 
   639720: # IF (2024) Poster by MiniZaki on MediUX. https://mediux.pro/sets/21477
     url_poster: https://api.mediux.pro/assets/9498baa6-b03e-411f-a2f4-670a63486121
@@ -649,10 +789,6 @@ metadata:
   646097: # Rebel Ridge (2024) Poster by willtong93 on MediUX. https://mediux.pro/sets/25035
     url_poster: https://api.mediux.pro/assets/5dc23ebc-b1a2-4fcc-9ca4-7d480df9d3d0
 
-  502356: # The Super Mario Bros. Movie (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/24201
-    url_poster: https://api.mediux.pro/assets/7e850cbf-aada-4a7b-a1b5-638d52bdd06c
-    url_background: https://api.mediux.pro/assets/ef641a84-68b1-4d4e-8455-41dea5483880
-
   746036: # The Fall Guy (2024) Poster by 71622495t on MediUX. https://mediux.pro/sets/19352
     url_poster: https://api.mediux.pro/assets/bf3c2572-9bc3-4472-beac-820555bfa79b
 
@@ -668,9 +804,6 @@ metadata:
   1014590: # Upgraded (2024) Poster by willtong93 on MediUX. https://mediux.pro/sets/27264
     url_poster: https://api.mediux.pro/assets/ecd1ea68-47ab-462e-825a-a3fd3870d928
 
-  365177: # Borderlands (2024) Poster by Pejamas on MediUX. https://mediux.pro/sets/13521
-    url_poster: https://api.mediux.pro/assets/c1ecc8f5-cc1d-4098-a578-e13291c059eb
-
   930564: # Saltburn (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/27233
     url_poster: https://api.mediux.pro/assets/797e1f1d-f18e-4dd7-9146-c2068fb85a6a
 
@@ -680,8 +813,9 @@ metadata:
   747188: # Asteroid City (2023) Poster by Pejamas on MediUX. https://mediux.pro/sets/9232
     url_poster: https://api.mediux.pro/assets/32fb8287-04d6-4297-ae46-a015abc593f8
 
-  866398: # The Beekeeper (2024) Poster by Pejamas on MediUX. https://mediux.pro/sets/3231
-    url_poster: https://api.mediux.pro/assets/411a6ce6-bec8-476e-b490-e303a028397c
+  866398: # The Beekeeper (2024) Poster by willtong93 on MediUX. https://mediux.pro/sets/32341
+    url_poster: https://api.mediux.pro/assets/6eb4889e-9cd8-4912-8510-5f8ed721d277
+    url_background: https://api.mediux.pro/assets/3ca6bbca-7e2e-4e15-934b-3c87ea75f682
 
   1079091: # It Ends with Us (2024) Poster by MiniZaki on MediUX. https://mediux.pro/sets/25619
     url_poster: https://api.mediux.pro/assets/a2722e9f-6577-4f0a-baa5-d01ba25cec47
@@ -692,17 +826,14 @@ metadata:
   670292: # The Creator (2023) Poster by Pejamas on MediUX. https://mediux.pro/sets/3380
     url_poster: https://api.mediux.pro/assets/cc961a88-b90a-4be7-9f4d-a4d7b077b3ca
 
-  776503: # CODA (2021) Poster by willtong93 on MediUX. https://mediux.pro/sets/25062
-    url_poster: https://api.mediux.pro/assets/49dae2b6-d989-4522-8a6d-4ff54f9f0677
-
   929590: # Civil War (2024) Poster by fxckingham on MediUX. https://mediux.pro/sets/14924
     url_poster: https://api.mediux.pro/assets/4685315d-45f6-4548-8102-5381dc7589dd
 
   129: # Spirited Away (2001) Poster by ReaperOfBurgers on MediUX. https://mediux.pro/sets/6386
     url_poster: https://api.mediux.pro/assets/fc8a9a84-2b02-4c31-9d46-4bf6d61a089d
 
-  545611: # Everything Everywhere All at Once (2022) Poster by fxckingham on MediUX. https://mediux.pro/sets/14888
-    url_poster: https://api.mediux.pro/assets/b5da7cff-200a-4be4-b4fe-26b2240c582d
+  545611: # Everything Everywhere All at Once (2022) Poster by willtong93 on MediUX. https://mediux.pro/sets/31758
+    url_poster: https://api.mediux.pro/assets/ac33cfe3-6509-49fe-8d14-4969c9fce6b1
 
   666277: # Past Lives (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/28026
     url_poster: https://api.mediux.pro/assets/803a7010-4378-461c-85e6-4ea9b66701a5
@@ -758,6 +889,8 @@ metadata:
     url_poster: https://api.mediux.pro/assets/fda0b20c-0cf3-4644-b5cc-29e8af2049b2
     url_background: https://api.mediux.pro/assets/b31237ef-acc5-449c-9ff0-e41e78b7c078
 
+  496243: # Parasite (2019) Poster by willtong93 on MediUX. https://mediux.pro/sets/31761
+    url_poster: https://api.mediux.pro/assets/eb0bc76d-cede-49e0-b970-41ce50ce4f6f
 
   1100099: # We Live in Time (2024) Poster by willtong93 on MediUX. https://mediux.pro/sets/28003
     url_poster: https://api.mediux.pro/assets/88888ea6-41bb-4743-9a2c-ccf061ff09ec
@@ -789,15 +922,11 @@ metadata:
     url_poster: https://api.mediux.pro/assets/c220acba-f310-44dc-b906-611916299f5a
     url_background: https://api.mediux.pro/assets/82d4bba9-9a7b-4531-9701-d32e0d9506f2
 
-  402431: # Wicked (2024) Poster by willtong93 on MediUX. https://mediux.pro/sets/29543
-    url_poster: https://api.mediux.pro/assets/de99c851-0943-4168-ac02-f6d1c94a83a7
-    url_background: https://api.mediux.pro/assets/63a05a87-e1fa-45c6-ac39-e93a2741c684
-
   1013850: # A Real Pain (2024) Poster by Danmark on MediUX. https://mediux.pro/sets/29499
     url_poster: https://api.mediux.pro/assets/90928ade-3eb3-4cce-a8ce-e50b85406d14
 
-  1064213: # Anora (2024) Poster by willtong93 on MediUX. https://mediux.pro/sets/29272
-    url_poster: https://api.mediux.pro/assets/65898794-840c-4ad5-b050-536dd4de9bfd
+  1064213: # Anora (2024) Poster by willtong93 on MediUX. https://mediux.pro/sets/31756
+    url_poster: https://api.mediux.pro/assets/6d3f2ec4-c995-4b78-9ab8-ae0302d20b83
     url_background: https://api.mediux.pro/assets/e98e3801-4e64-4b38-8200-8e5832b12c6b
 
   993710: # Back in Action (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/29057
@@ -814,9 +943,9 @@ metadata:
     url_poster: https://api.mediux.pro/assets/88fdef63-17b5-4df5-98bd-4a24502d0c0b
     url_background: https://api.mediux.pro/assets/deee5ac5-25e4-446c-b719-16db950c6591
 
-  950396: # The Gorge (2025) Poster by plexstreaming on MediUX. https://mediux.pro/sets/30691
-    url_poster: https://api.mediux.pro/assets/15f6f82d-311e-4322-bbad-dc8b91af6e9f
-    url_background: https://api.mediux.pro/assets/85fbdb48-4394-4ccd-a97a-29ac5689c5c4
+  950396: # The Gorge (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/32090
+    url_poster: https://api.mediux.pro/assets/9e75552c-b39b-4bb7-848f-b78d36d7ac5f
+    url_background: https://api.mediux.pro/assets/0c2fac56-f184-4b74-9bfd-5e66b757b4c5
 
   799766: # Better Man (2024) Poster by plexstreaming on MediUX. https://mediux.pro/sets/30548
     url_poster: https://api.mediux.pro/assets/3c41e66e-6315-466a-bfad-58bedb6f451a
@@ -824,6 +953,230 @@ metadata:
 
   549509: # The Brutalist (2024) Poster by fxckingham on MediUX. https://mediux.pro/sets/27322
     url_poster: https://api.mediux.pro/assets/898bef89-9356-471a-88ba-97e822bc1cfe
+
+  696506: # Mickey 17 (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/31186
+    url_poster: https://api.mediux.pro/assets/add04231-687f-4281-b74b-d618713c7667
+    url_background: https://api.mediux.pro/assets/2f25b7ac-6679-4de4-b1fd-4f800eb1792f
+
+  1197306: # A Working Man (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/32003
+    url_poster: https://api.mediux.pro/assets/429421a4-b4dd-43a2-9727-a94fd5a9853d
+    url_background: https://api.mediux.pro/assets/c94ed0e0-2118-4e6f-ac39-ceaf7b6169f5
+
+  950387: # A Minecraft Movie (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/31705
+    url_poster: https://api.mediux.pro/assets/0907c63a-48cf-4e55-a93a-4fc5a2eec065
+    url_background: https://api.mediux.pro/assets/00b2a280-0a0d-4513-be5c-25e7bda9b847
+
+  776503: # CODA (2021) Poster by willtong93 on MediUX. https://mediux.pro/sets/31759
+    url_poster: https://api.mediux.pro/assets/6e1c412f-e9fb-4ea4-adbd-2423bd0051d6
+
+  581734: # Nomadland (2021) Poster by willtong93 on MediUX. https://mediux.pro/sets/31760
+    url_poster: https://api.mediux.pro/assets/1b74bea3-92e4-4a7a-b9e9-a83b56ed1c82
+
+  490132: # Green Book (2018) Poster by willtong93 on MediUX. https://mediux.pro/sets/31762
+    url_poster: https://api.mediux.pro/assets/67ed3d4d-b850-4c67-bcf4-0ffa4c0270fa
+
+  399055: # The Shape of Water (2017) Poster by willtong93 on MediUX. https://mediux.pro/sets/31763
+    url_poster: https://api.mediux.pro/assets/74e6fe3f-8ee0-417f-93a3-a0d001c89ebf
+
+  376867: # Moonlight (2016) Poster by willtong93 on MediUX. https://mediux.pro/sets/31764
+    url_poster: https://api.mediux.pro/assets/b7f4c4be-2e2b-42d2-ad0f-3daa3ceb1606
+
+  314365: # Spotlight (2015) Poster by willtong93 on MediUX. https://mediux.pro/sets/31765
+    url_poster: https://api.mediux.pro/assets/59538dc3-0116-4491-8525-0529598f46e1
+
+  1317088: # The Assessment (2025) Poster by Pejamas on MediUX. https://mediux.pro/sets/32096
+    url_poster: https://api.mediux.pro/assets/ab9a5e3c-7e5d-400b-87e9-12e888790222
+
+  979660: # Freaky Tales (2025) Poster by Pejamas on MediUX. https://mediux.pro/sets/32145
+    url_poster: https://api.mediux.pro/assets/633b2a1d-ff70-4b1c-a442-564f38c3a5f3
+
+  1233413: # Sinners (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/31416
+    url_poster: https://api.mediux.pro/assets/24247183-9fd3-454d-9f9e-7712aaa71cfd
+    url_background: https://api.mediux.pro/assets/1c18ffc6-5c8c-4061-8e23-03a9438ea3f4
+
+  1098006: # Fountain of Youth (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/32295
+    url_poster: https://api.mediux.pro/assets/0faa595d-0a34-44b3-af94-be2c8c2a17a2
+    url_background: https://api.mediux.pro/assets/73ceb532-f512-40ad-bc66-2b2f03cde085
+
+  1249213: # Drop (2025) Poster by plexstreaming on MediUX. https://mediux.pro/sets/32424
+    url_poster: https://api.mediux.pro/assets/ad6c4d0b-4383-437a-bb28-459ef0489b73
+    url_background: https://api.mediux.pro/assets/399999b0-bb6a-48e1-a6cd-63275ba77645
+
+  1280672: # One of Them Days (2025) Poster by plexstreaming on MediUX. https://mediux.pro/sets/30666
+    url_poster: https://api.mediux.pro/assets/384d5b5a-03d2-4c14-b6d9-4900743e0858
+    url_background: https://api.mediux.pro/assets/15f1cb75-ff0e-4fce-9acc-5256b93dffc8
+
+  1254786: # The Life List (2025) Poster by plexstreaming on MediUX. https://mediux.pro/sets/31110
+    url_poster: https://api.mediux.pro/assets/904289d0-f257-40c9-a3fd-b1b3a5ac28ec
+    url_background: https://api.mediux.pro/assets/b64ad619-2ec5-4ea5-bf58-5ca913947558
+
+  1417059: # Mountainhead (2025) Poster by Pejamas on MediUX. https://mediux.pro/sets/33420
+    url_poster: https://api.mediux.pro/assets/ff7ecc0e-1550-492d-a45a-ac50ab870417
+
+  1087891: # The Amateur (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/31389
+    url_poster: https://api.mediux.pro/assets/6567fd20-3a06-4470-a9af-77a5a1be13ee
+
+  1239655: # Friendship (2025) Poster by plexstreaming on MediUX. https://mediux.pro/sets/33719
+    url_poster: https://api.mediux.pro/assets/664a9357-376c-4061-ad65-dd785f0d475c
+    url_background: https://api.mediux.pro/assets/292b87ee-25bb-4df3-a684-ef678c01cd1e
+
+  1239193: # Deep Cover (2025) Poster by plexstreaming on MediUX. https://mediux.pro/sets/34394
+    url_poster: https://api.mediux.pro/assets/4a89f657-aec7-49d2-9ba2-54fbcb025461
+    url_background: https://api.mediux.pro/assets/47838f1f-4213-420d-91be-e17b9f04025d
+
+  1136867: # Materialists (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/35700
+    url_poster: https://api.mediux.pro/assets/02537887-5ae0-4212-84e8-d3fe98f32e1c
+    url_background: https://api.mediux.pro/assets/ac080c55-0eb0-4944-a61d-a06cf6db7928
+
+  749170: # Heads of State (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/32296
+    url_poster: https://api.mediux.pro/assets/a64f53d3-2c86-44d4-affc-7ead8200874c
+    url_background: https://api.mediux.pro/assets/6b90e4dc-df93-410d-bc71-8463c4274f7f
+
+  244786: # Whiplash (2014) Poster by willtong93 on MediUX. https://mediux.pro/sets/25561
+    url_poster: https://api.mediux.pro/assets/b51fa5d9-03f4-408b-975b-868eda3222d1
+    url_background: https://api.mediux.pro/assets/b84f88da-9611-4ffb-907b-430d8c8aa7a7
+
+  911430: # F1 (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/33308
+    url_poster: https://api.mediux.pro/assets/5c19c35f-24d2-4df1-b85d-b9e1e5db01b2
+    url_background: https://api.mediux.pro/assets/21529b50-b823-489a-924b-8bae958e9c3f
+
+  744653: # The Thursday Murder Club (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/36635
+    url_poster: https://api.mediux.pro/assets/b468d00e-5d87-4cf7-88fa-e4d367a927ec
+
+  501929: # The Mitchells vs. the Machines (2021) Poster by willtong93 on MediUX. https://mediux.pro/sets/37205
+    url_poster: https://api.mediux.pro/assets/ef305075-f0b2-429c-ad67-eafc45795607
+
+  1054867: # One Battle After Another (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/45632
+    url_poster: https://api.mediux.pro/assets/04d61139-eaf0-4c1a-bf5f-397997b00313
+    url_background: https://api.mediux.pro/assets/8d0bc723-45ae-4e72-b093-2f1027f6f190
+
+  1242419: # Roofman (2025) Poster by EVERGREEN on MediUX. https://mediux.pro/sets/40089
+    url_poster: https://api.mediux.pro/assets/dcc77b8c-9eed-4e4a-a6db-3a526222271a
+    url_background: https://api.mediux.pro/assets/c4aeb19a-e26e-47f9-a91b-227bb3043843
+
+  701387: # Bugonia (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/40681
+    url_poster: https://api.mediux.pro/assets/7f15b095-e36a-416e-aeb9-ead32610207d
+    url_background: https://api.mediux.pro/assets/fa48cde6-ce36-4bfc-a97d-1db6ef8bdf77
+
+  1062722: # Frankenstein (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/39888
+    url_poster: https://api.mediux.pro/assets/fdc41ed3-fbb9-4a56-9176-e0a7c5ea016d
+    url_background: https://api.mediux.pro/assets/6f3d3ed8-4234-4ab4-a0c5-6a1ef6008c29
+
+  1233575: # Black Bag (2025) Poster by Tiederian on MediUX. https://mediux.pro/sets/46803
+    url_poster: https://api.mediux.pro/assets/26ae4f82-529c-46c5-82d6-c0112370e7d0
+
+  1259102: # Eternity (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/41930
+    url_poster: https://api.mediux.pro/assets/9c3c60e5-b818-40b9-be0b-74e12a19c1cb
+    url_background: https://api.mediux.pro/assets/ecd34669-4b2f-41b4-ba4b-ea6a4493f312
+
+  1114967: # Good Fortune (2025) Poster by EVERGREEN on MediUX. https://mediux.pro/sets/39896
+    url_poster: https://api.mediux.pro/assets/b122a263-89f1-4542-80ea-b645e35ddf1e
+
+  180: # Minority Report (2002) Poster by r3draid3r04 on MediUX. https://mediux.pro/sets/41213
+    url_poster: https://api.mediux.pro/assets/3cc41bec-8aa5-425d-9294-9d9e171a024c
+
+  1306368: # The Rip (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/41372
+    url_poster: https://api.mediux.pro/assets/7662b3af-da2c-436a-a3c4-193bad1a938d
+    url_background: https://api.mediux.pro/assets/db7b76cc-a2cf-4450-832f-56b0f26be555
+
+  1168190: # The Wrecking Crew (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/42416
+    url_poster: https://api.mediux.pro/assets/eed92279-31c0-4486-983f-3487b094cd8d
+
+  1368166: # The Housemaid (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/42452
+    url_poster: https://api.mediux.pro/assets/73e5d203-c0fc-4951-853d-23db9f250089
+
+  1317288: # Marty Supreme (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/43327
+    url_poster: https://api.mediux.pro/assets/5fe4c986-7066-4503-9c2a-4d5e906a5566
+    url_background: https://api.mediux.pro/assets/3d9c5bd6-1d5a-4996-953d-e590e084bb04
+
+  687163: # Project Hail Mary (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/43317
+    url_poster: https://api.mediux.pro/assets/9a1b85b6-aec8-42d8-899e-96ffb4fce326
+    url_background: https://api.mediux.pro/assets/2eda1241-6f1c-4cf5-8ddc-8cd12c95c5c5
+
+  858024: # Hamnet (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/42806
+    url_poster: https://api.mediux.pro/assets/dcba1b4b-b46a-4e6d-889c-4b546c8c0cd1
+    url_background: https://api.mediux.pro/assets/e2453745-7076-421f-903c-143549f34a7c
+
+  1171145: # Crime 101 (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/41369
+    url_poster: https://api.mediux.pro/assets/f8ed6c07-2943-45b4-a981-9128b6f8368b
+    url_background: https://api.mediux.pro/assets/38e1044b-b597-4684-98a3-49993dd7f493
+
+  1236153: # Mercy (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/42068
+    url_poster: https://api.mediux.pro/assets/02593f32-6e8c-435c-bd29-7f67cb5a19b0
+
+  1316092: # “Wuthering Heights” (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/44139
+    url_poster: https://api.mediux.pro/assets/a9679794-2981-4ee8-a1d9-643723401c78
+    url_background: https://api.mediux.pro/assets/1013ea4f-e38b-4b5d-93fe-d1938ad01281
+
+  1097311: # Echo Valley (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/46478
+    url_poster: https://api.mediux.pro/assets/871ff910-f6a0-4771-a780-e46324ed4f91
+    url_background: https://api.mediux.pro/assets/b7ea78a4-6c53-419c-acdb-583547187180
+
+  1325734: # The Drama (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/46067
+    url_poster: https://api.mediux.pro/assets/a157a262-7a80-4b07-90e7-3409fa195238
+    url_background: https://api.mediux.pro/assets/1d13ff6f-62fa-42a9-80b1-3689c16810bb
+
+  696393: # Cold Storage (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/42341
+    url_poster: https://api.mediux.pro/assets/4ce9134b-3e3d-4e71-b395-fd47e0662080
+    url_background: https://api.mediux.pro/assets/75b222c8-90bf-496e-9117-ee5224ebaba4
+
+  760329: # The Smashing Machine (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/37241
+    url_poster: https://api.mediux.pro/assets/0d5896c6-66e6-4b27-8724-240c45497054
+
+  1318447: # Apex (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/46066
+    url_poster: https://api.mediux.pro/assets/5e58e7fa-1ddb-48b3-aa92-d422489b7ee3
+    url_background: https://api.mediux.pro/assets/e1e5986f-e311-4799-9915-12af97e226f3
+
+  1327819: # Hoppers (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/43739
+    url_poster: https://api.mediux.pro/assets/9b17da14-621b-405a-9d3d-9de6b2bd0966
+    url_background: https://api.mediux.pro/assets/ab493797-4cf0-40ca-bbee-a2041ad35965
+
+  1290821: # Shelter (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/44187
+    url_poster: https://api.mediux.pro/assets/ee4b8301-3626-4000-afb2-46c37176ecd2
+    url_background: https://api.mediux.pro/assets/8b5b895e-cc16-4fd5-8afa-7ca7f8a64d91
+
+  1380291: # Tom Clancy's Jack Ryan: Ghost War (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/48257
+    url_poster: https://api.mediux.pro/assets/9757fcc1-8a44-44d1-a430-b46a53974e30
+    url_background: https://api.mediux.pro/assets/6334b2be-d519-49f8-a958-57469cd8a29d
+
+  210577: # Gone Girl (2014) Poster by EVERGREEN on MediUX. https://mediux.pro/sets/42555
+    url_poster: https://api.mediux.pro/assets/b99227fc-c2a3-4d8e-af5f-b233f12e977c
+
+  965150: # Aftersun (2022) Poster by Ikonok on MediUX. https://mediux.pro/sets/29790
+    url_poster: https://api.mediux.pro/assets/934af0e7-7a11-429a-96a0-d7019adee30d
+
+  122906: # About Time (2013) Poster by plexstreaming on MediUX. https://mediux.pro/sets/44932
+    url_poster: https://api.mediux.pro/assets/c559ed84-7865-4abe-8a6f-e4c5d8ab3d61
+    url_background: https://api.mediux.pro/assets/86ebab20-a3de-4df1-80f5-7a9e82ec70b1
+
+  396461: # Under the Silver Lake (2018) Poster by EVERGREEN on MediUX. https://mediux.pro/sets/39218
+    url_poster: https://api.mediux.pro/assets/5ab65a30-8ea8-4e76-84b3-9cfe7238e6bc
+
+  994108: # All of Us Strangers (2023) Poster by MrMonkey on MediUX. https://mediux.pro/sets/14729
+    url_poster: https://api.mediux.pro/assets/2376e1ab-3c56-4b2b-b121-9b403b653ac1
+
+  632617: # C'mon C'mon (2021) Poster by willtong93 on MediUX. https://mediux.pro/sets/33519
+    url_poster: https://api.mediux.pro/assets/2a7d75c0-1560-4f7c-b258-b9b03b82dc71
+
+  334533: # Captain Fantastic (2016) Poster by Pejamas on MediUX. https://mediux.pro/sets/41512
+    url_poster: https://api.mediux.pro/assets/8148a5d0-6ace-4717-baa3-962725783a55
+
+  1051891: # Thelma (2024) Poster by CmdrRiker on MediUX. https://mediux.pro/sets/23049
+    url_poster: https://api.mediux.pro/assets/37aeb452-1e1a-45cb-8a05-f175e19a9563
+
+  1140498: # Is This Thing On? (2025) Poster by Tiederian on MediUX. https://mediux.pro/sets/46442
+    url_poster: https://api.mediux.pro/assets/8cacdad6-f4bc-462d-980a-7eb4ac5ee771
+
+  1165642: # Lost in Starlight (2025) Poster by etiennemza on MediUX. https://mediux.pro/sets/41904
+    url_poster: https://api.mediux.pro/assets/e2ff892a-4469-419b-aac5-19f6b9c87d8a
+
+  639988: # No Other Choice (2025) Poster by creshaytions on MediUX. https://mediux.pro/sets/42462
+    url_poster: https://api.mediux.pro/assets/daa14baa-7e94-43b8-adf1-b91d978ba501
+    url_background: https://api.mediux.pro/assets/96cc0244-fd4e-4d4e-8f66-c2b33631db26
+
+  1511057: # Roommates (2026) Poster by malebolgia on MediUX. https://mediux.pro/sets/47137
+    url_poster: https://api.mediux.pro/assets/ba2c6b3a-e325-4cc9-98ae-29cad0f48a8a
+
 
 
 # TPDB
@@ -854,14 +1207,8 @@ metadata:
   520172: # Happiest Season (2020)
     url_poster: https://theposterdb.com/api/assets/121758
 
-  683287: # Unbreakable Kimmy Schmidt: Kimmy vs. the Reverend (2020)
-    url_poster: https://theposterdb.com/api/assets/510231
-
   331482: # Little Women (2019)
     url_poster: https://theposterdb.com/api/assets/42823
-
-  496243: # Parasite (2019)
-    url_poster: https://theposterdb.com/api/assets/47915
 
   549053: # Last Christmas (2019)
     url_poster: https://theposterdb.com/api/assets/45337
@@ -877,3 +1224,12 @@ metadata:
 
   158999: # Blackfish (2013)
     url_poster: https://theposterdb.com/api/assets/89596
+
+  619979: # Deep Water (2022)
+    url_poster: https://theposterdb.com/api/assets/216113
+
+  957304: # Drive-Away Dolls (2025)
+    url_poster: https://theposterdb.com/api/assets/466763
+  
+  705996: # Decision to Leave (2022)
+    url_poster: https://theposterdb.com/api/assets/383129

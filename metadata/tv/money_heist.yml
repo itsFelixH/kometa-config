@@ -1,0 +1,276 @@
+
+metadata:
+  413033: # TVDB id for Berlin. Set by Praythea on MediUX. https://mediux.pro/sets/2294
+    url_poster: https://api.mediux.pro/assets/ddc07aa8-62f7-4f5c-8202-72e8cfaf79a4
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/8063617f-0356-4e87-97f9-bb9f5523315a
+
+  327417: # TVDB id for Money Heist
+    url_poster: https://theposterdb.com/api/assets/58621
+    seasons:
+      1:
+        title: "Part 1"
+        summary: "Eight thieves take hostages and lock themselves in the Royal Mint of Spain while a criminal mastermind manipulates the police to carry out his plan."
+        url_poster: https://theposterdb.com/api/assets/174292
+        episodes:
+          1:
+            title: Episode 1
+            summary: "The Professor recruits a young robber and seven criminals for a grand heist on the Royal Mint of Spain."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/sPzQIZQn8V4GyXHbIEPzNWIFSkh.jpg
+          2:
+            title: Episode 2
+            summary: "Raquel, the hostage negotiator, makes first contact with the Professor. One of the hostages is a key part of the heist plan."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/6x8FbMaFP2gQZPoGT21KpDHWH5I.jpg
+          3:
+            title: Episode 3
+            summary: "The police now know what one of the thieves looks like. The man Raquel meets at a bar arouses her suspicion."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/yPWMTENl8vGHXuckVcSUfXTcKEm.jpg
+          4:
+            title: Episode 4
+            summary: "Raquel is stuck in a personal crisis with her ex. Shots are fired and the hostages are terrified. Disagreement reigns among the thieves."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/lBsTymYrk7DsnYlrHyWQ8JiT0wV.jpg
+          5:
+            title: Episode 5
+            summary: "The thieves allow a medical team into the Mint. Among them is an undercover cop. Can the Professor maintain his lead over Raquel?"
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/ows2pUj3S9LHPmoeL0uViLTDPZn.jpg
+          6:
+            title: Episode 6
+            summary: "Mónica's condition worsens. The Professor enjoys the spoils of his latest maneuver. Río is troubled by the TV news."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/hJoPcmCXB9WtihoBjlHD567PPSb.jpg
+          7:
+            title: Episode 7
+            summary: "An investigative breakthrough and a mistake by one of the thieves threaten to expose the Professor."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/hXld4b0GuqlZZFZlG86RRLsTAcg.jpg
+          8:
+            title: Episode 8
+            summary: "Tokyo catches Alison talking to Río and confronts her. The police suspect a spy in their ranks."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/w7JVqdrnBGqKcrW8dKBmJjitaAH.jpg
+          9:
+            title: Episode 9
+            summary: "The Professor must act quickly to avoid being betrayed. Berlín swears revenge after his name is revealed and spread in the press."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/wTCY4Ts6qJlen1aGpITkiN1FEpJ.jpg
+          10:
+            title: Episode 10
+            summary: "Raquel verifies that all hostages in the Mint are still alive and in good health. Nairobi gives Alison some advice."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/xrJMPSlBcE3pyyE5Kc85HO7XXpu.jpg
+          11:
+            title: Episode 11
+            summary: "Ángel and Raquel suspect each other of betrayal. Mónica makes a move on Denver. Río must make a difficult decision."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/o6xyD8VY5ap38kXhuKPwGGw2NPo.jpg
+          12:
+            title: Episode 12
+            summary: "Arturo continues working on an escape plan for a group of hostages. The Professor reveals who came up with the idea for the heist."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/i2sHJ8dNefoBB15RcOMQwUjxgrP.jpg
+          13:
+            title: Episode 13
+            summary: "The Professor meets with Raquel's mother under stressful conditions. In the Mint, the thieves give the hostages a choice: money or freedom."
+            originally_available: 2017-12-20
+            url_poster: https://www.themoviedb.org/t/p/original/tlCcnUQmXOVSMvze52CNLmvgIeW.jpg
+      2:
+        title: "Part 2"
+        summary: "As the police close in on the Professor's identity, his lack of communication with the Mint team leads to a mutiny and the arrest of one of the robbers."
+        url_poster: https://theposterdb.com/api/assets/174293
+        episodes:
+          1:
+            title: Episode 1
+            summary: "Forensics search the country house in Toledo for DNA, the Professor loses control, and the robbers in the Mint are about to lose their nerve."
+            originally_available: 2018-04-06
+            url_poster: https://www.themoviedb.org/t/p/original/7bNPcst124woLRSsvmQ6DGpHFI0.jpg
+          2:
+            title: Episode 2
+            summary: "The police interrogate the first captured robber. Enraged by Berlin's recent behavior, Rio stands in his way."
+            originally_available: 2018-04-06
+            url_poster: https://www.themoviedb.org/t/p/original/tNIQdKqZHrrb3aTBmYSHnbocVsK.jpg
+          3:
+            title: Episode 3
+            summary: "To uncover the Professor's identity, Raquel appeals to her hostage's emotions. A punishment for treason sparks a revolt among the robbers."
+            originally_available: 2018-04-06
+            url_poster: https://www.themoviedb.org/t/p/original/xpHOhiqil45iPIB5toMurzGO1qW.jpg
+          4:
+            title: Episode 4
+            summary: "As their plan seems to be failing, the robbers try to win public support through the press. Raquel wants to lure the Professor into a trap."
+            originally_available: 2018-04-06
+            url_poster: https://www.themoviedb.org/t/p/original/d20hjaLdfCn9MHZVECwxMNDvxP0.jpg
+          5:
+            title: Episode 5
+            summary: "Arturo begins implementing a new escape plan. During a conversation with Salva, Raquel notices a detail she can't let go of."
+            originally_available: 2018-04-06
+            url_poster: https://www.themoviedb.org/t/p/original/l3juyigXsPRF3tkR1IKDr1FG26f.jpg
+          6:
+            title: Episode 6
+            summary: "After a secret is revealed, Moscow loses his son's trust. A plan to free Tokyo hits obstacles. Now she must improvise."
+            originally_available: 2018-04-06
+            url_poster: https://www.themoviedb.org/t/p/original/oearLYAxR0yUyP8QJmqrpmQsS6.jpg
+          7:
+            title: Episode 7
+            summary: "With one of them seriously wounded, the robbers race against time to save him. In a quiet moment, Ariadna makes a confession to Mónica."
+            originally_available: 2018-04-06
+            url_poster: https://www.themoviedb.org/t/p/original/kbNZzujd537BFg2pqKrnKhBVoqG.jpg
+          8:
+            title: Episode 8
+            summary: "After being removed from the case due to her relationship with the Professor, Raquel sets out on her own to find the mastermind."
+            originally_available: 2018-04-06
+            url_poster: https://www.themoviedb.org/t/p/original/jCwAKF53ExQde0DgcliPcAezPyI.jpg
+          9:
+            title: Episode 9
+            summary: "As the police storm the Mint, the gang faces a final showdown. Will they escape with 984 million euros — and their lives?"
+            originally_available: 2018-04-06
+            url_poster: https://www.themoviedb.org/t/p/original/iX6hcSZpzH9R19xEEdgTn81xLak.jpg
+      3:
+        title: "Part 3"
+        summary: "The Professor and his team reunite to free Río, this time targeting the Bank of Spain with a daring and dangerous new plan. The resistance continues."
+        url_poster: https://theposterdb.com/api/assets/174294
+        episodes:
+          1:
+            title: "We're Back"
+            summary: "After Rio's capture, Tokyo asks the Professor for help. Together they reassemble the team to rescue Rio with a daring plan."
+            originally_available: 2019-07-19
+            url_poster: https://www.themoviedb.org/t/p/original/vHrz83swVVJ8iPmK3DcsfIzGxVf.jpg
+          2:
+            title: "Aikido"
+            summary: "The Professor tasks Martin with executing his brother's plan. They target the Central Bank of Spain. The first step: create plenty of chaos."
+            originally_available: 2019-07-19
+            url_poster: https://www.themoviedb.org/t/p/original/wg7nd7r0Iptr2W8kW37OSed1C4q.jpg
+          3:
+            title: "48 Meters Underground"
+            summary: "Tokyo and Nairobi's efforts fail completely. The Professor recalls Berlin's plans for how to steal the gold from the flooded vault."
+            originally_available: 2019-07-19
+            url_poster: https://www.themoviedb.org/t/p/original/aZ9Ipswcn8UzeR15G0gahUCX0eM.jpg
+          4:
+            title: "The Hour of the Dolphin"
+            summary: "The Professor is surprised by Tamayo's rule-breaking. Bogota tries to calm Denver. Under time pressure, Palermo launches Plan Flipper."
+            originally_available: 2019-07-19
+            url_poster: https://www.themoviedb.org/t/p/original/z0EfI5uIhU3i72AvN0BypDJvaCn.jpg
+          5:
+            title: "Boom, Boom, Ciao!"
+            summary: "A new move by the Professor shocks the authorities. In return, a new investigator gives Raquel trouble. Palermo and Nairobi have a heated argument."
+            originally_available: 2019-07-19
+            url_poster: https://www.themoviedb.org/t/p/original/zZmgnMUdb0WadXK45k3zYjnEhnL.jpg
+          6:
+            title: "Everything Seemed Unimportant"
+            summary: "Just as Sierra wants to infiltrate a team into the Central Bank, the Professor and Raquel lose contact with Palermo."
+            originally_available: 2019-07-19
+            url_poster: https://www.themoviedb.org/t/p/original/xwC5rYKGxmmgQSyl5CdsZrinc7W.jpg
+          7:
+            title: "Vacation"
+            summary: "Tokyo's happiness is clouded. Angel hunts Raquel and the Professor, who disagree. The authorities offer millions as a reward for tips."
+            originally_available: 2019-07-19
+            url_poster: https://www.themoviedb.org/t/p/original/rdEe6T90dIwwvbY0S7lvMRuiW54.jpg
+          8:
+            title: "Lost"
+            summary: "Tokyo tries to drown her misery in alcohol. Sierra uses a dirty tactic against a vulnerable Nairobi. Suarez continues his hunt for Raquel."
+            originally_available: 2019-07-19
+            url_poster: https://www.themoviedb.org/t/p/original/eCPX3gwiC1I9rklbnpFczLgH1c8.jpg
+      4:
+        title: "Part 4"
+        summary: "The Professor's plan is on the verge of failure. The group must fend off enemies inside and outside the Central Bank of Spain. Multiple lives are at stake."
+        url_poster: https://theposterdb.com/api/assets/174295
+        episodes:
+          1:
+            title: "Game Over"
+            summary: "Anger and grief heighten tensions in the group. Despite his grief, the Professor attempts a risky escape."
+            originally_available: 2020-04-03
+            url_poster: https://www.themoviedb.org/t/p/original/6M4lJXIRAwWBH9C2cZfm6YjwV9o.jpg
+          2:
+            title: "Berlin's Wedding"
+            summary: "The group is shocked by Palermo's actions. Sierra pushes for a deal. The Professor remembers his brother's wedding."
+            originally_available: 2020-04-03
+            url_poster: https://www.themoviedb.org/t/p/original/5SBoRUwJd1gEZpdTzE3FE1MfQJM.jpg
+          3:
+            title: "Anatomy Lesson"
+            summary: "The Professor's spy wants to deliver his message to the tent dweller. Denver's jealousy over the friendship between Mónica and Rio continues to flare up."
+            originally_available: 2020-04-03
+            url_poster: https://www.themoviedb.org/t/p/original/f8X4FBmSFeZMFQd7eppYzegxNTB.jpg
+          4:
+            title: "Paso Doble"
+            summary: "In the past, Berlin predicted that Gandía would cause problems. Lisbon's interrogation by Sierra leads to a private revelation."
+            originally_available: 2020-04-03
+            url_poster: https://www.themoviedb.org/t/p/original/n2bwgzPiPD834xqmN1PaD2RGQis.jpg
+          5:
+            title: "5 Minutes Earlier"
+            summary: "Denver asks an undercover agent for help. Nairobi wants to rally her team against the backdrop of rising danger."
+            originally_available: 2020-04-03
+            url_poster: https://www.themoviedb.org/t/p/original/5GeudJkpHc0TuCmF59wah8oWyVj.jpg
+          6:
+            title: "Technical K.O."
+            summary: "After Nairobi's kidnapping, Gandía negotiates with the group. The Professor desperately searches for a new way to save his team."
+            originally_available: 2020-04-03
+            url_poster: https://www.themoviedb.org/t/p/original/etw1tw6CoJciWKhsQOqCdYY61sg.jpg
+          7:
+            title: "Strike the Tent"
+            summary: "The attack puts the group in a state of shock. The Professor puts his new plan into action with Palermo and new recruits."
+            originally_available: 2020-04-03
+            url_poster: https://www.themoviedb.org/t/p/original/8Wux83X2Ff6q1z3bItIuUpuQdlz.jpg
+          8:
+            title: "The Paris Plan"
+            summary: "The Professor, Benjamin and the others try to free Lisbon. Tokyo's anger makes her doubt the plan. Sierra takes matters into her own hands."
+            originally_available: 2020-04-03
+            url_poster: https://www.themoviedb.org/t/p/original/tTmzHsIA2tsLYIK9lHTRLvBpZqs.jpg
+      5:
+        title: "Part 5"
+        summary: "The gang has been in the Bank of Spain for over 100 hours and the Professor is in danger. To make matters worse, a new enemy arrives: the army."
+        url_poster: https://theposterdb.com/api/assets/174296
+        episodes:
+          1:
+            title: "The End of the Road"
+            summary: "While the Professor deals with Sierra, Tamayo escalates negotiations to the next level through the military. Berlin met with a relative."
+            originally_available: 2021-09-03
+            url_poster: https://www.themoviedb.org/t/p/original/vsuCslrn4bqNIBAoAr60kjcfKIq.jpg
+          2:
+            title: "Do You Believe in Reincarnation?"
+            summary: "Arturo fights back and seizes the opportunity for personal revenge. Lisbon makes a crucial discovery."
+            originally_available: 2021-09-03
+            url_poster: https://www.themoviedb.org/t/p/original/yWlo42n3faN9y6bx6xWfm1qsvYE.jpg
+          3:
+            title: "A New Life"
+            summary: "A betrayal and an emergency catch Sierra off guard. Palermo rallies the troops. The army is approaching."
+            originally_available: 2021-09-03
+            url_poster: https://www.themoviedb.org/t/p/original/fHFvxdoZImxQ3zIEWLZjDsRG9Dl.jpg
+          4:
+            title: "Your Place in Heaven"
+            summary: "While Helsinki's life hangs in the balance, the thieves mount a covert counterattack. Years earlier, Berlin and his son pulled their first job."
+            originally_available: 2021-09-03
+            url_poster: https://www.themoviedb.org/t/p/original/z6TR4IsbvZmyLXn72VmPGU1Hu93.jpg
+          5:
+            title: "You Have Many Lives Ahead"
+            summary: "Trapped in the kitchen surrounded by snipers, Tokyo remembers her first love and her very first encounter with the Professor."
+            originally_available: 2021-09-03
+            url_poster: https://www.themoviedb.org/t/p/original/bDLP0zhFCgJIZuzSyHevh8PJgAm.jpg
+          6:
+            title: "Safety Valve"
+            summary: "Sierra exploits the Professor's grief and gains the upper hand. Meanwhile, the team struggles with the emotional aftermath of a dead friend."
+            originally_available: 2021-09-03
+            url_poster: https://www.themoviedb.org/t/p/original/kyFggNyULzYtXma2MsqDdzrQgXO.jpg
+          7:
+            title: "Wishful Thinking"
+            summary: "Tamayo orders a manhunt in the neighborhood. But his enemies have gone underground. Berlin and Palermo once explained how they would extract the gold."
+            originally_available: 2021-09-03
+            url_poster: https://www.themoviedb.org/t/p/original/dycCBXEIZJaLe6LX2tg4AP377V4.jpg
+          8:
+            title: "The Theory of Elegance"
+            summary: "While Tamayo searches for the gold, the rest of the team races against time. Mónica thinks she's hallucinating. Years earlier, Berlin was betrayed."
+            originally_available: 2021-09-03
+            url_poster: https://www.themoviedb.org/t/p/original/gtP4Hja3ktZVOiMAYLkEk9dSuRD.jpg
+          9:
+            title: "Pillow Talk"
+            summary: "The shaken Professor is beaten at his own game. When all hope seems lost, he makes a daring decision."
+            originally_available: 2021-09-03
+            url_poster: https://www.themoviedb.org/t/p/original/AtD92LLJiHVjIJqNDaSw1qZeMIb.jpg
+          10:
+            title: "A Family Tradition"
+            summary: "Multiple lives and the Spanish economy are at stake. Against this backdrop, the Professor and Tamayo face a final showdown."
+            originally_available: 2021-09-03
+            url_poster: https://www.themoviedb.org/t/p/original/ilpHAUoDo7xM9YBBD2oFi1q6krQ.jpg

@@ -34,26 +34,21 @@ metadata:
             url_poster: https://api.mediux.pro/assets/aecc6a4c-0438-46a5-87a4-ffc014b73a02
           6:
             url_poster: https://api.mediux.pro/assets/45c15317-f231-410c-ad94-7f80702ebc4a
-
-  417549: # TVDB id for The Walking Dead: Dead City. Set by bugtivugti on MediUX. https://mediux.pro/sets/22993
-    url_poster: https://api.mediux.pro/assets/9979c296-dbbb-46f7-9205-9f5fe3c749b6
-    url_background: https://api.mediux.pro/assets/5a43c6a9-d085-4e24-9f74-db33459e92d0
-    seasons:
-      1:
-        url_poster: https://api.mediux.pro/assets/7b97a53c-22cd-486a-a813-6407b20e6781
+      3:
+        url_poster: https://api.mediux.pro/assets/90762db5-7336-4dea-8797-1f40b4cf9659
         episodes:
           1:
-            url_poster: https://api.mediux.pro/assets/f7c39853-eab6-4635-b2fd-f0bc2fc7134a
+            url_poster: https://api.mediux.pro/assets/a4d7c972-cf78-4672-9359-eaeb42d00906
           2:
-            url_poster: https://api.mediux.pro/assets/dd341d48-8ca9-47dc-8c12-ce3c69306fbd
+            url_poster: https://api.mediux.pro/assets/7981252e-4fe8-4bc0-a78f-cb0c5ab94db8
           3:
-            url_poster: https://api.mediux.pro/assets/6fbd0f0a-a65e-4bcf-bd45-ef173123f614
+            url_poster: https://api.mediux.pro/assets/0e1709a5-ee8b-4efd-ae33-98e952361942
           4:
-            url_poster: https://api.mediux.pro/assets/ae1f2978-a4f6-44d2-a8b0-a5fc6319928f
+            url_poster: https://api.mediux.pro/assets/5fd024ea-d7b3-4440-9e1c-547dcd54207a
           5:
-            url_poster: https://api.mediux.pro/assets/569a6d6b-f83f-4055-aad5-f9d4fa309677
+            url_poster: https://api.mediux.pro/assets/d3a27d1f-b87e-43cd-ac65-0fcda6fd3c7b
           6:
-            url_poster: https://api.mediux.pro/assets/9558a197-6674-4533-9596-d2ed1f6a6bd2
+            url_poster: https://api.mediux.pro/assets/5195196a-89b7-4a82-a19b-22d29d806218
 
   427202: # TVDB id for The Walking Dead: The Ones Who Live. Set by willtong93 on MediUX. https://mediux.pro/sets/14301
     url_poster: https://api.mediux.pro/assets/29a04685-74d0-42f0-b73c-f04d0424b990

@@ -1,0 +1,143 @@
+
+metadata:
+  353232: # TVDB id for Narcos: Mexico. Set by hanaquackquack on MediUX. https://mediux.pro/sets/9614
+    seasons:
+      1:
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/45cfe023-41c5-4e97-984b-5e8e5d367e22
+          2:
+            url_poster: https://api.mediux.pro/assets/f6aa9a42-5fca-47db-a7ac-dd98a10a716d
+          3:
+            url_poster: https://api.mediux.pro/assets/db46f7c6-20b4-4876-9dae-1ac191d5eae6
+          4:
+            url_poster: https://api.mediux.pro/assets/aa6d4dc8-43e5-4db9-b4d0-b8517453d49c
+          5:
+            url_poster: https://api.mediux.pro/assets/bf5a759b-3888-491b-828c-09dd04966b62
+          6:
+            url_poster: https://api.mediux.pro/assets/5b5072f0-c400-4777-ad7f-930d773dea1c
+          7:
+            url_poster: https://api.mediux.pro/assets/06eea6e9-f78f-492d-939f-27291a3bb9f5
+          8:
+            url_poster: https://api.mediux.pro/assets/17e37480-0036-43e0-b4e0-54c146ef0556
+          9:
+            url_poster: https://api.mediux.pro/assets/043b1c35-dc6e-4634-9129-a47b8c19aafc
+          10:
+            url_poster: https://api.mediux.pro/assets/112f1a66-8610-43ad-9d3d-918c694df6ba
+      2:
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/ff5ca541-b0a0-44f0-bbc0-9dba3e0ffc50
+          2:
+            url_poster: https://api.mediux.pro/assets/99ee71af-94a0-46bd-9c7c-82a20fcb3403
+          3:
+            url_poster: https://api.mediux.pro/assets/024561bb-0230-4ac5-9158-fc6d8ea5592a
+          4:
+            url_poster: https://api.mediux.pro/assets/b3c5da60-cedc-47ce-9145-7f6370ce6f21
+          5:
+            url_poster: https://api.mediux.pro/assets/3ff6fdda-ae7f-4114-9131-0f552fa4135e
+          6:
+            url_poster: https://api.mediux.pro/assets/ae6f5706-ea81-42bf-868b-61e654db5eda
+          7:
+            url_poster: https://api.mediux.pro/assets/564d0266-ed97-4606-a15d-5a2c6a84978b
+          8:
+            url_poster: https://api.mediux.pro/assets/469cc65b-4581-4b9e-a933-1128dad53ff2
+          9:
+            url_poster: https://api.mediux.pro/assets/bed21bf8-6e2e-4bc4-9d4d-9574e589b933
+          10:
+            url_poster: https://api.mediux.pro/assets/651f752b-a117-4afd-a200-70f804620889
+      3:
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/2c942b2e-466a-428c-98c7-0d074e72d29e
+          2:
+            url_poster: https://api.mediux.pro/assets/f4c1bb4c-6c52-49da-96c5-9f55ed45ab38
+          3:
+            url_poster: https://api.mediux.pro/assets/d4af3ac9-32d8-48b0-9e50-94298fe125ba
+          4:
+            url_poster: https://api.mediux.pro/assets/774b3006-ab4e-4770-80ae-68910941cef8
+          5:
+            url_poster: https://api.mediux.pro/assets/d6c3dbf3-a4b6-48e3-909b-6e6124796890
+          6:
+            url_poster: https://api.mediux.pro/assets/931353a8-c396-4017-b7ce-90ee9f07beb9
+          7:
+            url_poster: https://api.mediux.pro/assets/0c164fc1-aae2-493c-b320-2693414531e9
+          8:
+            url_poster: https://api.mediux.pro/assets/3c7c513d-1806-4052-806c-d89435fb1179
+          9:
+            url_poster: https://api.mediux.pro/assets/7fa26513-b9c8-4c88-926d-44cd0774507c
+          10:
+            url_poster: https://api.mediux.pro/assets/14ffb1d5-a39d-4c9a-a9e1-1007f40f0b16
+
+  282670: # TVDB id for Narcos. Set by simmsuma on MediUX. https://mediux.pro/sets/30767
+    url_poster: https://api.mediux.pro/assets/2b68e43e-da59-4cf0-b156-d618d281a71b
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/f341e5b0-683f-4690-aca5-0a29fcd21107
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/474154ce-fa8d-41e8-adc8-e3610db334f9
+          2:
+            url_poster: https://api.mediux.pro/assets/eb3ce6fe-d140-4557-a71f-f960fb61203a
+          3:
+            url_poster: https://api.mediux.pro/assets/2c653234-f71b-4b27-80d1-6109b826b500
+          4:
+            url_poster: https://api.mediux.pro/assets/15a0d745-2031-4d3e-9af3-24a074bbf632
+          5:
+            url_poster: https://api.mediux.pro/assets/c06ddf2a-51d2-4303-96af-ed1a014c6294
+          6:
+            url_poster: https://api.mediux.pro/assets/440f6197-7364-43fb-979a-4a5ec1cf454b
+          7:
+            url_poster: https://api.mediux.pro/assets/fc125ae8-8db5-4cec-af63-1c2017093e02
+          8:
+            url_poster: https://api.mediux.pro/assets/d1ac6df4-c852-4d8f-81a2-b5cb1c73eb10
+          9:
+            url_poster: https://api.mediux.pro/assets/215a7f8f-eed0-4b4b-a6d8-6676d338974d
+          10:
+            url_poster: https://api.mediux.pro/assets/997c0583-9fa6-457b-90b8-4f38c28776cc
+      2:
+        url_poster: https://api.mediux.pro/assets/859ff5d2-b286-41c8-a0cd-66fdcfd0f20a
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/052cb1b4-4c54-48fa-b177-c221747f5bea
+          2:
+            url_poster: https://api.mediux.pro/assets/205fb205-2e2b-4905-b8d2-586ea3efe470
+          3:
+            url_poster: https://api.mediux.pro/assets/cc15842d-f606-49f5-a638-264a01ad7fd2
+          4:
+            url_poster: https://api.mediux.pro/assets/5e7b9f7e-e8f3-4e4c-ac79-f9f7b91c2da5
+          5:
+            url_poster: https://api.mediux.pro/assets/3d8300cc-9440-4966-85af-1ac635e92f6a
+          6:
+            url_poster: https://api.mediux.pro/assets/06c79198-0fc3-4906-a303-f7f5a4f66295
+          7:
+            url_poster: https://api.mediux.pro/assets/b232f555-f102-4720-b3be-af734144b203
+          8:
+            url_poster: https://api.mediux.pro/assets/c4f2ee13-5136-4d41-8370-999de030b908
+          9:
+            url_poster: https://api.mediux.pro/assets/10841ad5-31f6-4b10-b58b-cf6d2ee201ba
+          10:
+            url_poster: https://api.mediux.pro/assets/596386ae-27a0-44a0-8b8e-f465a8b40154
+      3:
+        url_poster: https://api.mediux.pro/assets/00581968-f69d-4da6-9de5-4c034f3bbe6a
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/41b38d01-aa4c-412a-af89-9bb7df411f3b
+          2:
+            url_poster: https://api.mediux.pro/assets/27e3f0f3-4b9f-4b2a-b62c-6374735bb6c6
+          3:
+            url_poster: https://api.mediux.pro/assets/3d086b5d-38c8-40f7-9d5b-9798a6a8d7b6
+          4:
+            url_poster: https://api.mediux.pro/assets/ebd072c0-8d68-4f2d-89fe-5de9828947d1
+          5:
+            url_poster: https://api.mediux.pro/assets/bb8eeadf-c43b-4c8f-944a-f0f42cc85181
+          6:
+            url_poster: https://api.mediux.pro/assets/95baf051-de64-42a4-bd88-0cb1875a1e55
+          7:
+            url_poster: https://api.mediux.pro/assets/6edd6f50-5cc8-4e59-a93c-a628d862facd
+          8:
+            url_poster: https://api.mediux.pro/assets/2a40af01-f209-4e50-a170-efce7465cac0
+          9:
+            url_poster: https://api.mediux.pro/assets/e35cfc51-d55e-44d2-8ad2-325013f3f552
+          10:
+            url_poster: https://api.mediux.pro/assets/cc76b110-71e4-435b-8cc4-8a8cc00c6b63

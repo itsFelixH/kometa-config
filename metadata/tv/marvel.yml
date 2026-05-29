@@ -1,33 +1,32 @@
 
 metadata:
-  412427: # TVDB id for Your Friendly Neighborhood Spider-Man. Set by Pejamas on MediUX. https://mediux.pro/sets/30181
-    url_poster: https://api.mediux.pro/assets/074c536c-74f4-4948-925b-3ef32f835352
-    url_background: https://api.mediux.pro/assets/01d3c788-f30b-4d62-9c82-20ce9aec34b6
+  412427: # TVDB id for Your Friendly Neighborhood Spider-Man. Set by willtong93 on MediUX. https://mediux.pro/sets/31411
+    url_poster: https://api.mediux.pro/assets/dfc2f391-35d5-4c2c-80a1-d9a85efbd292
+    url_background: https://api.mediux.pro/assets/9d0ad5fb-0279-4ae3-9dd5-1c3bff4b50c8
     seasons:
       1:
-        url_poster: https://api.mediux.pro/assets/eea5b1c5-6ed3-4f5b-8979-272998fdc725
+        url_poster: https://api.mediux.pro/assets/f59fdcb9-2ff0-4941-a79c-f44fb8fb72a9
         episodes:
           1:
-            url_poster: https://api.mediux.pro/assets/0e5023a7-1c7c-4a7d-9aef-b76e5be11b8b
+            url_poster: https://api.mediux.pro/assets/5d0861bd-4c01-4a31-a171-9535a54d28ca
           2:
-            url_poster: https://api.mediux.pro/assets/4e0c97bd-3e52-4ff8-a454-259ad3d55c3b
+            url_poster: https://api.mediux.pro/assets/94865f7e-e356-4377-a3dc-b95bf22f6127
           3:
-            url_poster: https://api.mediux.pro/assets/d1efc18c-274e-4efb-a70a-ab800d06f6bc
+            url_poster: https://api.mediux.pro/assets/0d8ad91f-47eb-4041-aaf7-9b9ef5135aab
           4:
-            url_poster: https://api.mediux.pro/assets/7346acac-e7d7-4648-8f4d-93fa9915deeb
+            url_poster: https://api.mediux.pro/assets/52f65d77-75d3-46b6-be53-1054e22c188d
           5:
-            url_poster: https://api.mediux.pro/assets/a475dc1d-7f82-4d4c-ae5e-c10999a27e95
+            url_poster: https://api.mediux.pro/assets/1f36525c-c8fd-4a03-baa6-510c0b37302e
           6:
-            url_poster: https://api.mediux.pro/assets/99fd414d-398b-45ab-bba1-0b1360fc03bd
+            url_poster: https://api.mediux.pro/assets/8e6bc6cf-220b-4228-a60f-231939888378
           7:
-            url_poster: https://api.mediux.pro/assets/6163ca41-3cf2-4f6f-9593-4c1686b575c4
+            url_poster: https://api.mediux.pro/assets/9472e8a4-abbf-4014-95a7-7b89619fa29f
           8:
-            url_poster: https://api.mediux.pro/assets/d226f8e0-8d86-438c-b40c-869f72011c9e
+            url_poster: https://api.mediux.pro/assets/fc743229-54b3-4e33-96d3-c080f4f43720
           9:
-            url_poster: https://api.mediux.pro/assets/29add2d4-e8e8-4f23-98ae-75868a36aeed
+            url_poster: https://api.mediux.pro/assets/8a7385b1-a3bf-4809-8b84-0c27b1667be5
           10:
-            url_poster: https://api.mediux.pro/assets/6beef690-c5bc-412e-b0bd-6b5fb58aad4d
-
+            url_poster: https://api.mediux.pro/assets/b6540bde-2da0-4a1a-bfe4-4f44b0207b22
 
   412432: # TVDB id for X-Men '97. Set by willtong93 on MediUX. https://mediux.pro/sets/24604
     url_poster: https://api.mediux.pro/assets/c7033b3e-e0c9-41ef-ae0a-3874d2bdc08d
@@ -429,13 +428,6 @@ metadata:
             url_poster: https://api.mediux.pro/assets/8a287d44-a060-4a9e-a701-bf758b475748
 
   ### ABC Shows
-
-  320558: # TVDB id for Marvel's Inhumans. Set by willtong93 on MediUX. https://mediux.pro/sets/24602
-    url_poster: https://api.mediux.pro/assets/b08d86bc-ed9c-448c-b859-9de96d731979
-    url_background: https://api.mediux.pro/assets/6ac1b449-0d12-4bc4-ae27-8f2061142661
-    seasons:
-      1:
-        url_poster: https://api.mediux.pro/assets/9e87d5e7-469b-4ba1-a5d8-b04ffcf03831
 
   263365: # TVDB id for Marvel's Agents of S.H.I.E.L.D.. Set by codonzero22 on MediUX. https://mediux.pro/sets/23651
     url_poster: https://api.mediux.pro/assets/7a8a54b3-b0db-44c8-9622-9a080c63d110
