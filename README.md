@@ -18,8 +18,8 @@ My [Kometa](https://github.com/Kometa-Team/Kometa) configuration for managing co
 git clone https://github.com/itsFelixH/kometa-config.git
 ```
 
-1. Copy `config.yml.template` to `config.yml`
-2. Fill in your API keys (Plex, TMDb, Trakt, MDBList)
+1. Set up Kometa following the [Kometa Wiki](https://kometa.wiki/)
+2. Add your API keys to your `config.yml` (Plex, TMDb, Trakt, MDBList)
 3. Adjust library names to match your Plex server
 
 For help setting up Kometa itself, refer to the [Kometa Wiki](https://kometa.wiki/).
@@ -28,7 +28,6 @@ For help setting up Kometa itself, refer to the [Kometa Wiki](https://kometa.wik
 <summary><b>File Structure</b></summary>
 
 ```
-├── config.yml.template   Config template (fill in your API keys)
 ├── movies.yml            Movie collection definitions
 ├── tv.yml                TV show collection definitions
 ├── playlists.yml         Cross-library playlists
