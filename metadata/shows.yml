@@ -1,28 +1,4 @@
 metadata:
-  450033: # TVDB id for Spider-Noir. Set by tallinex on MediUX. https://mediux.pro/sets/51254
-    url_poster: https://api.mediux.pro/assets/037977f8-0fdc-4f36-b0d3-bcee715f1950
-    url_background: https://api.mediux.pro/assets/103e2675-bd41-437a-9a80-332dc3bda8cb
-    seasons:
-      1:
-        url_poster: https://api.mediux.pro/assets/9d9e6c4d-5486-411d-bb09-0b2106632332
-        episodes:
-          1:
-            url_poster: https://api.mediux.pro/assets/a86a4897-9ade-470b-8f41-778ed0a892fb
-          2:
-            url_poster: https://api.mediux.pro/assets/3346b1d6-f91a-4e7b-a12f-451fa0f49b8c
-          3:
-            url_poster: https://api.mediux.pro/assets/66ef3f25-e08f-491e-82cc-268a7a3f615c
-          4:
-            url_poster: https://api.mediux.pro/assets/07a404e9-fde5-49e2-b363-a365a841e80f
-          5:
-            url_poster: https://api.mediux.pro/assets/9575becc-30e7-436a-ba5a-d262cb71b2a2
-          6:
-            url_poster: https://api.mediux.pro/assets/f61a3719-48b3-4e3c-8316-4380e784d543
-          7:
-            url_poster: https://api.mediux.pro/assets/c7ded1a7-aa19-4f05-85d6-2d4efd0bb679
-          8:
-            url_poster: https://api.mediux.pro/assets/2f86141f-c7bc-4b6c-b971-666226f166ff
-
   448023: # TVDB id for Georgie & Mandy's First Marriage. Set by sharivari on MediUX. https://mediux.pro/sets/41139
     url_poster: https://api.mediux.pro/assets/c9bf9585-260a-4da7-8756-766768a8126e
     url_background: https://api.mediux.pro/assets/13a67551-c099-4550-9c21-885fd55f8721
@@ -1163,6 +1139,8 @@ metadata:
             url_poster: https://api.mediux.pro/assets/d97c7c7d-be8f-484e-8b98-65950feb9998
           8:
             url_poster: https://api.mediux.pro/assets/6148e6c8-c51e-48f3-9382-c8fbb3526ecc
+          9:
+            url_poster: https://api.mediux.pro/assets/59c5fd73-e6fe-458b-80e2-42598d1b58c3
 
   336924: # TVDB id for You. Set by willtong93 on MediUX. https://mediux.pro/sets/13391
     url_poster: https://api.mediux.pro/assets/d98d7a92-e869-4847-af04-da99352c0dc6
