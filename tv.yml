@@ -141,10 +141,9 @@ collections:
       type: tv_series, tv_mini_series, tv_special
       release.after: 2020-01-01
       release.before: 2029-12-31
-      rating.gte: 5
-      votes.gte: 100000
+      rating.gte: 6.5
+      votes.gte: 50000
       sort_by: rating.desc
-      language: de, en
       limit: 150
     limit: 50
     builder_level: show
@@ -162,10 +161,9 @@ collections:
       type: tv_series, tv_mini_series, tv_special
       release.after: 2010-01-01
       release.before: 2019-12-31
-      rating.gte: 5
-      votes.gte: 100000
+      rating.gte: 6.5
+      votes.gte: 50000
       sort_by: rating.desc
-      language: de, en
       limit: 150
     limit: 50
     builder_level: show

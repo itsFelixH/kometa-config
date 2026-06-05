@@ -153,10 +153,9 @@ collections:
       type: movie
       release.after: 2020-01-01
       release.before: 2029-12-31
-      rating.gte: 5
+      rating.gte: 6.5
       votes.gte: 100000
       sort_by: rating.desc
-      language: de, en
       limit: 150
     url_poster: https://theposterdb.com/api/assets/350800
     summary: The top-rated movies of the 2020s according to IMDb.
@@ -173,10 +172,9 @@ collections:
       type: movie
       release.after: 2010-01-01
       release.before: 2019-12-31
-      rating.gte: 5
+      rating.gte: 6.5
       votes.gte: 100000
       sort_by: rating.desc
-      language: de, en
       limit: 150
     url_poster: https://theposterdb.com/api/assets/350799
     summary: The top-rated movies of the 2010s according to IMDb.
