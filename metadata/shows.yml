@@ -111,6 +111,8 @@ metadata:
             url_poster: https://api.mediux.pro/assets/98fff977-fd2c-48f4-824c-9e631f6eb746
           3:
             url_poster: https://api.mediux.pro/assets/8c196a13-1c90-411c-b49b-a0b068f06111
+          4:
+            url_poster: https://api.mediux.pro/assets/036e3fb6-ec1b-4b2c-a106-6ecd820a92d9
 
   220411: # TVDB id for Girls. Set by defluo on MediUX. https://mediux.pro/sets/34054
     seasons:
@@ -1141,6 +1143,8 @@ metadata:
             url_poster: https://api.mediux.pro/assets/6148e6c8-c51e-48f3-9382-c8fbb3526ecc
           9:
             url_poster: https://api.mediux.pro/assets/59c5fd73-e6fe-458b-80e2-42598d1b58c3
+          10:
+            url_poster: https://api.mediux.pro/assets/2c91ad07-f68f-4ea4-b590-10f799af24d2
 
   336924: # TVDB id for You. Set by willtong93 on MediUX. https://mediux.pro/sets/13391
     url_poster: https://api.mediux.pro/assets/d98d7a92-e869-4847-af04-da99352c0dc6
@@ -5461,6 +5465,10 @@ metadata:
             url_poster: https://api.mediux.pro/assets/68aea8ce-a788-48e9-917a-9fde51c2ecad
           6:
             url_poster: https://api.mediux.pro/assets/26f0d96f-1d2c-4228-817a-56cb0413fc55
+          7:
+            url_poster: https://api.mediux.pro/assets/a82364df-88fa-4f23-a2b4-bae0a5bb296c
+          8:
+            url_poster: https://api.mediux.pro/assets/0c242019-f10e-499e-a514-ad233052944c
 
   426845: # TVDB id for The Gentlemen. Set by willtong93 on MediUX. https://mediux.pro/sets/15456
     url_poster: https://api.mediux.pro/assets/c32f51a7-7596-42ec-a795-30814a0e2527
