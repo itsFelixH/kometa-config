@@ -1,4 +1,28 @@
 metadata:
+  450033: # TVDB id for Spider-Noir. Set by willtong93 on MediUX. https://mediux.pro/sets/43735
+    url_poster: https://api.mediux.pro/assets/d2ed8f18-90a9-43fb-8fde-4b64a4425df7
+    url_background: https://api.mediux.pro/assets/2299b07f-a06c-4df9-af1c-bb8c1b81f08e
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/ed3df7ab-f690-4046-bec9-42df83a58025
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/aac4f553-2380-41a3-83d2-e60efa3f8429
+          2:
+            url_poster: https://api.mediux.pro/assets/47351069-3abe-4812-aa8b-8eec1fea7d08
+          3:
+            url_poster: https://api.mediux.pro/assets/b9842d1b-4036-4720-be3d-a046dffa58c4
+          4:
+            url_poster: https://api.mediux.pro/assets/38252e69-b0d4-4058-a756-0357ae1975fe
+          5:
+            url_poster: https://api.mediux.pro/assets/c7999dee-c4bb-412a-afa7-2cfd84c0974a
+          6:
+            url_poster: https://api.mediux.pro/assets/c7126cd4-f29f-4c9b-a394-05bf08de5a22
+          7:
+            url_poster: https://api.mediux.pro/assets/c0bc564b-082a-4898-80df-63f2da292a6f
+          8:
+            url_poster: https://api.mediux.pro/assets/772876d8-aa5a-40e8-83b9-a8d7e8ea216b
+
   460383: # TVDB id for Not Suitable for Work. Set by Baddacaci on MediUX. https://mediux.pro/sets/51881
     url_poster: https://api.mediux.pro/assets/add89b76-5a1a-4b2e-b828-404ff7dc61be
     seasons:
