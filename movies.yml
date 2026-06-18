@@ -245,6 +245,7 @@ collections:
         title.not:
           - "Friends: The Reunion"
           - "Harry Potter 20th Anniversary: Return to Hogwarts"
+    url_poster: https://theposterdb.com/api/assets/224334
     summary: Non-fiction films. True stories, nature, history, and more.
     collection_mode: hide
     collection_order: random
@@ -256,6 +257,7 @@ collections:
     plex_search:
       all:
         genre: Animation
+    url_poster: https://theposterdb.com/api/assets/224330
     summary: Animated feature films for all ages.
     collection_mode: hide
     collection_order: random
@@ -269,6 +271,7 @@ collections:
     plex_all: true
     filters:
       audio_language: Spanish
+    url_poster: https://theposterdb.com/api/assets/217291
     summary: Movies with Spanish audio available.
     collection_mode: hide
     collection_order: random
@@ -280,6 +283,7 @@ collections:
     plex_all: true
     filters:
       audio_language: German
+    url_poster: https://theposterdb.com/api/assets/217255
     summary: Movies with German audio available.
     collection_mode: hide
     collection_order: random
@@ -291,6 +295,7 @@ collections:
 
   🎭 A24:
     tmdb_company: 41077
+    url_poster: https://theposterdb.com/api/assets/49079
     summary: Films from A24. Indie, arthouse, and everything in between.
     collection_mode: hide
     collection_order: release
@@ -304,6 +309,7 @@ collections:
       all:
         studio: Apple TV+
         label.not: Coming Soon
+    url_poster: https://theposterdb.com/api/assets/168823
     summary: Apple TV+ originals and exclusives.
     collection_mode: hide
     sort_title: "+8_2_apple"
@@ -317,6 +323,7 @@ collections:
       all:
         studio: Netflix
         label.not: Coming Soon
+    url_poster: https://theposterdb.com/api/assets/168827
     summary: Netflix original films in your library.
     collection_mode: hide
     sort_title: "+8_3_netflix"
@@ -330,6 +337,7 @@ collections:
       all:
         studio: Disney+
         label.not: Coming Soon
+    url_poster: https://theposterdb.com/api/assets/168824
     summary: Disney+ original films in your library.
     collection_mode: hide
     sort_title: "+8_4_disney"

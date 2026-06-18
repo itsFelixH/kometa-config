@@ -1,4 +1,72 @@
 metadata:
+  460383: # TVDB id for Not Suitable for Work. Set by Baddacaci on MediUX. https://mediux.pro/sets/51881
+    url_poster: https://api.mediux.pro/assets/add89b76-5a1a-4b2e-b828-404ff7dc61be
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/cb4d19de-eb46-4dd0-bd76-225370ad2824
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/af7a92d9-9b07-49eb-a5b4-f39c7abdf97b
+          2:
+            url_poster: https://api.mediux.pro/assets/091c5b26-8b81-4a26-ac05-41b835e65e34
+          3:
+            url_poster: https://api.mediux.pro/assets/730dcd49-27b7-46b8-9ccb-c74ef5bd67b1
+          4:
+            url_poster: https://api.mediux.pro/assets/314463cb-685e-496d-9251-084472747542
+          5:
+            url_poster: https://api.mediux.pro/assets/23b7cb94-86bd-46cf-80f1-13e3e3570ee3
+          6:
+            url_poster: https://api.mediux.pro/assets/b69b1ff9-ce1d-4a89-876f-aadec46d1b05
+          7:
+            url_poster: https://api.mediux.pro/assets/4d79ec05-c316-41fe-a887-a689e668e197
+          8:
+            url_poster: https://api.mediux.pro/assets/8a72506c-e267-49d8-b749-a434bd9fd904
+          9:
+            url_poster: https://api.mediux.pro/assets/1df8d375-f742-4316-b49c-b70cc37de768
+
+  445646: # TVDB id for A Man on the Inside. Set by willtong93 on MediUX. https://mediux.pro/sets/39798
+    url_poster: https://api.mediux.pro/assets/80d2caf4-9bf6-47bb-85e5-994283f6efd0
+    url_background: https://api.mediux.pro/assets/6bf04630-2c5c-4f3b-a121-e75033f14d26
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/3f37a6d1-a802-4600-ba63-13acf1d90602
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/3baca1e6-ea8d-41cb-a14f-d173790e3f82
+          2:
+            url_poster: https://api.mediux.pro/assets/b9ee6130-17d6-47e6-8385-32fb92438309
+          3:
+            url_poster: https://api.mediux.pro/assets/c97566e0-3d7e-40ea-b9f9-8fe48b128855
+          4:
+            url_poster: https://api.mediux.pro/assets/daab8926-5a3f-4a5b-bd0c-e4b84a6b04d2
+          5:
+            url_poster: https://api.mediux.pro/assets/b76ef587-d849-40ed-a764-07b40f2ee468
+          6:
+            url_poster: https://api.mediux.pro/assets/a6a56b43-c088-416b-bfa8-ccbe6298f1c8
+          7:
+            url_poster: https://api.mediux.pro/assets/378f0760-28a2-448e-8f23-7f3fceb0f077
+          8:
+            url_poster: https://api.mediux.pro/assets/1e44965b-cd66-4ebd-8d50-ed0e778082ec
+      2:
+        url_poster: https://api.mediux.pro/assets/2887965e-be82-420d-9fa1-ceeb977840a8
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/4da0ff78-3dcb-4e4e-ae10-87be882afcf0
+          2:
+            url_poster: https://api.mediux.pro/assets/370cd439-6bf0-481f-b494-d4f3791ad02f
+          3:
+            url_poster: https://api.mediux.pro/assets/40cb816d-b399-4d66-8940-2c1fd8d15ef2
+          4:
+            url_poster: https://api.mediux.pro/assets/d2bab915-e30e-409a-af5e-f096741d6ec6
+          5:
+            url_poster: https://api.mediux.pro/assets/52e716e6-5fa9-4b07-b26f-bc685a3d95ff
+          6:
+            url_poster: https://api.mediux.pro/assets/1d4fc6e0-80a4-4805-a860-5f394a83734f
+          7:
+            url_poster: https://api.mediux.pro/assets/41080cc0-a1f5-4d87-96ba-0ab2c204bec4
+          8:
+            url_poster: https://api.mediux.pro/assets/6c48dea1-12fb-4a77-a78d-98caab15d3b7
+
   448023: # TVDB id for Georgie & Mandy's First Marriage. Set by sharivari on MediUX. https://mediux.pro/sets/41139
     url_poster: https://api.mediux.pro/assets/c9bf9585-260a-4da7-8756-766768a8126e
     url_background: https://api.mediux.pro/assets/13a67551-c099-4550-9c21-885fd55f8721
@@ -113,6 +181,10 @@ metadata:
             url_poster: https://api.mediux.pro/assets/8c196a13-1c90-411c-b49b-a0b068f06111
           4:
             url_poster: https://api.mediux.pro/assets/036e3fb6-ec1b-4b2c-a106-6ecd820a92d9
+          5:
+            url_poster: https://api.mediux.pro/assets/ecef014e-3811-42d1-8750-9d753b69b6f1
+          6:
+            url_poster: https://api.mediux.pro/assets/e04e74de-fcac-451a-9867-3d4b65995b6e
 
   220411: # TVDB id for Girls. Set by defluo on MediUX. https://mediux.pro/sets/34054
     seasons:
@@ -4032,6 +4104,12 @@ metadata:
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/f0ede603-a4e0-4c12-a2c2-1f14662fce9c
+          2:
+            url_poster: https://api.mediux.pro/assets/5334a24e-1fde-4a20-9f9c-3f7d92d40f95
+          3:
+            url_poster: https://api.mediux.pro/assets/17d3ca92-4a50-4d7a-910b-f527e7413b22
+          4:
+            url_poster: https://api.mediux.pro/assets/21850379-13fb-4023-935e-450cc09cd977
 
   94571: # TVDB id for Community. Set by tallinex on MediUX. https://mediux.pro/sets/22530
     url_poster: https://api.mediux.pro/assets/171f212c-2efc-4c97-a759-124154c47cbc

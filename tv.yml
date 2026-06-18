@@ -182,6 +182,7 @@ collections:
     plex_search:
       genre: Documentary
     builder_level: show
+    url_poster: https://theposterdb.com/api/assets/224334
     summary: Non-fiction series. True stories, nature, history, and more.
     collection_mode: hide
     collection_order: random
@@ -193,6 +194,7 @@ collections:
     plex_search:
       genre: Animation
     builder_level: show
+    url_poster: https://theposterdb.com/api/assets/224330
     summary: Animated series for all ages.
     collection_mode: hide
     collection_order: random
@@ -207,6 +209,7 @@ collections:
     filters:
       audio_language: Spanish
     builder_level: show
+    url_poster: https://theposterdb.com/api/assets/217291
     summary: Shows with Spanish audio available.
     collection_mode: hide
     collection_order: random
@@ -219,6 +222,7 @@ collections:
     filters:
       audio_language: German
     builder_level: show
+    url_poster: https://theposterdb.com/api/assets/217255
     summary: Shows with German audio available.
     collection_mode: hide
     collection_order: random
@@ -234,6 +238,7 @@ collections:
       all:
         network: Apple TV
         label.not: Coming Soon
+    url_poster: https://theposterdb.com/api/assets/168823
     summary: Apple TV+ originals and exclusives.
     collection_mode: hide
     sort_title: "+7_1_apple"
@@ -247,6 +252,7 @@ collections:
       all:
         network: HBO, HBO Max
         label.not: Coming Soon
+    url_poster: https://theposterdb.com/api/assets/168825
     summary: HBO originals and Max exclusives.
     collection_mode: hide
     sort_title: "+7_2_hbo"
@@ -260,6 +266,7 @@ collections:
       all:
         network: Netflix
         label.not: Coming Soon
+    url_poster: https://theposterdb.com/api/assets/168827
     summary: Netflix original series in your library.
     collection_mode: hide
     sort_title: "+7_3_netflix"
@@ -273,6 +280,7 @@ collections:
       all:
         network: Disney+
         label.not: Coming Soon
+    url_poster: https://theposterdb.com/api/assets/168824
     summary: Disney+ original series in your library.
     collection_mode: hide
     sort_title: "+7_4_disney"
