@@ -8,3 +8,5 @@ logs/
 
 # Overlays - sourced from remote URLs at runtime, not needed in repo
 overlays/
+
+POSTERS.md
