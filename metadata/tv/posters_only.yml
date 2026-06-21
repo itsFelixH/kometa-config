@@ -28,18 +28,5 @@ metadata:
       2:
         url_poster: https://api.mediux.pro/assets/52dfd0da-d6a5-4453-8da0-41d2b1019b5b
 
-  443383: # TVDB id for Apple Cider Vinegar. Set by fwlolx on MediUX. https://mediux.pro/sets/30430
-    url_poster: https://api.mediux.pro/assets/7308ba99-20c1-46c6-af70-c6db5b1c5627
-    seasons:
-      1:
-        url_poster: https://api.mediux.pro/assets/6328cbc1-74ab-4954-8ac1-511ed6b9f751
-
   195258: # Our Great National Parks (2022)
     url_poster: https://theposterdb.com/api/assets/226485
-
-  432782: # TVDB id for The Perfect Couple. Set by SwaffelSmurf on MediUX. https://mediux.pro/sets/25029
-    url_poster: https://api.mediux.pro/assets/936dcb63-947c-4668-aff5-edb17f0059b8
-    url_background: https://api.mediux.pro/assets/fcb41738-a9a1-40c5-a652-29f3b767164f
-    seasons:
-      1:
-        url_poster: https://api.mediux.pro/assets/d9418cfd-a2ba-4730-aa90-124ec63a3058
