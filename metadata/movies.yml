@@ -744,6 +744,15 @@ metadata:
 
 
 
+  497582: # Enola Holmes (2020) Poster by willtong93 on MediUX. https://mediux.pro/sets/29069
+    url_poster: https://api.mediux.pro/assets/53e733d8-330d-4076-b951-1ac5362b9835
+    url_background: https://api.mediux.pro/assets/eba983f1-dd63-4014-843e-56e5a0861194
+  829280: # Enola Holmes 2 (2022) Poster by willtong93 on MediUX. https://mediux.pro/sets/29069
+    url_poster: https://api.mediux.pro/assets/e0fc7947-68fb-4318-b49a-f27e7596b5ff
+    url_background: https://api.mediux.pro/assets/f9d8969f-b4ce-4548-9143-416fe5f75d20
+
+
+
   1149504: # Honey Don't! (2025) Poster by OldManKestis on MediUX. https://mediux.pro/sets/37099
     url_poster: https://api.mediux.pro/assets/a4681692-aaaf-47d6-aa9d-a178337b595d
 
@@ -1183,6 +1192,18 @@ metadata:
 
   936075: # Michael (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/46097
     url_poster: https://api.mediux.pro/assets/e050b35f-17b1-40a0-a4ac-1c3ff3acd5b9
+
+  1368337: # The Odyssey (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/48475
+    url_poster: https://api.mediux.pro/assets/190280e4-b202-496c-a35e-59d099305ae2
+    url_background: https://api.mediux.pro/assets/aafff911-217c-4b57-a2ff-5574fc501e9f
+
+  1339713: # Obsession (2026) Poster by willtong93 on MediUX. https://mediux.pro/sets/52182
+    url_poster: https://api.mediux.pro/assets/89f1f8d4-79f9-4feb-8013-8859e8f75542
+    url_background: https://api.mediux.pro/assets/f0c07c55-2cf5-4f26-8912-67c926efdeb0
+
+  37735: # Easy A (2010) Poster by sexten on MediUX. https://mediux.pro/sets/51175
+    url_poster: https://api.mediux.pro/assets/d1e41b42-e08b-4e7a-a17e-ac48e0a2cf6b
+
 
 
 # TPDB
