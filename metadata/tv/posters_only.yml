@@ -1,5 +1,16 @@
 
 metadata:
+  300166: # TVDB id for Sneaky Pete. Set by SwaffelSmurf on MediUX. https://mediux.pro/sets/30483
+    url_poster: https://api.mediux.pro/assets/624f3e4f-0e00-49ce-a0c9-266e258b03f9
+    url_background: https://api.mediux.pro/assets/882b37b3-03f2-4ef4-ae4b-2897ff2983e3
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/26619ab9-ea79-409e-9d0a-89f6094320cc
+      2:
+        url_poster: https://api.mediux.pro/assets/97b83582-0df1-4854-b5a8-bbdc07576246
+      3:
+        url_poster: https://api.mediux.pro/assets/9eb78e2b-a746-4513-895e-8960b4505cec
+
   442227: # TVDB id for Such Brave Girls. Set by fwlolx on MediUX. https://mediux.pro/sets/35175
     url_poster: https://api.mediux.pro/assets/4c681031-4c77-4b81-b283-1a071d725e96
     seasons:
