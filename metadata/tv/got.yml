@@ -75,6 +75,10 @@ metadata:
             url_poster: https://api.mediux.pro/assets/7d74ddcd-752a-4676-9913-43d312711d61
           3:
             url_poster: https://api.mediux.pro/assets/515ceafd-54b1-4b50-a94a-b04345a6246d
+          4:
+            url_poster: https://api.mediux.pro/assets/7273d83f-5f1c-4e86-8ad4-a1240c42bc99
+          5:
+            url_poster: https://api.mediux.pro/assets/54f354dd-41ac-4758-b67f-066321b8fe8c
 
   121361: # TVDB id for Game of Thrones. Set by willtong93 on MediUX. https://mediux.pro/sets/7917
     url_poster: https://api.mediux.pro/assets/288a6eda-9680-4762-a3b1-32c026f42c43

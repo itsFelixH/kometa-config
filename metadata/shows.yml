@@ -1,4 +1,16 @@
 metadata:
+  457437: # TVDB id for Lucky. Set by willtong93 on MediUX. https://mediux.pro/sets/56324
+    url_poster: https://api.mediux.pro/assets/ad54cc55-c6f1-4647-ac7c-086a02eddc1f
+    url_background: https://api.mediux.pro/assets/d8596740-19d2-4d35-8b39-daebbdbbf659
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/ec73d92c-61f1-40ea-9f74-1f2e5de8fa93
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/f556b0a2-ed5e-42db-820d-e75d48f2ccf6
+          2:
+            url_poster: https://api.mediux.pro/assets/d2a91b67-6ae2-415b-ae15-51cac8df7c6b
+
   287247: # TVDB id for Schitt's Creek. Set by gxkliks on MediUX. https://mediux.pro/sets/12826
     url_poster: https://api.mediux.pro/assets/dda49e0c-a65b-4427-8004-91f143c8c783
     url_background: https://api.mediux.pro/assets/64f2cc57-5cf7-4652-8554-0a38f7c82729
@@ -591,6 +603,8 @@ metadata:
             url_poster: https://api.mediux.pro/assets/56ec9e80-8dbb-4cbf-bcf7-28f22d761bb3
           9:
             url_poster: https://api.mediux.pro/assets/c57831b3-fa92-4be8-be63-9b66b758375d
+          10:
+            url_poster: https://api.mediux.pro/assets/37e2326f-aa82-4b71-8b68-8830bbd4a557
 
   220411: # TVDB id for Girls. Set by defluo on MediUX. https://mediux.pro/sets/34054
     seasons:
@@ -2779,6 +2793,8 @@ metadata:
             url_poster: https://api.mediux.pro/assets/09069cda-b11c-4d13-bee5-626aa9796acc
           2:
             url_poster: https://api.mediux.pro/assets/5a4394e7-a3ca-4b87-8312-bfd9a40dbb87
+          3:
+            url_poster: https://api.mediux.pro/assets/1df052a8-0dfe-4960-a194-076ad00c4565
 
 
   390716: # TVDB id for Dopesick. Set by codonzero22 on MediUX. https://mediux.pro/sets/27080
@@ -6420,6 +6436,23 @@ metadata:
             url_poster: https://api.mediux.pro/assets/318a9bdf-c61c-47a5-9f52-c14f9a0b0039
       5:
         url_poster: https://api.mediux.pro/assets/824699ae-2e4b-4940-a659-fd07fa6d9186
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/bd3d1394-c75a-4276-8b44-f01e58e8fb4a
+          2:
+            url_poster: https://api.mediux.pro/assets/a269ce3b-3d08-448c-bcb3-27983a2f9251
+          3:
+            url_poster: https://api.mediux.pro/assets/d560cafa-1ffe-4d31-82f3-5da5f971db25
+          4:
+            url_poster: https://api.mediux.pro/assets/cd19f215-29c0-4932-b5f2-e003629ebaf1
+          5:
+            url_poster: https://api.mediux.pro/assets/93da9cad-fc88-46de-a37b-25c28ea961a3
+          6:
+            url_poster: https://api.mediux.pro/assets/9feb98f4-c729-46f3-bb62-3d962c3dae7a
+          7:
+            url_poster: https://api.mediux.pro/assets/21b1be6a-f630-4006-a53c-6d32ddb79ccd
+          8:
+            url_poster: https://api.mediux.pro/assets/276fb472-c361-4224-b968-19ceeab97376
 
 
   79168: # TVDB id for Friends. Set by willtong93 on MediUX. https://mediux.pro/sets/22462
