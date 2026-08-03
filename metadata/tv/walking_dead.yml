@@ -1,5 +1,51 @@
 
 metadata:
+  417549: # TVDB id for The Walking Dead: Dead City. Set by willtong93 on MediUX. https://mediux.pro/sets/26480
+    url_poster: https://api.mediux.pro/assets/9979c296-dbbb-46f7-9205-9f5fe3c749b6
+    url_background: https://api.mediux.pro/assets/5a43c6a9-d085-4e24-9f74-db33459e92d0
+    seasons:
+      0:
+        url_poster: https://api.mediux.pro/assets/2da65d48-d1db-417f-8676-319796885da9
+      1:
+        url_poster: https://api.mediux.pro/assets/7b97a53c-22cd-486a-a813-6407b20e6781
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/ca69ec48-5d49-48ed-ae56-4a55b678dba1
+          2:
+            url_poster: https://api.mediux.pro/assets/a90a2dab-959b-433b-b80d-756a40fbbe22
+          3:
+            url_poster: https://api.mediux.pro/assets/c8a19dd1-f8c8-4d35-ba62-8e28476d22f9
+          4:
+            url_poster: https://api.mediux.pro/assets/d1aebe02-ad5c-4030-a280-855a36d7bb10
+          5:
+            url_poster: https://api.mediux.pro/assets/49269dc0-fbfc-4828-9e32-a36c387a9109
+          6:
+            url_poster: https://api.mediux.pro/assets/749cbf3e-f6f3-4cc3-a220-9e8a261dc6a3
+      2:
+        url_poster: https://api.mediux.pro/assets/18e8ea34-0368-4998-b961-5d21a5540b4b
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/93e92c98-f9a1-46f0-b1cf-992ceb49eec5
+          2:
+            url_poster: https://api.mediux.pro/assets/29373463-bf38-47ff-acf9-3a887a862bda
+          3:
+            url_poster: https://api.mediux.pro/assets/641169a7-819f-49f6-a8e6-ec82ad925507
+          4:
+            url_poster: https://api.mediux.pro/assets/11cb5452-f3cd-4998-94b8-de7a002f6195
+          5:
+            url_poster: https://api.mediux.pro/assets/41fe1245-29ab-45d2-84d1-16d0f3755ec3
+          6:
+            url_poster: https://api.mediux.pro/assets/72610fcb-03f0-4956-8fe2-564fe26bc02e
+          7:
+            url_poster: https://api.mediux.pro/assets/16b1bef2-2171-43d0-bca2-34772e196160
+          8:
+            url_poster: https://api.mediux.pro/assets/ca6376d3-0af7-437e-aeb9-09c7ceead1ac
+      3:
+        url_poster: https://api.mediux.pro/assets/db18df1b-f528-4f18-a65a-14f4120715c3
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/109f87c4-4b12-4bb7-91a6-2b2f719b8f6e
+
   427464: # TVDB id for The Walking Dead: Daryl Dixon. Set by willtong93 on MediUX. https://mediux.pro/sets/23021
     url_poster: https://api.mediux.pro/assets/5071fb52-3204-409b-8047-f09c0166fb77
     url_background: https://api.mediux.pro/assets/c1ad32cd-1b51-4c03-9f5e-26a85494d1c4
