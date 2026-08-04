@@ -7,7 +7,7 @@ My [Kometa](https://github.com/Kometa-Team/Kometa) configuration for managing co
 
 ## What's Included
 
-- **Collections** — movie and TV collections using smart filters, Trakt, IMDb, and Letterboxd
+- **Collections** — movie and TV collections using smart filters, IMDb, and MDBList
 - **Overlays** — status banners via [UMTK/TSSK](https://github.com/netplexflix/Upcoming-Movies-TV-Shows-for-Kometa) (Coming Soon, New, Returning, etc.)
 - **Metadata** — custom posters and sort titles for franchise grouping
 - **Playlists** — cross-library playlists
@@ -19,7 +19,7 @@ git clone https://github.com/itsFelixH/kometa-config.git
 ```
 
 1. Set up Kometa following the [Kometa Wiki](https://kometa.wiki/)
-2. Add your API keys to your `config.yml` (Plex, TMDb, Trakt, MDBList)
+2. Add your API keys to your `config.yml` (Plex, TMDb, MDBList)
 3. Adjust library names to match your Plex server
 
 For help setting up Kometa itself, refer to the [Kometa Wiki](https://kometa.wiki/).
@@ -45,7 +45,7 @@ For help setting up Kometa itself, refer to the [Kometa Wiki](https://kometa.wik
 - [Kometa](https://github.com/Kometa-Team/Kometa) (nightly image)
 - [UMTK/TSSK](https://github.com/netplexflix/Upcoming-Movies-TV-Shows-for-Kometa) for status overlays (optional)
 - Plex Media Server
-- API keys: TMDb, Trakt, MDBList
+- API keys: TMDb, MDBList
 
 </details>
 
