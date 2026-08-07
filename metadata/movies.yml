@@ -750,6 +750,8 @@ metadata:
   829280: # Enola Holmes 2 (2022) Poster by willtong93 on MediUX. https://mediux.pro/sets/29069
     url_poster: https://api.mediux.pro/assets/e0fc7947-68fb-4318-b49a-f27e7596b5ff
     url_background: https://api.mediux.pro/assets/f9d8969f-b4ce-4548-9143-416fe5f75d20
+  1202033: # Enola Holmes 3 (2026) Poster by MiniZaki on MediUX. https://mediux.pro/sets/55303
+    url_poster: https://api.mediux.pro/assets/8736e4a3-a0d9-4119-8ccf-cd5cd1939f06
 
 
 
@@ -1203,6 +1205,16 @@ metadata:
 
   37735: # Easy A (2010) Poster by sexten on MediUX. https://mediux.pro/sets/51175
     url_poster: https://api.mediux.pro/assets/d1e41b42-e08b-4e7a-a17e-ac48e0a2cf6b
+
+  1468683: # Heartstopper Forever (2026) Poster by tallinex on MediUX. https://mediux.pro/sets/53520
+    url_poster: https://api.mediux.pro/assets/c4a082cd-8d48-46e2-9ef2-c4fad1c065ad
+    url_background: https://api.mediux.pro/assets/d336586f-e576-44c1-84c6-f3b94222faca
+
+  1397385: # Little Brother (2026) Poster by JourneyOver on MediUX. https://mediux.pro/sets/54454
+    url_poster: https://api.mediux.pro/assets/7d794724-5671-452a-a1cb-65a2667ba521
+
+  1431804: # 40 Dates and 40 Nights (2026) Poster by ciners on MediUX. https://mediux.pro/sets/54773
+    url_poster: https://api.mediux.pro/assets/b1374340-b5de-4c93-bcbb-03b271cdfcec
 
 
 
