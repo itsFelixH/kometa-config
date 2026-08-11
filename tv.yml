@@ -93,6 +93,7 @@ collections:
       sort_by: random
       all:
         audience_rating.gte: 8
+        unplayed_episodes.gte: 1
         label.not: Coming Soon
       limit: 20
     builder_level: show
@@ -107,7 +108,7 @@ collections:
     smart_filter:
       sort_by: random
       all:
-        unplayed: true
+        unplayed_episodes.gte: 1
         episode_duration.lte: 35
         label.not: Coming Soon
       limit: 20
@@ -123,7 +124,7 @@ collections:
     smart_filter:
       sort_by: episode_added.desc
       all:
-        episode_played: true
+        episode_plays.gte: 1
         unplayed_episodes.gte: 1
         label.not: Coming Soon
       limit: 20

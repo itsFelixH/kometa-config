@@ -1,19 +1,1 @@
 playlists:
-
-  Arrowverse:
-    trakt_list: https://trakt.tv/users/donxy/lists/arrowverse
-    summary: Ein DC-Comics-Franchise, das Crossover mit Green Arrow, The Flash, Supergirl und vielen anderen umfasst.
-    sync_mode: sync
-    libraries:
-      - TV Shows
-    filters:
-      plays.lt: 1
-
-  Marvel Netflix:
-    trakt_list: https://trakt.tv/users/condemned/lists/marvel-netflix
-    summary: Die Marvel Defenders Saga mit Daredevil, Jessica Jones, Luke Cage, Iron Fist und dem Punisher.
-    sync_mode: sync
-    libraries:
-      - TV Shows
-    filters:
-      plays.lt: 1
