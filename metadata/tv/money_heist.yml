@@ -1,10 +1,5 @@
 
 metadata:
-  413033: # TVDB id for Berlin. Set by Praythea on MediUX. https://mediux.pro/sets/2294
-    url_poster: https://api.mediux.pro/assets/ddc07aa8-62f7-4f5c-8202-72e8cfaf79a4
-    seasons:
-      1:
-        url_poster: https://api.mediux.pro/assets/8063617f-0356-4e87-97f9-bb9f5523315a
 
   327417: # TVDB id for Money Heist
     url_poster: https://theposterdb.com/api/assets/58621
