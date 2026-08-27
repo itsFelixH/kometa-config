@@ -9,7 +9,7 @@ My [Kometa](https://github.com/Kometa-Team/Kometa) configuration for managing co
 
 - **Collections** — movie and TV collections using smart filters, IMDb, and MDBList
 - **Overlays** — status banners via [UMTK/TSSK](https://github.com/netplexflix/Upcoming-Movies-TV-Shows-for-Kometa) (Coming Soon, New, Returning, etc.)
-- **Metadata** — custom posters and sort titles for franchise grouping
+- **Metadata** — custom posters and sort titles for franchise grouping (transitioning to [AURA](https://github.com/mediux-team/AURA) for artwork management)
 - **Playlists** — cross-library playlists
 
 ## Usage
@@ -33,7 +33,7 @@ For help setting up Kometa itself, refer to the [Kometa Wiki](https://kometa.wik
 ├── playlists.yml         Cross-library playlists
 ├── metadata/
 │   ├── movies.yml        Custom movie metadata
-│   └── tv/               Per-franchise TV metadata (MCU, Star Wars, etc.)
+│   └── tv/               Per-franchise TV metadata (remaining shows not yet in AURA)
 └── fonts/                Custom fonts used by overlays
 ```
 
@@ -44,6 +44,7 @@ For help setting up Kometa itself, refer to the [Kometa Wiki](https://kometa.wik
 
 - [Kometa](https://github.com/Kometa-Team/Kometa) (nightly image)
 - [UMTK/TSSK](https://github.com/netplexflix/Upcoming-Movies-TV-Shows-for-Kometa) for status overlays (optional)
+- [AURA](https://github.com/mediux-team/AURA) for artwork management via [MediUX](https://mediux.pro/) (optional — replaces manual metadata poster entries)
 - Plex Media Server
 - API keys: TMDb, MDBList
 
@@ -54,10 +55,11 @@ For help setting up Kometa itself, refer to the [Kometa Wiki](https://kometa.wik
 
 Kometa processes each library in this order:
 
-1. **Operations** — mass rating/genre updates, stale collection cleanup
-2. **Metadata** — custom posters and sort titles
-3. **Collections** — smart filters and external lists
-4. **Overlays** — UMTK/TSSK status banners
+1. **AURA** — applies artwork from MediUX poster sets (runs at 04:00, before Kometa)
+2. **Operations** — mass rating/genre updates, stale collection cleanup
+3. **Metadata** — custom posters and sort titles (for items not managed by AURA)
+4. **Collections** — smart filters and external lists
+5. **Overlays** — UMTK/TSSK status banners (applied on top of AURA artwork)
 
 </details>
 
@@ -65,7 +67,7 @@ Kometa processes each library in this order:
 
 For Kometa related questions or issues, join the [Kometa Discord Server](https://discord.gg/uvXgYS73Qf).
 
-You can find all posters I used on [The Poster Database](https://theposterdb.com/) or on [MediUX](https://mediux.pro/).
+You can find all posters I used on [The Poster Database](https://theposterdb.com/) or on [MediUX](https://mediux.pro/). Most artwork is now managed automatically via [AURA](https://github.com/mediux-team/AURA).
 
 ## Thanks
 
