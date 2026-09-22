@@ -16,7 +16,7 @@ templates:
     sort_title: <<collection_name>>
     collection_mode: hide
     collection_order: release
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
 ############################
 #       COLLECTIONS        #
@@ -143,7 +143,7 @@ collections:
     collection_order: custom
     sort_title: "+3_1_oscars"
     visible_library: true
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
   ### DECADES
 
@@ -164,7 +164,7 @@ collections:
     visible_library: true
     visible_home: true
     limit: 50
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
   🏅 Best of the 2010s:
     imdb_search:
@@ -183,7 +183,7 @@ collections:
     visible_library: true
     visible_home: true
     limit: 50
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
   ### MOOD
 
@@ -250,7 +250,7 @@ collections:
     collection_order: random
     sort_title: "+6_1_documentary"
     visible_library: true
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
   🎨 Animation:
     plex_search:
@@ -262,7 +262,7 @@ collections:
     collection_order: random
     sort_title: "+6_2_animation"
     visible_library: true
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
   ### LANGUAGES
 
@@ -276,7 +276,7 @@ collections:
     collection_order: random
     sort_title: "+7_1_spanish"
     visible_library: true
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
   
   🥨 Deutsch:
     plex_all: true
@@ -288,7 +288,7 @@ collections:
     collection_order: random
     sort_title: "+7_2_german"
     visible_library: true
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
   ### STUDIOS
 
@@ -300,7 +300,7 @@ collections:
     collection_order: release
     sort_title: "+8_1_a24"
     visible_library: true
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
   🍎 Apple TV+:
     smart_filter:
@@ -314,7 +314,7 @@ collections:
     sort_title: "+8_2_apple"
     visible_library: true
     visible_home: true
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
   🟥 Netflix:
     smart_filter:
@@ -328,7 +328,7 @@ collections:
     sort_title: "+8_3_netflix"
     visible_library: true
     visible_home: true
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
   🏰 Disney+:
     smart_filter:
@@ -342,7 +342,7 @@ collections:
     sort_title: "+8_4_disney"
     visible_library: true
     visible_home: true
-    # schedule: weekly(sunday)
+    schedule: weekly(sunday)
 
 
   ### PERSONAL
