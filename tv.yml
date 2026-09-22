@@ -60,12 +60,12 @@ collections:
   ### RECOMMENDED
 
   📈 Most Watched This Week:
-    trakt_chart:
-      - chart: trending
-        limit: 50
-    limit: 20
+    tmdb_trending_weekly: 30
+    tmdb_popular: 20
+    imdb_chart: popular_shows
+    limit: 30
     builder_level: show
-    summary: The most popular shows across Trakt this week.
+    summary: The most popular and trending shows this week across TMDb and IMDb.
     collection_mode: hide
     collection_order: custom
     sort_title: "+2_1_mostwatched"
@@ -76,7 +76,7 @@ collections:
     smart_filter:
       sort_by: random
       all:
-        unplayed: true
+        unplayed_episodes: true
         audience_rating.gte: 7
         label.not: Coming Soon
       limit: 20
@@ -93,7 +93,7 @@ collections:
       sort_by: random
       all:
         audience_rating.gte: 8
-        unplayed_episodes.gte: 1
+        unplayed_episodes: true
         label.not: Coming Soon
       limit: 20
     builder_level: show
@@ -108,7 +108,7 @@ collections:
     smart_filter:
       sort_by: random
       all:
-        unplayed_episodes.gte: 1
+        unplayed_episodes: true
         episode_duration.lte: 35
         label.not: Coming Soon
       limit: 20
@@ -125,7 +125,7 @@ collections:
       sort_by: episode_added.desc
       all:
         episode_plays.gte: 1
-        unplayed_episodes.gte: 1
+        unplayed_episodes: true
         label.not: Coming Soon
       limit: 20
     builder_level: show

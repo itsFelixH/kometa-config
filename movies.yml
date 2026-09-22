@@ -59,11 +59,10 @@ collections:
   ### RECOMMENDED
 
   📈 Most Watched This Week:
-    trakt_chart:
-      - chart: trending
-        limit: 50
-    tmdb_trending_weekly: 20
-    summary: The most popular movies across Trakt and TMDb this week.
+    tmdb_trending_weekly: 30
+    tmdb_popular: 20
+    imdb_chart: popular_movies
+    summary: The most popular and trending movies this week across TMDb and IMDb.
     collection_mode: hide
     collection_order: random
     sort_title: "+2_1_mostwatched"
