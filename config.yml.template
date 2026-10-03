@@ -1,0 +1,151 @@
+libraries:
+
+############################
+#         MOVIES           #
+############################
+
+  Movies:
+    template_variables:
+      language: en
+      use_separator: false
+    remove_overlays: false
+    collection_files:
+      - file: config/movies.yml
+      # Optional: UMTK upcoming overlays if running UMTK
+      # - file: /umtk/UMTK_MOVIES_UPCOMING_COLLECTION.yml
+    overlay_files:
+      # Optional: UMTK upcoming overlays
+      # - file: /umtk/UMTK_MOVIES_UPCOMING_OVERLAYS.yml
+    operations:
+      - schedule: weekly(monday)
+      - delete_collections:
+          managed: false
+        mass_originally_available_update: tmdb
+        mass_genre_update: tmdb
+        mass_content_rating_update: mdb_commonsense
+        mass_user_rating_update: mdb_tomatoes
+        mass_critic_rating_update: imdb
+        mass_audience_rating_update: tmdb
+
+############################
+#         TV SHOWS         #
+############################
+
+  TV Shows:
+    template_variables:
+      language: en
+      use_separator: false
+    remove_overlays: false
+    collection_files:
+      - file: config/tv.yml
+      # Optional: UMTK/TSSK collections if running UMTK
+      # - file: /umtk/TSSK_TV_NEW_SEASON_COLLECTION.yml
+      # - file: /umtk/TSSK_TV_NEW_SHOW_COLLECTION.yml
+      # - file: /umtk/TSSK_TV_RETURNING_COLLECTION.yml
+      # - file: /umtk/UMTK_TV_UPCOMING_SHOWS_COLLECTION.yml
+    overlay_files:
+      # Optional: TSSK status overlays
+      # - file: /umtk/TSSK_TV_NEW_SHOW_OVERLAYS.yml
+      # - file: /umtk/TSSK_TV_NEW_SEASON_OVERLAYS.yml
+      # - file: /umtk/TSSK_TV_NEW_SEASON_STARTED_OVERLAYS.yml
+      # - file: /umtk/TSSK_TV_UPCOMING_EPISODE_OVERLAYS.yml
+      # - file: /umtk/TSSK_TV_UPCOMING_FINALE_OVERLAYS.yml
+      # - file: /umtk/TSSK_TV_SEASON_FINALE_OVERLAYS.yml
+      # - file: /umtk/TSSK_TV_FINAL_EPISODE_OVERLAYS.yml
+      # - file: /umtk/TSSK_TV_RETURNING_OVERLAYS.yml
+      # - file: /umtk/UMTK_TV_UPCOMING_SHOWS_OVERLAYS.yml
+      # - file: /umtk/UMTK_TV_NEW_SHOWS_OVERLAYS.yml
+    metadata_files:
+      - file: config/metadata/tv/money_heist.yml
+    operations:
+      - schedule: weekly(monday)
+      - delete_collections:
+          managed: false
+        mass_originally_available_update: tvdb
+        mass_genre_update: tvdb
+        mass_content_rating_update: mdb_commonsense
+        mass_user_rating_update: mdb_tomatoes
+        mass_critic_rating_update: imdb
+        mass_audience_rating_update: tmdb
+
+############################
+#        PLAYLISTS         #
+############################
+
+# playlist_files:
+#   - file: config/playlists.yml
+
+############################
+#         SETTINGS         #
+############################
+
+settings:
+  run_order:
+    - operations
+    - metadata
+    - collections
+    - overlays
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: false
+  asset_depth: 0
+  create_asset_folders: false
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: false
+  sync_mode: sync
+  minimum_items: 1
+  default_collection_order:
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_unconfigured: true
+  show_filtered: false
+  show_unfiltered: false
+  show_options: true
+  show_missing: true
+  show_missing_assets: false
+  save_report: false
+  tvdb_language: en
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_users:
+  playlist_exclude_users:
+  playlist_report: false
+  verify_ssl: true
+  custom_repo:
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality: 90
+  check_nightly: true
+  auto_sort_hubs:
+
+plex:
+  url: http://localhost:32400
+  token: YOUR_PLEX_TOKEN_HERE
+  timeout: 360
+  db_cache: 1024
+  clean_bundles: true
+  empty_trash: true
+  optimize: true
+  verify_ssl:
+
+tmdb:
+  apikey: YOUR_TMDB_API_KEY_HERE
+  language: en
+  cache_expiration: 60
+  region:
+
+github:
+  token: YOUR_GITHUB_PAT_HERE
+
+mdblist:
+  apikey: YOUR_MDBLIST_API_KEY_HERE
+  cache_expiration: 60
