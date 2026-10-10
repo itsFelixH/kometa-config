@@ -67,7 +67,7 @@ collections:
     builder_level: show
     summary: The most popular and trending shows this week across TMDb and IMDb.
     collection_mode: hide
-    collection_order: custom
+    collection_order: random
     sort_title: "+2_1_mostwatched"
     visible_home: true
     visible_library: true
@@ -109,7 +109,6 @@ collections:
       sort_by: random
       all:
         unplayed_episodes: true
-        episode_duration.lte: 35
         label.not: Coming Soon
       limit: 20
     builder_level: show
