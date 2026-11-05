@@ -1,6 +1,6 @@
 # Secrets - real config contains API keys and tokens
 config.yml
-config.cache
+config.cache*
 UUID
 
 # Runtime logs
@@ -8,5 +8,8 @@ logs/
 
 # Overlays - sourced from remote URLs at runtime, not needed in repo
 overlays/
+
+# Runtime caches & integrity
+.source-integrity/
 
 POSTERS.md
