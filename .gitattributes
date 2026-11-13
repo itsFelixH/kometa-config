@@ -1,0 +1,17 @@
+# Auto-detect text files and enforce Unix LF line endings
+* text=auto eol=lf
+
+# Force specific file types to Unix LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ttf binary
+*.db binary
+*.sqlite3 binary
