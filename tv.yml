@@ -250,7 +250,8 @@ collections:
     smart_filter:
       sort_by: release.desc
       all:
-        network: HBO, HBO Max
+        any:
+          network: HBO, HBO Max, Max
         label.not: Coming Soon
     url_poster: https://theposterdb.com/api/assets/168825
     summary: HBO originals and Max exclusives.

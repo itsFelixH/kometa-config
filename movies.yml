@@ -267,9 +267,9 @@ collections:
   ### LANGUAGES
 
   🪇 Español:
-    plex_all: true
-    filters:
-      audio_language: Spanish
+    plex_search:
+      all:
+        audio_language: Spanish
     url_poster: https://theposterdb.com/api/assets/217291
     summary: Movies with Spanish audio available.
     collection_mode: hide
@@ -279,9 +279,9 @@ collections:
     schedule: weekly(sunday)
   
   🥨 Deutsch:
-    plex_all: true
-    filters:
-      audio_language: German
+    plex_search:
+      all:
+        audio_language: German
     url_poster: https://theposterdb.com/api/assets/217255
     summary: Movies with German audio available.
     collection_mode: hide
@@ -306,7 +306,7 @@ collections:
     smart_filter:
       sort_by: release.desc
       all:
-        studio: Apple TV+
+        studio: Apple Studios
         label.not: Coming Soon
     url_poster: https://theposterdb.com/api/assets/168823
     summary: Apple TV+ originals and exclusives.
@@ -334,7 +334,8 @@ collections:
     smart_filter:
       sort_by: release.desc
       all:
-        studio: Disney+
+        any:
+          studio: Walt Disney Pictures, Walt Disney Animation Studios
         label.not: Coming Soon
     url_poster: https://theposterdb.com/api/assets/168824
     summary: Disney+ original films in your library.
