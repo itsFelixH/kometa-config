@@ -24,9 +24,14 @@ templates:
 
 collections:
 
+  # NOTE: collection names are ASCII-only on purpose. Plex 1.41.4 cannot remove
+  # items from a collection whose name contains emoji (silent no-op on the
+  # collection[].tag.tag-= edit), so such collections would only ever grow.
+  # See scripts/docs/kometa-plex-emoji-collection-removal-bug.md.
+
   ### ADDED
 
-  🗓️ New Movies:
+  New Movies:
     smart_filter:
       sort_by: added.desc
       all:
@@ -41,7 +46,7 @@ collections:
     visible_library: true
     visible_home: true
 
-  🎞️ Older Movies Added:
+  Older Movies Added:
     smart_filter:
       sort_by: added.desc
       all:
@@ -58,10 +63,12 @@ collections:
 
   ### RECOMMENDED
 
-  📈 Most Watched This Week:
+  Most Watched This Week:
     tmdb_trending_weekly: 30
     tmdb_popular: 20
     imdb_chart: popular_movies
+    filters:
+      label.not: Coming Soon
     summary: The most popular and trending movies this week across TMDb and IMDb.
     collection_mode: hide
     collection_order: random
@@ -69,7 +76,7 @@ collections:
     visible_library: true
     visible_home: true
 
-  🍿 What Should I Watch?:
+  What Should I Watch?:
     smart_filter:
       sort_by: random
       all:
@@ -84,7 +91,7 @@ collections:
     visible_home: true
     schedule: daily
 
-  🌙 Late Night:
+  Late Night:
     smart_filter:
       sort_by: random
       all:
@@ -100,7 +107,7 @@ collections:
     visible_home: true
     schedule: daily
 
-  🍿 Weekend Blockbusters:
+  Weekend Blockbusters:
     smart_filter:
       sort_by: random
       all:
@@ -116,7 +123,7 @@ collections:
     visible_home: true
     schedule: weekly(friday)
 
-  🍷 Date Night:
+  Date Night:
     smart_filter:
       sort_by: random
       all:
@@ -135,8 +142,10 @@ collections:
 
   ### TOP
 
-  🏆 Oscar Winners:
+  Oscar Winners:
     imdb_list: https://www.imdb.com/list/ls062667125/
+    filters:
+      label.not: Coming Soon
     url_poster: https://theposterdb.com/api/assets/396725
     summary: Every Academy Award winner for Best Picture.
     collection_mode: hide
@@ -147,7 +156,7 @@ collections:
 
   ### DECADES
 
-  🏅 Best of the 2020s:
+  Best of the 2020s:
     imdb_search:
       type: movie
       release.after: 2020-01-01
@@ -164,9 +173,11 @@ collections:
     visible_library: true
     visible_home: true
     limit: 50
+    filters:
+      label.not: Coming Soon
     schedule: weekly(sunday)
 
-  🏅 Best of the 2010s:
+  Best of the 2010s:
     imdb_search:
       type: movie
       release.after: 2010-01-01
@@ -183,11 +194,13 @@ collections:
     visible_library: true
     visible_home: true
     limit: 50
+    filters:
+      label.not: Coming Soon
     schedule: weekly(sunday)
 
   ### MOOD
 
-  🧠 Mind-Bending:
+  Mind-Bending:
     smart_filter:
       sort_by: random
       all:
@@ -203,7 +216,7 @@ collections:
     visible_home: true
     schedule: weekly(wednesday)
 
-  😌 Easy Watching:
+  Easy Watching:
     smart_filter:
       sort_by: random
       all:
@@ -219,7 +232,7 @@ collections:
     visible_home: true
     schedule: daily
 
-  🥺 In the Feels:
+  In the Feels:
     smart_filter:
       sort_by: random
       all:
@@ -237,10 +250,11 @@ collections:
 
   ### GENRE
 
-  📄 Documentary:
+  Documentary:
     plex_search:
       all:
         genre: Documentary
+        label.not: Coming Soon
         title.not:
           - "Friends: The Reunion"
           - "Harry Potter 20th Anniversary: Return to Hogwarts"
@@ -252,10 +266,11 @@ collections:
     visible_library: true
     schedule: weekly(sunday)
 
-  🎨 Animation:
+  Animation:
     plex_search:
       all:
         genre: Animation
+        label.not: Coming Soon
     url_poster: https://theposterdb.com/api/assets/224330
     summary: Animated feature films for all ages.
     collection_mode: hide
@@ -266,10 +281,11 @@ collections:
 
   ### LANGUAGES
 
-  🪇 Español:
+  Español:
     plex_search:
       all:
         audio_language: Spanish
+        label.not: Coming Soon
     url_poster: https://theposterdb.com/api/assets/217291
     summary: Movies with Spanish audio available.
     collection_mode: hide
@@ -278,10 +294,11 @@ collections:
     visible_library: true
     schedule: weekly(sunday)
   
-  🥨 Deutsch:
+  Deutsch:
     plex_search:
       all:
         audio_language: German
+        label.not: Coming Soon
     url_poster: https://theposterdb.com/api/assets/217255
     summary: Movies with German audio available.
     collection_mode: hide
@@ -292,8 +309,10 @@ collections:
 
   ### STUDIOS
 
-  🎭 A24:
+  A24:
     tmdb_company: 41077
+    filters:
+      label.not: Coming Soon
     url_poster: https://theposterdb.com/api/assets/49079
     summary: Films from A24. Indie, arthouse, and everything in between.
     collection_mode: hide
@@ -302,7 +321,7 @@ collections:
     visible_library: true
     schedule: weekly(sunday)
 
-  🍎 Apple TV+:
+  Apple TV+:
     smart_filter:
       sort_by: release.desc
       all:
@@ -316,7 +335,7 @@ collections:
     visible_home: true
     schedule: weekly(sunday)
 
-  🟥 Netflix:
+  Netflix:
     smart_filter:
       sort_by: release.desc
       all:
@@ -330,7 +349,7 @@ collections:
     visible_home: true
     schedule: weekly(sunday)
 
-  🏰 Disney+:
+  Disney+:
     smart_filter:
       sort_by: release.desc
       all:
@@ -348,7 +367,7 @@ collections:
 
   ### PERSONAL
 
-  # 🎬 Caro's List:
+  # Caro's List:
   #   tmdb_movie:
   #     - 1165642  # Lost in Starlight (2025)
   #     - 639988   # No Other Choice (2025)
@@ -383,6 +402,8 @@ collections:
         poster: https://theposterdb.com/api/assets/517809
       }
     imdb_list: https://www.imdb.com/list/ls505369170/
+    filters:
+      label.not: Coming Soon
 
   # Batman Collection:
   #   template:

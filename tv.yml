@@ -23,9 +23,14 @@ templates:
 
 collections:
 
+  # NOTE: collection names are ASCII-only on purpose. Plex 1.41.4 cannot remove
+  # items from a collection whose name contains emoji (silent no-op on the
+  # collection[].tag.tag-= edit), so such collections would only ever grow.
+  # See scripts/docs/kometa-plex-emoji-collection-removal-bug.md.
+
   ### ADDED
 
-  🗓️ New Episodes:
+  New Episodes:
     smart_filter:
       sort_by: episode_added.desc
       all:
@@ -41,7 +46,7 @@ collections:
     visible_library: true
     visible_home: true
 
-  🎞️ Older Shows Added:
+  Older Shows Added:
     smart_filter:
       sort_by: episode_added.desc
       all:
@@ -59,10 +64,12 @@ collections:
 
   ### RECOMMENDED
 
-  📈 Most Watched This Week:
+  Most Watched This Week:
     tmdb_trending_weekly: 30
     tmdb_popular: 20
     imdb_chart: popular_shows
+    filters:
+      label.not: Coming Soon
     limit: 30
     builder_level: show
     summary: The most popular and trending shows this week across TMDb and IMDb.
@@ -72,7 +79,7 @@ collections:
     visible_home: true
     visible_library: true
 
-  🍿 What Should I Watch?:
+  What Should I Watch?:
     smart_filter:
       sort_by: random
       all:
@@ -88,7 +95,7 @@ collections:
     visible_home: true
     schedule: daily
 
-  🔁 Binge-Worthy:
+  Binge-Worthy:
     smart_filter:
       sort_by: random
       all:
@@ -104,7 +111,7 @@ collections:
     visible_home: true
     schedule: weekly(sunday)
 
-  ⏩ Short Episodes:
+  Short Episodes:
     smart_filter:
       sort_by: random
       all:
@@ -119,7 +126,7 @@ collections:
     visible_home: true
     schedule: daily
 
-  🏃 Catch Up:
+  Catch Up:
     smart_filter:
       sort_by: episode_added.desc
       all:
@@ -136,7 +143,7 @@ collections:
 
   ### DECADES
 
-  🏅 Best of the 2020s:
+  Best of the 2020s:
     imdb_search:
       type: tv_series, tv_mini_series, tv_special
       release.after: 2020-01-01
@@ -146,6 +153,8 @@ collections:
       sort_by: rating.desc
       limit: 150
     limit: 50
+    filters:
+      label.not: Coming Soon
     builder_level: show
     url_poster: https://theposterdb.com/api/assets/350800
     summary: The top-rated shows of the 2020s according to IMDb.
@@ -156,7 +165,7 @@ collections:
     visible_home: true
     schedule: weekly(sunday)
 
-  🏅 Best of the 2010s:
+  Best of the 2010s:
     imdb_search:
       type: tv_series, tv_mini_series, tv_special
       release.after: 2010-01-01
@@ -166,6 +175,8 @@ collections:
       sort_by: rating.desc
       limit: 150
     limit: 50
+    filters:
+      label.not: Coming Soon
     builder_level: show
     url_poster: https://theposterdb.com/api/assets/350799
     summary: The top-rated shows of the 2010s according to IMDb.
@@ -178,9 +189,11 @@ collections:
 
   ### GENRE
 
-  📄 Documentary:
+  Documentary:
     plex_search:
-      genre: Documentary
+      all:
+        genre: Documentary
+        label.not: Coming Soon
     builder_level: show
     url_poster: https://theposterdb.com/api/assets/224334
     summary: Non-fiction series. True stories, nature, history, and more.
@@ -190,9 +203,11 @@ collections:
     visible_library: true
     schedule: weekly(sunday)
 
-  🎨 Animation:
+  Animation:
     plex_search:
-      genre: Animation
+      all:
+        genre: Animation
+        label.not: Coming Soon
     builder_level: show
     url_poster: https://theposterdb.com/api/assets/224330
     summary: Animated series for all ages.
@@ -204,10 +219,11 @@ collections:
 
   ### LANGUAGES
 
-  🪇 Español:
+  Español:
     plex_all: true
     filters:
       audio_language: Spanish
+      label.not: Coming Soon
     builder_level: show
     url_poster: https://theposterdb.com/api/assets/217291
     summary: Shows with Spanish audio available.
@@ -217,10 +233,11 @@ collections:
     visible_library: true
     schedule: weekly(sunday)
   
-  🥨 Deutsch:
+  Deutsch:
     plex_all: true
     filters:
       audio_language: German
+      label.not: Coming Soon
     builder_level: show
     url_poster: https://theposterdb.com/api/assets/217255
     summary: Shows with German audio available.
@@ -232,7 +249,7 @@ collections:
 
   ### STUDIOS
 
-  🍎 Apple TV+:
+  Apple TV+:
     smart_filter:
       sort_by: release.desc
       all:
@@ -246,7 +263,7 @@ collections:
     visible_library: true
     schedule: weekly(sunday)
 
-  🐉 HBO:
+  HBO:
     smart_filter:
       sort_by: release.desc
       all:
@@ -261,7 +278,7 @@ collections:
     visible_library: true
     schedule: weekly(sunday)
 
-  🟥 Netflix:
+  Netflix:
     smart_filter:
       sort_by: release.desc
       all:
@@ -275,7 +292,7 @@ collections:
     visible_library: true
     schedule: weekly(sunday)
 
-  🏰 Disney+:
+  Disney+:
     smart_filter:
       sort_by: release.desc
       all:
@@ -291,7 +308,7 @@ collections:
 
   ### SHOW TYPES
 
-  📺 Miniseries:
+  Miniseries:
     plex_all: true
     filters:
       tmdb_type: miniseries
@@ -308,7 +325,7 @@ collections:
 
   ### PERSONAL
 
-  # 🎬 Caro's List:
+  # Caro's List:
   #   tvdb_show:
   #     - 371282   # Normal People (2020)
   #     - 259068   # Girls (2012)
@@ -333,6 +350,8 @@ collections:
         poster: https://theposterdb.com/api/assets/517809
       }
     imdb_list: https://www.imdb.com/list/ls505369170/
+    filters:
+      label.not: Coming Soon
 
   # Breaking Bad Collection:
   #   template:
