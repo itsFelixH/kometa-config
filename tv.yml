@@ -12,7 +12,7 @@ templates:
     url_poster: <<poster>>
     tvdb_list_details: <<list>>
     tvdb_show: <<shows>>
-    sort_title: <<collection_name>>
+    sort_title: "+10_01_<<collection_name>>"
     collection_mode: hide
     collection_order: release
     schedule: weekly(sunday)
@@ -42,7 +42,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/213602
     summary: Shows with fresh episodes added in the last 3 months.
     collection_mode: hide
-    sort_title: "+1_1_newepisodes"
+    sort_title: "+01_02_newepisodes"
     visible_library: true
     visible_home: true
 
@@ -58,7 +58,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/252061
     summary: Older shows recently added to the library.
     collection_mode: hide
-    sort_title: "+1_2_olderadditions"
+    sort_title: "+01_07_olderadded"
     visible_library: true
     visible_home: true
 
@@ -75,7 +75,7 @@ collections:
     summary: The most popular and trending shows this week across TMDb and IMDb.
     collection_mode: hide
     collection_order: random
-    sort_title: "+2_1_mostwatched"
+    sort_title: "+02_01_mostwatched"
     visible_home: true
     visible_library: true
 
@@ -90,7 +90,7 @@ collections:
     builder_level: show
     summary: Can't decide? Here are 20 random well-rated picks you haven't seen yet. Refreshes daily.
     collection_mode: hide
-    sort_title: "+2_2_whatshouldwatch"
+    sort_title: "+02_02_whatshould"
     visible_library: true
     visible_home: true
     schedule: daily
@@ -106,7 +106,7 @@ collections:
     builder_level: show
     summary: Highly rated shows worth watching from start to finish. Your next obsession awaits.
     collection_mode: hide
-    sort_title: "+2_3_bingeworthy"
+    sort_title: "+02_03_bingeworthy"
     visible_library: true
     visible_home: true
     schedule: weekly(sunday)
@@ -121,7 +121,7 @@ collections:
     builder_level: show
     summary: Shows with episodes under 35 minutes. Perfect for lunch breaks or before bed.
     collection_mode: hide
-    sort_title: "+2_4_shortepisodes"
+    sort_title: "+02_05_shortepisodes"
     visible_library: true
     visible_home: true
     schedule: daily
@@ -137,7 +137,7 @@ collections:
     builder_level: show
     summary: Shows you've started but haven't finished. Time to catch up.
     collection_mode: hide
-    sort_title: "+2_5_catchup"
+    sort_title: "+02_04_catchup"
     visible_library: true
     visible_home: true
 
@@ -160,7 +160,7 @@ collections:
     summary: The top-rated shows of the 2020s according to IMDb.
     collection_mode: hide
     collection_order: custom
-    sort_title: "+3_1_best2020"
+    sort_title: "+04_01_best2020"
     visible_library: true
     visible_home: true
     schedule: weekly(sunday)
@@ -182,7 +182,7 @@ collections:
     summary: The top-rated shows of the 2010s according to IMDb.
     collection_mode: hide
     collection_order: custom
-    sort_title: "+3_2_best2010"
+    sort_title: "+04_02_best2010"
     visible_library: true
     visible_home: true
     schedule: weekly(sunday)
@@ -199,7 +199,7 @@ collections:
     summary: Non-fiction series. True stories, nature, history, and more.
     collection_mode: hide
     collection_order: random
-    sort_title: "+5_1_documentary"
+    sort_title: "+06_01_documentary"
     visible_library: true
     schedule: weekly(sunday)
 
@@ -213,7 +213,7 @@ collections:
     summary: Animated series for all ages.
     collection_mode: hide
     collection_order: random
-    sort_title: "+5_2_animation"
+    sort_title: "+06_02_animation"
     visible_library: true
     schedule: weekly(sunday)
 
@@ -229,7 +229,7 @@ collections:
     summary: Shows with Spanish audio available.
     collection_mode: hide
     collection_order: random
-    sort_title: "+6_1_spanish"
+    sort_title: "+07_01_spanish"
     visible_library: true
     schedule: weekly(sunday)
   
@@ -243,7 +243,7 @@ collections:
     summary: Shows with German audio available.
     collection_mode: hide
     collection_order: random
-    sort_title: "+6_2_german"
+    sort_title: "+07_02_german"
     visible_library: true
     schedule: weekly(sunday)
 
@@ -258,7 +258,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/168823
     summary: Apple TV+ originals and exclusives.
     collection_mode: hide
-    sort_title: "+7_1_apple"
+    sort_title: "+08_01_apple"
     visible_home: true
     visible_library: true
     schedule: weekly(sunday)
@@ -273,7 +273,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/168825
     summary: HBO originals and Max exclusives.
     collection_mode: hide
-    sort_title: "+7_2_hbo"
+    sort_title: "+08_02_hbo"
     visible_home: true
     visible_library: true
     schedule: weekly(sunday)
@@ -287,7 +287,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/168827
     summary: Netflix original series in your library.
     collection_mode: hide
-    sort_title: "+7_3_netflix"
+    sort_title: "+08_03_netflix"
     visible_home: true
     visible_library: true
     schedule: weekly(sunday)
@@ -301,7 +301,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/168824
     summary: Disney+ original series in your library.
     collection_mode: hide
-    sort_title: "+7_4_disney"
+    sort_title: "+08_04_disney"
     visible_home: true
     visible_library: true
     schedule: weekly(sunday)
@@ -317,7 +317,7 @@ collections:
     summary: Complete stories told in a limited number of episodes. No second season needed.
     collection_mode: hide
     collection_order: release
-    sort_title: "+8_1_miniseries"
+    sort_title: "+09_01_miniseries"
     visible_library: true
     item_label: miniserie
     schedule: weekly(sunday)
@@ -336,7 +336,7 @@ collections:
   #   builder_level: show
   #   summary: Caro's curated picks. Indie gems and hidden favorites.
   #   collection_mode: hide
-  #   sort_title: "+9_1_caroslist"
+  #   sort_title: "+11_01_caroslist"
   #   visible_library: true
   #   schedule: weekly(sunday)
 

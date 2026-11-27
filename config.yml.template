@@ -126,7 +126,7 @@ settings:
   overlay_artwork_filetype: jpg
   overlay_artwork_quality: 90
   check_nightly: true
-  auto_sort_hubs:
+  auto_sort_hubs: sort_title
 
 plex:
   url: http://localhost:32400
