@@ -13,7 +13,7 @@ templates:
     tmdb_collection_details: <<collection>>
     tmdb_list: <<list>>
     tmdb_movie: <<movies>>
-    sort_title: <<collection_name>>
+    sort_title: "+10_01_<<collection_name>>"
     collection_mode: hide
     collection_order: release
     schedule: weekly(sunday)
@@ -42,7 +42,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/407033
     summary: New releases added in the last 3 months.
     collection_mode: hide
-    sort_title: "+1_1_recentlyadded"
+    sort_title: "+01_02_newmovies"
     visible_library: true
     visible_home: true
 
@@ -57,7 +57,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/407034
     summary: Older movies recently added to the library.
     collection_mode: hide
-    sort_title: "+1_2_olderadditions"
+    sort_title: "+01_03_olderadded"
     visible_library: true
     visible_home: true
 
@@ -72,7 +72,7 @@ collections:
     summary: The most popular and trending movies this week across TMDb and IMDb.
     collection_mode: hide
     collection_order: random
-    sort_title: "+2_1_mostwatched"
+    sort_title: "+02_01_mostwatched"
     visible_library: true
     visible_home: true
 
@@ -86,7 +86,7 @@ collections:
       limit: 20
     summary: Can't decide? Here are 20 random well-rated picks you haven't seen yet. Refreshes daily.
     collection_mode: hide
-    sort_title: "+2_2_whatshouldwatch"
+    sort_title: "+02_02_whatshould"
     visible_library: true
     visible_home: true
     schedule: daily
@@ -102,7 +102,7 @@ collections:
       limit: 30
     summary: Short films under 95 minutes. Perfect for a quick watch before bed.
     collection_mode: hide
-    sort_title: "+2_3_latenight"
+    sort_title: "+02_05_latenight"
     visible_library: true
     visible_home: true
     schedule: daily
@@ -118,7 +118,7 @@ collections:
       limit: 30
     summary: Big budget action and adventure. Grab some popcorn.
     collection_mode: hide
-    sort_title: "+2_4_blockbusters"
+    sort_title: "+02_03_blockbusters"
     visible_library: true
     visible_home: true
     schedule: weekly(friday)
@@ -135,7 +135,7 @@ collections:
       limit: 20
     summary: Well-rated romance and drama under 2.5 hours. Set the mood.
     collection_mode: hide
-    sort_title: "+2_5_datenight"
+    sort_title: "+02_04_datenight"
     visible_library: true
     visible_home: true
     schedule: weekly(friday)
@@ -150,7 +150,7 @@ collections:
     summary: Every Academy Award winner for Best Picture.
     collection_mode: hide
     collection_order: custom
-    sort_title: "+3_1_oscars"
+    sort_title: "+03_01_oscars"
     visible_library: true
     schedule: weekly(sunday)
 
@@ -169,7 +169,7 @@ collections:
     summary: The top-rated movies of the 2020s according to IMDb.
     collection_mode: hide
     collection_order: custom
-    sort_title: "+4_1_best2020"
+    sort_title: "+04_01_best2020"
     visible_library: true
     visible_home: true
     limit: 50
@@ -190,7 +190,7 @@ collections:
     summary: The top-rated movies of the 2010s according to IMDb.
     collection_mode: hide
     collection_order: custom
-    sort_title: "+4_2_best2010"
+    sort_title: "+04_02_best2010"
     visible_library: true
     visible_home: true
     limit: 50
@@ -211,7 +211,7 @@ collections:
       limit: 20
     summary: Films that twist your brain. Expect plot twists, time loops, and unreliable narrators.
     collection_mode: hide
-    sort_title: "+5_1_mindbending"
+    sort_title: "+05_01_mindbending"
     visible_library: true
     visible_home: true
     schedule: weekly(wednesday)
@@ -227,7 +227,7 @@ collections:
       limit: 25
     summary: Light and easy. No heavy thinking required.
     collection_mode: hide
-    sort_title: "+5_2_easywatching"
+    sort_title: "+05_02_easywatching"
     visible_library: true
     visible_home: true
     schedule: daily
@@ -243,7 +243,7 @@ collections:
       limit: 20
     summary: Emotional dramas that hit hard. Bring tissues.
     collection_mode: hide
-    sort_title: "+5_3_inthefeels"
+    sort_title: "+05_03_inthefeels"
     visible_library: true
     visible_home: true
     schedule: weekly(sunday)
@@ -262,7 +262,7 @@ collections:
     summary: Non-fiction films. True stories, nature, history, and more.
     collection_mode: hide
     collection_order: random
-    sort_title: "+6_1_documentary"
+    sort_title: "+06_01_documentary"
     visible_library: true
     schedule: weekly(sunday)
 
@@ -275,7 +275,7 @@ collections:
     summary: Animated feature films for all ages.
     collection_mode: hide
     collection_order: random
-    sort_title: "+6_2_animation"
+    sort_title: "+06_02_animation"
     visible_library: true
     schedule: weekly(sunday)
 
@@ -290,7 +290,7 @@ collections:
     summary: Movies with Spanish audio available.
     collection_mode: hide
     collection_order: random
-    sort_title: "+7_1_spanish"
+    sort_title: "+07_01_spanish"
     visible_library: true
     schedule: weekly(sunday)
   
@@ -303,7 +303,7 @@ collections:
     summary: Movies with German audio available.
     collection_mode: hide
     collection_order: random
-    sort_title: "+7_2_german"
+    sort_title: "+07_02_german"
     visible_library: true
     schedule: weekly(sunday)
 
@@ -317,7 +317,7 @@ collections:
     summary: Films from A24. Indie, arthouse, and everything in between.
     collection_mode: hide
     collection_order: release
-    sort_title: "+8_1_a24"
+    sort_title: "+08_01_a24"
     visible_library: true
     schedule: weekly(sunday)
 
@@ -330,7 +330,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/168823
     summary: Apple TV+ originals and exclusives.
     collection_mode: hide
-    sort_title: "+8_2_apple"
+    sort_title: "+08_02_apple"
     visible_library: true
     visible_home: true
     schedule: weekly(sunday)
@@ -344,7 +344,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/168827
     summary: Netflix original films in your library.
     collection_mode: hide
-    sort_title: "+8_3_netflix"
+    sort_title: "+08_03_netflix"
     visible_library: true
     visible_home: true
     schedule: weekly(sunday)
@@ -359,7 +359,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/168824
     summary: Disney+ original films in your library.
     collection_mode: hide
-    sort_title: "+8_4_disney"
+    sort_title: "+08_04_disney"
     visible_library: true
     visible_home: true
     schedule: weekly(sunday)
@@ -388,7 +388,7 @@ collections:
   #     - 654299   # C'mon C'mon (2021)
   #   summary: Caro's curated picks. Indie gems and hidden favorites.
   #   collection_mode: hide
-  #   sort_title: "+9_1_caroslist"
+  #   sort_title: "+11_01_caroslist"
   #   visible_library: true
   #   schedule: weekly(sunday)
 
